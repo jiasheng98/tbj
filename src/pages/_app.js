@@ -1,10 +1,9 @@
-import stylesheet from '../../public/styles.css';
+import stylesheet from "../../public/styles.css";
 
-const myApp = ({Component, pageProps}) => {
-
+const myApp = ({ Component, pageProps }) => {
   return (
     <>
-          <Component {...pageProps} />
+      <Component {...pageProps} />
     </>
   );
 };
