@@ -1,7 +1,7 @@
 import Layout from "../../components/layout";
 
 import { redirectOnAuthError, checkAuthReturnData } from "../../services/auth";
-import { isomorphicUnfetchData } from "../../services/api";
+// import { isomorphicUnfetchData } from "../../services/api";
 
 const Index = props => {
   return (
