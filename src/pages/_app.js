@@ -1,19 +1,15 @@
 import stylesheet from '../../public/styles.css';
-import {store, persistor} from '../state/redux/store';
-import {Provider} from 'react-redux';
-import {PersistGate} from 'redux-persist/integration/react';
 
-const myApp = ({Component, pageProps}) => {
+const Seyefactory = ({Component, pageProps}) => {
+
   return (
-    <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
-        <Component {...pageProps} />
-      </PersistGate>
-    </Provider>
+    <>
+          <Component {...pageProps} />
+    </>
   );
 };
 
-export default myApp;
+export default Seyefactory;
 
 // Only uncomment this method if you have blocking data requirements for
 // every single page in your application. This disables the ability to
