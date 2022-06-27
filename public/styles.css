@@ -3,11 +3,11 @@
     --white: white;
   }
 
-.nav-bar {
-    padding: 31.95px 42px;
-}
-
 .footer{
     background: var(--primary);
     color: white;
+}
+
+.nav-link {
+    padding: 1rem 2rem;
 }

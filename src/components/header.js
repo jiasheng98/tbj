@@ -9,7 +9,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 function OffcanvasExample() {
   return (
     <>
-        <Navbar key='md' bg="light" expand='md' className="mb-3">
+        <Navbar key='md' bg="light" expand='md' className="fixed-top p-4">
           <Container fluid>
             <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-$'md'`} />
@@ -24,11 +24,11 @@ function OffcanvasExample() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">About Us</Nav.Link>
-                  <Nav.Link href="#action2">Product</Nav.Link>
-                  <Nav.Link href="#action2">Contact Us</Nav.Link>
+                <Nav className="justify-content-center flex-grow-1 pe-3">
+                  <Nav.Link href="#action1" className="px-4">Home</Nav.Link>
+                  <Nav.Link href="#action2" className="px-4">About Us</Nav.Link>
+                  <Nav.Link href="#action2" className="px-4">Product</Nav.Link>
+                  <Nav.Link href="#action2" className="px-4">Contact Us</Nav.Link>
                   {/* <NavDropdown
                     title="Dropdown"
                     id={`offcanvasNavbarDropdown-expand-$'md'`}
