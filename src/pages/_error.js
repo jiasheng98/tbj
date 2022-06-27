@@ -15,25 +15,23 @@
 
 // export default Error
 
-import Error from 'next/error';
-import fetch from 'isomorphic-unfetch';
+import Error from 'next/error'
+import fetch from 'isomorphic-unfetch'
 
-const Page = ({errorCode, stars}) => {
-  console.log('Page -> errorCode', errorCode);
+const Page = ({ errorCode, stars }) => {
   if (errorCode) {
-    return <Error statusCode={errorCode} />;
+    return <Error statusCode={errorCode} />
   }
 
-  if (errorCode == 404) return <div>404 Error page</div>;
-  return <div>{errorCode}</div>;
-};
+  return <div>Next stars: {stars}</div>
+}
 
 Page.getInitialProps = async () => {
-  const res = await fetch('https://api.github.com/repos/zeit/next.js');
-  const errorCode = res.statusCode > 200 ? res.statusCode : false;
-  const json = await res.json();
+  const res = await fetch('https://api.github.com/repos/zeit/next.js')
+  const errorCode = res.statusCode > 200 ? res.statusCode : false
+  const json = await res.json()
 
-  return {errorCode, stars: json.stargazers_count};
-};
+  return { errorCode, stars: json.stargazers_count }
+}
 
-export default Page;
+export default Page

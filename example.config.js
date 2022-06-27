@@ -1,2 +1,2 @@
 const SERVER_HOST = 'http://localhost'
-const SERVER_PORT = '3000'
+const SERVER_PORT = '4000'
