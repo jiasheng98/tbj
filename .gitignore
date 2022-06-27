@@ -4,3 +4,4 @@ config.js
 .next/server/pages/index.js
 .next/static/chunks/webpack.js
 .next/static/chunks/pages/index.js
+.next/static/chunks/pages/index.js
