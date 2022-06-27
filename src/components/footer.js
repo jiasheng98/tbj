@@ -19,7 +19,7 @@ export default () => {
         </div>
         <div class="col-lg-4 col-xs-12 location">
           <h4 class="mt-lg-0 mt-sm-4">Location</h4>
-          <p>50 , Jalan Sri Plentong 8 , <br/> Taman Perindustrian Sri Plentong ,81750 <br/>Masai , Johor Bahru , Malaysia</p>
+          <p>50 , Jalan Sri Plentong 8 , <br/> Taman Peindustrian Sri Plentong ,81750 <br/>Masai , Johor Bahru , Malaysia</p>
           <p class="mb-0"><i class="fa fa-phone mr-3"></i>+607-3863 777</p>
           <p class="mb-0"><i class="fa fa-phone mr-3"></i>+607-3868 777</p>
           <p><i class="fa fa-envelope-o mr-3"></i>enquiry@tbj.com.my</p>
