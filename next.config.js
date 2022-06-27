@@ -36,3 +36,12 @@ module.exports = {
   poweredByHeader: false,
   //  compress: false,  //offload compression to NGINX from Node.js on production
 }
+
+const withImages = require('next-images');
+const withFonts = require('next-fonts');
+
+module.exports = withImages(
+  withFonts({
+    poweredByHeader: false,
+  }),
+);
