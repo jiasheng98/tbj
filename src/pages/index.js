@@ -1,6 +1,7 @@
 import Layout from '../components/layout';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Index = props => {
+const Home = props => {
   return (
     <Layout>
       <p>Hello Next.js</p>
@@ -8,4 +9,4 @@ const Index = props => {
   );
 };
 
-export default Index
+export default Home;

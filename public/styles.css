@@ -1,0 +1,13 @@
+:root {
+    --primary: #1e73be;
+    --white: white;
+  }
+
+.nav-bar {
+    padding: 31.95px 42px;
+}
+
+.footer{
+    background: var(--primary);
+    color: white;
+}

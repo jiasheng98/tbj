@@ -3,7 +3,7 @@ import {store, persistor} from '../state/redux/store';
 import {Provider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
 
-export default ({Component, pageProps}) => {
+const myApp = ({Component, pageProps}) => {
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
@@ -12,6 +12,8 @@ export default ({Component, pageProps}) => {
     </Provider>
   );
 };
+
+export default myApp;
 
 // Only uncomment this method if you have blocking data requirements for
 // every single page in your application. This disables the ability to
