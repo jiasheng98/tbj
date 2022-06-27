@@ -1,4 +1,4 @@
-import { SERVER_HOST, SERVER_PORT } from "../../config";
+// import { SERVER_HOST, SERVER_PORT } from "../../config";
 import { store } from "../../src/state/redux/store";
 import fetch from "isomorphic-unfetch";
 
