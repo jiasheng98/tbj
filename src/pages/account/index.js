@@ -6,7 +6,7 @@ import { redirectOnAuthError, checkAuthReturnData } from "../../services/auth";
 const Index = props => {
   return (
     <Layout>
-      <p>This is restricted page for signed in user</p>
+      <p>This is resticted page for signed in user</p>
       <p>This is message from server: {props.message}</p>
     </Layout>
   );
