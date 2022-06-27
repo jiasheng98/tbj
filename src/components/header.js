@@ -15,7 +15,7 @@ export default () => {
         <a>Signin Page</a>
       </Link>
       <Link href="/account">
-        <a>AccountPage</a>
+        <a>Account Page</a>
       </Link>
       <button onClick={handleSignIn}>Sign In</button>
       <button onClick={handleSignOut}>Sign Out</button>
