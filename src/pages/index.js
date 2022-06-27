@@ -7,6 +7,7 @@ const Home = props => {
   return (
     <Layout>
       <LandingCarousel/>
+      <ImagewithText/>
     </Layout>
   );
 };
@@ -20,11 +21,11 @@ const LandingCarousel = () => {
   };
 
   return (
-    <Carousel variant="dark" activeIndex={index} onSelect={handleSelect}>
+    <Carousel  activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="http://tbj.com.my/wp-content/uploads/2017/07/2000x6501-3.jpg"
+          src="https://source.unsplash.com/RCAhiGJsUUE/1920x1080"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -35,7 +36,7 @@ const LandingCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="http://tbj.com.my/wp-content/uploads/2017/07/2000x6501-3.jpg"
+          src="https://source.unsplash.com/RCAhiGJsUUE/1920x1080"
           alt="Second slide"
         />
 
@@ -47,7 +48,7 @@ const LandingCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="http://tbj.com.my/wp-content/uploads/2017/07/2000x6501-3.jpg"
+          src="https://source.unsplash.com/RCAhiGJsUUE/1920x1080"
           alt="Third slide"
         />
 
@@ -61,5 +62,23 @@ const LandingCarousel = () => {
     </Carousel>
   );
 }
+
+const ImagewithText = () => {
+  return (
+    <div
+    className='masthead'
+    >
+    <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <h1 class="font-weight-light">Your Innovation Partner</h1>
+        <p class="lead">A great starter layout for a landing page</p>
+      </div>
+    </div>
+  </div>
+    </div>
+  )
+}
+
 
 export default Home;
