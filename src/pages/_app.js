@@ -1,6 +1,6 @@
 import stylesheet from '../../public/styles.css';
 
-const Seyefactory = ({Component, pageProps}) => {
+const myApp = ({Component, pageProps}) => {
 
   return (
     <>
@@ -9,7 +9,7 @@ const Seyefactory = ({Component, pageProps}) => {
   );
 };
 
-export default Seyefactory;
+export default myApp;
 
 // Only uncomment this method if you have blocking data requirements for
 // every single page in your application. This disables the ability to
