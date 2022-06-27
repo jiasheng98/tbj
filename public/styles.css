@@ -32,6 +32,13 @@ li {
   /* Carousel base class */
   .carousel {
     margin-bottom: 4rem;
+    min-height: 600px;
+    height: 100vh;
+    max-height: 800px;
+  }
+
+  .carousel-inner {
+      height: 100%;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
@@ -41,7 +48,7 @@ li {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 100%;
     background-color: #777;
   }
   .carousel-item > img {
@@ -49,7 +56,7 @@ li {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 32rem;
+    height: 100%;
   }
   
   
