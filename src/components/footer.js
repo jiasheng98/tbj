@@ -1,12 +1,17 @@
-export default () => {
+import Logo from "../../public/images/tbjlogo.png";
+
+function Footer() {
   return (
-    <div class="mt-5 pt-5 pb-5 footer">
+    <>
+    <div class="pt-5 footer">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-xs-12 about-company">
-          <h2>Heading</h2>
-          <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
-          <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+          <img src={Logo}  class='mb-5 logo'/>
+          <p class='text-muted'>50 , Jalan Sri Plentong 8 , <br/> Taman Perindustrian Sri Plentong ,81750 <br/>Masai , Johor Bahru , Malaysia</p>
+          <p class="text-muted mb-0"><i class="fa fa-phone mr-3"></i>+607-3863 777</p>
+          <p class="text-muted mb-0"><i class="fa fa-phone mr-3"></i>+607-3868 777</p>
+          <p class='text-muted'><i class="fa fa-envelope-o mr-3"></i>enquiry@tbj.com.my</p>
         </div>
         <div class="col-lg-3 col-xs-12 links">
           <h4 class="mt-lg-0 mt-sm-3">Navigation</h4>
@@ -32,5 +37,8 @@ export default () => {
       </div>
     </div>
     </div>
+    </>
   );
-};
+}
+
+export default Footer;

@@ -2,16 +2,21 @@ import Layout from "../components/layout";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import CarouselMulti from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 const Home = (props) => {
   return (
     <Layout>
       <LandingCarousel />
       <div class="container marketing">
-      <ImagewithText />
-      <hr class="featurette-divider" />
-      <ContentRight />
-      <ContentLeft />
+        <ImagewithText />
+        <hr class="featurette-divider" />
+        <ContentRight />
+        <ContentLeft />
+        <hr class="featurette-divider" />
+        <PartnerCarousel />
+        <hr class="featurette-divider" />
       </div>
     </Layout>
   );
@@ -29,21 +34,20 @@ const LandingCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://source.unsplash.com/RCAhiGJsUUE/1920x1080"
+          src="https://khonglieng.com.sg/wp-content/uploads/2017/08/KL_015.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
           <div class="container">
-            <div class="carousel-caption text-left">
-              <h1>Example headline.</h1>
-              <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
+            <div class="carousel-caption">
+              <h1 className="mb-3">TBJ Keeps You Running</h1>
+              <p className="mb-4">
+                Safety sealing and attachment solutions built for you. From
+                high-volume and automated to customized and one-of-a-kind.
               </p>
               <p>
-                <a class="btn btn-lg btn-primary" href="#" role="button">
-                  Sign up today
+                <a class="btn btn-md" href="#" role="button">
+                  Contact Our Experts
                 </a>
               </p>
             </div>
@@ -53,47 +57,21 @@ const LandingCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://source.unsplash.com/RCAhiGJsUUE/1920x1080"
+          src="https://khonglieng.com.sg/wp-content/uploads/2017/08/KL_006.jpg"
           alt="Second slide"
         />
 
         <Carousel.Caption>
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
+              <h1 className="mb-3">TBJ Keeps You Running</h1>
+              <p className="mb-4">
+                Safety sealing and attachment solutions built for you. From
+                high-volume and automated to customized and one-of-a-kind.
               </p>
               <p>
-                <a class="btn btn-lg btn-primary" href="#" role="button">
-                  Learn more
-                </a>
-              </p>
-            </div>
-          </div>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://source.unsplash.com/RCAhiGJsUUE/1920x1080"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <div class="container">
-            <div class="carousel-caption text-right">
-              <h1>One more for good measure.</h1>
-              <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
-              </p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="#" role="button">
-                  Browse gallery
+                <a class="btn btn-md" href="#" role="button">
+                  Learn More
                 </a>
               </p>
             </div>
@@ -107,94 +85,93 @@ const LandingCarousel = () => {
 const ImagewithText = () => {
   return (
     <>
-        <div class="row">
-          <div class="col-lg-4">
-            <img
-              class="rounded-circle"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-              alt="Generic placeholder image"
-              width="140"
-              height="140"
-            />
-            <h2>Heading</h2>
-            <p>
-              Donec sed odio dui. Etiam porta sem malesuada magna mollis
-              euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
-              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-              Praesent commodo cursus magna.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#" role="button">
-                View details &raquo;
-              </a>
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <img
-              class="rounded-circle"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-              alt="Generic placeholder image"
-              width="140"
-              height="140"
-            />
-            <h2>Heading</h2>
-            <p>
-              Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-              eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
-              amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
-              mauris condimentum nibh.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#" role="button">
-                View details &raquo;
-              </a>
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <img
-              class="rounded-circle"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-              alt="Generic placeholder image"
-              width="140"
-              height="140"
-            />
-            <h2>Heading</h2>
-            <p>
-              Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
-              egestas eget quam. Vestibulum id ligula porta felis euismod
-              semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-              condimentum nibh, ut fermentum massa justo sit amet risus.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#" role="button">
-                View details &raquo;
-              </a>
-            </p>
-          </div>
+      <h1 class="text-center mb-5 text-highlight">Our Services</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <img
+            class="mb-4 rounded-circle"
+            src="https://www.lamons.com/wp-content/uploads/2022/01/EPC.png"
+            alt="Generic placeholder image"
+            width="140"
+            height="140"
+          />
+          <h2 class="mb-3">Sealing Solutions</h2>
+          <p>
+            Meet Customers’ Requirement In Providing Customized, Specialized And
+            High-Quality Sealing Devices. Robustness, Accuracy And Precision Are
+            Our Main Features.
+          </p>
+          {/* <p>
+            <a class="btn btn-secondary" href="#" role="button">
+              View details &raquo;
+            </a>
+          </p> */}
         </div>
+        <div class="col-lg-4">
+          <img
+            class="mb-4 rounded-circle"
+            src="https://www.lamons.com/wp-content/uploads/2022/01/EPC.png"
+            alt="Generic placeholder image"
+            width="140"
+            height="140"
+          />
+          <h2 class="mb-3">Engineering Solutions</h2>
+          <p>
+            Fully Trained, High-Skilled Technicians And Engineers To Provide One
+            Stop Service For On-Site Repair, Installation, Troubleshooting And
+            Engineering Solutions.
+          </p>
+          {/* <p>
+            <a class="btn btn-secondary" href="#" role="button">
+              View details &raquo;
+            </a>
+          </p> */}
+        </div>
+        <div class="col-lg-4">
+          <img
+            class="mb-4 rounded-circle"
+            src="https://www.lamons.com/wp-content/uploads/2022/01/EPC.png"
+            alt="Generic placeholder image"
+            width="140"
+            height="140"
+          />
+          <h2 class="mb-3">Corrosion and Metal Protection</h2>
+          <p>
+            Advanced Material Formulations With Latest Process Technology,
+            Ensuring The Metal And Concrete Surfaces Are Free From Corrosion And
+            Chemical Attack.
+          </p>
+          {/* <p>
+            <a class="btn btn-secondary" href="#" role="button">
+              View details &raquo;
+            </a>
+          </p> */}
+        </div>
+      </div>
     </>
   );
 };
 
 const ContentRight = () => {
   return (
-    <div class="row featurette">
-      <div class="col order-md-2">
-        <h2 class="featurette-heading">
-          Oh yeah, it's that good.{" "}
-          <span class="text-muted">See for yourself.</span>
-        </h2>
+    <div class="row featurette mb-5">
+      <div class="col px-3 order-md-2">
+        <h2 class="mb-4">We Supply Sealing Products</h2>
         <p class="lead">
-          Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-          ligula porta felis euismod semper. Praesent commodo cursus magna, vel
-          scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+          Over the years of our company’s establishment , TBJ-UTEX has served
+          numerous clients in supplying them our gasket products. Being a
+          renowned gasket manufacturer and gasket supplier of Spiral Wound
+          Gasket, Ring Joint Gasket, Kamprofile Gasket, Metal Jacketed Gasket,
+          Gland Packing, & other sealing products in the industry, we are
+          continuously upgrading our products and services with the intention to
+          cater only our best to valued clients.
         </p>
       </div>
       <div class="col order-md-1">
         <img
           class="featurette-image img-fluid mx-auto"
           alt="Generic placeholder image"
-          src="http://tbj.com.my/wp-content/uploads/2016/01/DSC_0103.jpg"
+          src="https://www.lamons.com/wp-content/uploads/2021/08/Mask-Group1.jpg"
         />
       </div>
     </div>
@@ -204,14 +181,153 @@ const ContentRight = () => {
 const ContentLeft = () => {
   return (
     <div class="row featurette">
-    <div class="col">
-      <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <div class="col px-3">
+        <h2 class="mb-4">Our Vision</h2>
+        <p class="lead">
+          We ensured the gaskets and other related products provided to our
+          clients are of highest quality from reputed brands as well as our in
+          house branded products. Our aim at TBJ-UTEX is to assist our clients
+          to achieve business excellence by supplying the best product that
+          caters their needs.
+        </p>
+      </div>
+      <div class="col">
+        <img
+          class="featurette-image img-fluid mx-auto"
+          src="https://www.lamons.com/wp-content/uploads/2021/08/Mask-Group.jpg"
+          alt="Generic placeholder image"
+        />
+      </div>
     </div>
-    <div class="col">
-      <img class="featurette-image img-fluid mx-auto"   src="http://tbj.com.my/wp-content/uploads/2016/01/DSC_0103.jpg" alt="Generic placeholder image"/>
-    </div>
-  </div>
+  );
+};
+
+const PartnerCarousel = () => {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 7,
+      infinite: true,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 6,
+      infinite: true,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 4,
+      infinite: true,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 3,
+      infinite: true,
+    },
+  };
+  return (
+    <>
+      <h1 class="text-center text-highlight">Our Partners</h1>
+      <CarouselMulti responsive={responsive} infinite>
+        <div>
+          <a
+            href="https://victorage.co/"
+            target="_blank"
+            style={{ cursor: "pointer" }}
+          >
+            <img
+              src={require("../../public/images/victorage.png")}
+              className="carousel-image"
+            />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://strivedmy.com/"
+            target="_blank"
+            style={{ cursor: "pointer" }}
+          >
+            <img
+              src={require("../../public/images/strived.png")}
+              className="carousel-image"
+            />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.easycam.tech/"
+            target="_blank"
+            style={{ cursor: "pointer" }}
+          >
+            <img
+              src={require("../../public/images/easycam.png")}
+              className="carousel-image"
+            />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.easycam.tech/"
+            target="_blank"
+            style={{ cursor: "pointer" }}
+          >
+            <img
+              src={require("../../public/images/easycam.png")}
+              className="carousel-image"
+            />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.easycam.tech/"
+            target="_blank"
+            style={{ cursor: "pointer" }}
+          >
+            <img
+              src={require("../../public/images/easycam.png")}
+              className="carousel-image"
+            />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.easycam.tech/"
+            target="_blank"
+            style={{ cursor: "pointer" }}
+          >
+            <img
+              src={require("../../public/images/easycam.png")}
+              className="carousel-image"
+            />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.easycam.tech/"
+            target="_blank"
+            style={{ cursor: "pointer" }}
+          >
+            <img
+              src={require("../../public/images/easycam.png")}
+              className="carousel-image"
+            />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.easycam.tech/"
+            target="_blank"
+            style={{ cursor: "pointer" }}
+          >
+            <img
+              src={require("../../public/images/easycam.png")}
+              className="carousel-image"
+            />
+          </a>
+        </div>
+      </CarouselMulti>
+    </>
   );
 };
 
