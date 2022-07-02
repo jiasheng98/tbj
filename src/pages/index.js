@@ -39,7 +39,7 @@ const LandingCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/images/IMG_3190.jpg"
+          src="/images/IMG_3190.JPG"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -62,7 +62,7 @@ const LandingCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/images/IMG_3190.jpg"
+          src="/images/IMG_3190.JPG"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -175,7 +175,7 @@ const ContentRight = () => {
         <img
           class="featurette-image img-fluid mx-auto"
           alt="TBJ"
-          src="/images/IMG_3190.jpg"
+          src="/images/IMG_3190.JPG"
         />
       </div>
     </div>
