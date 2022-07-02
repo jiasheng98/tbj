@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import CarouselMulti from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
 const Home = (props) => {
   return (
@@ -14,9 +16,13 @@ const Home = (props) => {
         <hr class="featurette-divider" />
         <ContentRight />
         <ContentLeft />
+        {/* <hr class="featurette-divider" /> */}
+      </div>
+      <TextContainer />
+      <div class="container marketing">
+        <CardList />
         <hr class="featurette-divider" />
         <PartnerCarousel />
-        <hr class="featurette-divider" />
       </div>
     </Layout>
   );
@@ -34,7 +40,7 @@ const LandingCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://khonglieng.com.sg/wp-content/uploads/2017/08/KL_015.jpg"
+          src="/images/IMG_3190.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -57,10 +63,9 @@ const LandingCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://khonglieng.com.sg/wp-content/uploads/2017/08/KL_006.jpg"
-          alt="Second slide"
+          src="/images/IMG_3190.jpg"
+          alt="First slide"
         />
-
         <Carousel.Caption>
           <div class="container">
             <div class="carousel-caption">
@@ -71,7 +76,7 @@ const LandingCarousel = () => {
               </p>
               <p>
                 <a class="btn btn-md" href="#" role="button">
-                  Learn More
+                  Contact Our Experts
                 </a>
               </p>
             </div>
@@ -89,8 +94,8 @@ const ImagewithText = () => {
       <div class="row">
         <div class="col-lg-4">
           <img
-            class="mb-4 rounded-circle"
-            src="https://www.lamons.com/wp-content/uploads/2022/01/EPC.png"
+            class="service-img mb-4 rounded-circle"
+            src="/images/IMG_1682.jpg"
             alt="Generic placeholder image"
             width="140"
             height="140"
@@ -109,8 +114,8 @@ const ImagewithText = () => {
         </div>
         <div class="col-lg-4">
           <img
-            class="mb-4 rounded-circle"
-            src="https://www.lamons.com/wp-content/uploads/2022/01/EPC.png"
+            class="service-img mb-4 rounded-circle"
+            src="/images/IMG_1627 - Copy.jpg"
             alt="Generic placeholder image"
             width="140"
             height="140"
@@ -129,8 +134,8 @@ const ImagewithText = () => {
         </div>
         <div class="col-lg-4">
           <img
-            class="mb-4 rounded-circle"
-            src="https://www.lamons.com/wp-content/uploads/2022/01/EPC.png"
+            class="service-img mb-4 rounded-circle"
+            src="/images/IMG_1659.jpg"
             alt="Generic placeholder image"
             width="140"
             height="140"
@@ -170,8 +175,8 @@ const ContentRight = () => {
       <div class="col order-md-1">
         <img
           class="featurette-image img-fluid mx-auto"
-          alt="Generic placeholder image"
-          src="https://www.lamons.com/wp-content/uploads/2021/08/Mask-Group1.jpg"
+          alt="TBJ"
+          src="/images/IMG_3190.jpg"
         />
       </div>
     </div>
@@ -194,8 +199,8 @@ const ContentLeft = () => {
       <div class="col">
         <img
           class="featurette-image img-fluid mx-auto"
-          src="https://www.lamons.com/wp-content/uploads/2021/08/Mask-Group.jpg"
-          alt="Generic placeholder image"
+          src="/images/IMG_1639.jpg"
+          alt="TBJ"
         />
       </div>
     </div>
@@ -232,102 +237,156 @@ const PartnerCarousel = () => {
       <CarouselMulti responsive={responsive} infinite>
         <div>
           <a
-            href="https://victorage.co/"
+            href="/"
             target="_blank"
             style={{ cursor: "pointer" }}
           >
             <img
-              src={require("../../public/images/victorage.png")}
+              src={require("../../public/images/1.png")}
               className="carousel-image"
             />
           </a>
         </div>
         <div>
           <a
-            href="https://strivedmy.com/"
+            href="/"
             target="_blank"
             style={{ cursor: "pointer" }}
           >
             <img
-              src={require("../../public/images/strived.png")}
+              src={require("../../public/images/2.png")}
               className="carousel-image"
             />
           </a>
         </div>
         <div>
           <a
-            href="https://www.easycam.tech/"
+            href="/"
             target="_blank"
             style={{ cursor: "pointer" }}
           >
             <img
-              src={require("../../public/images/easycam.png")}
+              src={require("../../public/images/3.png")}
               className="carousel-image"
             />
           </a>
         </div>
         <div>
           <a
-            href="https://www.easycam.tech/"
+            href="/"
             target="_blank"
             style={{ cursor: "pointer" }}
           >
             <img
-              src={require("../../public/images/easycam.png")}
+              src={require("../../public/images/4.png")}
               className="carousel-image"
             />
           </a>
         </div>
         <div>
           <a
-            href="https://www.easycam.tech/"
+            href="/"
             target="_blank"
             style={{ cursor: "pointer" }}
           >
             <img
-              src={require("../../public/images/easycam.png")}
+              src={require("../../public/images/5.png")}
               className="carousel-image"
             />
           </a>
         </div>
         <div>
           <a
-            href="https://www.easycam.tech/"
+            href="/"
             target="_blank"
             style={{ cursor: "pointer" }}
           >
             <img
-              src={require("../../public/images/easycam.png")}
-              className="carousel-image"
-            />
-          </a>
-        </div>
-        <div>
-          <a
-            href="https://www.easycam.tech/"
-            target="_blank"
-            style={{ cursor: "pointer" }}
-          >
-            <img
-              src={require("../../public/images/easycam.png")}
-              className="carousel-image"
-            />
-          </a>
-        </div>
-        <div>
-          <a
-            href="https://www.easycam.tech/"
-            target="_blank"
-            style={{ cursor: "pointer" }}
-          >
-            <img
-              src={require("../../public/images/easycam.png")}
+              src={require("../../public/images/6.png")}
               className="carousel-image"
             />
           </a>
         </div>
       </CarouselMulti>
     </>
+  );
+};
+
+const TextContainer = () => {
+  return (
+    <div class="my-5 text-container">
+      <div class="container marketing">
+        <p class="p-4">
+          Our company has emerged as one of the major gasket supplier in
+          Malaysia. We had been distributing various major brands such as
+          Lamons, Klinger, Garlock, Valqua, etc. We are now supplying a wide
+          range of sealing and fluid control products all over Malaysia. In
+          addition, we also develop our house brand like Aerolite and AeroSil.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+const CardList = () => {
+  return (
+    <div class="m-4 card-list-container">
+      <InformationCard
+        title="AEROLITE NA3900"
+        source="/images/IMG_1986.jpg"
+        link="/"
+      />
+      <InformationCard
+        title="AEROLITE NA3909"
+        source="/images/IMG_2004.jpg"
+        link="/"
+      />
+      <InformationCard
+        title="AEROLITE NA3100"
+        source="/images/IMG_1971.jpg"
+        link="/"
+      />
+      <InformationCard
+        title="AEROLITE NA4420"
+        source="/images/IMG_1982.jpg"
+        link="/"
+      />
+      <InformationCard
+        title="AEROLITE PSM T"
+        source="/images/psm.png"
+        link="/"
+      />
+      <InformationCard
+        title="AEROLITE GS7004"
+        source="/images/_DSC1703.jpg"
+        link="/"
+      />
+      <InformationCard
+        title="AEROLITE GS3004"
+        source="/images/IMG_1992_.jpg"
+        link="/"
+      />
+      <InformationCard
+        title="AEROLITE GS1004"
+        source="/images/IMG_1999.jpg"
+        link="/"
+      />
+    </div>
+  );
+};
+
+const InformationCard = ({ title, content, source, link }) => {
+  return (
+    <Card style={{ width: "100%" }}>
+      <Card.Img variant="top" src={source} />
+      <Card.Body>
+        <Card.Title class='mb-3'>{title}</Card.Title>
+        <Card.Text>{content}</Card.Text>
+        <Button variant="primary" href={link}>
+          Read More
+        </Button>
+      </Card.Body>
+    </Card>
   );
 };
 

@@ -24,6 +24,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: GothamBold, sans-serif !important;
+}
+
 p, input {
   font-family: Gotham, sans-serif !important;
   font-size: 1rem !important;
@@ -272,4 +276,68 @@ li {
   width: 100%;
   height: auto;
   object-fit: contain;
+}
+
+/* Text Container */
+
+.text-container {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.text-container>div>p {
+  font-size: 1rem !important;
+  line-height: 2.5rem !important;
+  margin-bottom: 0;
+}
+
+/* Card Container */
+
+.card-list-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+.service-img {
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .card-list-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-list-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Footer */
+
+.footer-link {
+  color: white;
+  font-family: Gotham !important;
+  text-decoration: none;
+  font-size: .9rem !important;
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  color: var(--secondary);
+}
+
+.footer-text {
+  font-size: .9rem !important;
+}
+
+.footer-header {
+  font-size: 1.2rem !important;
+}
+
+.footer-divider {
+  margin: 1rem 0; /* Space out the Bootstrap <hr> more */
 }
