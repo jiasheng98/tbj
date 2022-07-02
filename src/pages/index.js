@@ -16,7 +16,6 @@ const Home = (props) => {
         <hr class="featurette-divider" />
         <ContentRight />
         <ContentLeft />
-        {/* <hr class="featurette-divider" /> */}
       </div>
       <TextContainer />
       <div class="container marketing">
