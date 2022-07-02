@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="author" content="Seyefactory" />
+          <meta name="author" content="TBJ-UTEX INDUSTRIES" />
           <link
             rel="shortcut icon"
             href="/images/favicon.ico"
@@ -34,24 +34,24 @@ export default class MyDocument extends Document {
           <meta
             key="og:url"
             property="og:url"
-            content="https://seyefactory.vercel.app/"
+            content="https://tbj.vercel.app/"
           />
           <meta key="og:type" property="og:type" content="website" />
           <meta
             key="og:title"
             property="og:title"
-            content="Seyefactory"
+            content="TBJ-UTEX INDUSTRIES"
           />
           <meta
             key="og:description"
             property="og:description"
-            content=" Pill Towards Unprecedented Experience"
+            content="We Supply Spiral Wound Gasket, Ring Joint Gasket, Kamprofile Gasket, Metal Jacketed Gasket, Gland Packing, & other sealing products."
           />
-          {/* <meta
+          <meta
             key="og:image"
             property="og:image"
             content="https://i.ibb.co/vvKK7yZ/Asset-4-4x.png"
-          /> */}
+          />
           <meta key="og:image:width" property="og:image:width" content={1229} />
           <meta
             key="og:image:height"
