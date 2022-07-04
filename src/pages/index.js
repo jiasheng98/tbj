@@ -211,12 +211,12 @@ const PartnerCarousel = () => {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 7,
+      items: 5,
       infinite: true,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 6,
+      items: 5,
       infinite: true,
     },
     tablet: {
@@ -232,7 +232,7 @@ const PartnerCarousel = () => {
   };
   return (
     <>
-      <h1 class="text-center text-highlight">Our Partners</h1>
+      <h1 class="text-center text-highlight">Our Brands</h1>
       <CarouselMulti responsive={responsive} infinite>
         <div>
           <a
@@ -242,18 +242,6 @@ const PartnerCarousel = () => {
           >
             <img
               src={require("../../public/images/1.png")}
-              className="carousel-image"
-            />
-          </a>
-        </div>
-        <div>
-          <a
-            href="/"
-            target="_blank"
-            style={{ cursor: "pointer" }}
-          >
-            <img
-              src={require("../../public/images/2.png")}
               className="carousel-image"
             />
           </a>
