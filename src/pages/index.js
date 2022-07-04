@@ -235,11 +235,7 @@ const PartnerCarousel = () => {
       <h1 class="text-center text-highlight">Our Brands</h1>
       <CarouselMulti responsive={responsive} infinite>
         <div>
-          <a
-            href="/"
-            target="_blank"
-            style={{ cursor: "pointer" }}
-          >
+          <a href="/" target="_blank" style={{ cursor: "pointer" }}>
             <img
               src={require("../../public/images/1.png")}
               className="carousel-image"
@@ -247,11 +243,7 @@ const PartnerCarousel = () => {
           </a>
         </div>
         <div>
-          <a
-            href="/"
-            target="_blank"
-            style={{ cursor: "pointer" }}
-          >
+          <a href="/" target="_blank" style={{ cursor: "pointer" }}>
             <img
               src={require("../../public/images/3.png")}
               className="carousel-image"
@@ -259,11 +251,7 @@ const PartnerCarousel = () => {
           </a>
         </div>
         <div>
-          <a
-            href="/"
-            target="_blank"
-            style={{ cursor: "pointer" }}
-          >
+          <a href="/" target="_blank" style={{ cursor: "pointer" }}>
             <img
               src={require("../../public/images/4.png")}
               className="carousel-image"
@@ -271,11 +259,7 @@ const PartnerCarousel = () => {
           </a>
         </div>
         <div>
-          <a
-            href="/"
-            target="_blank"
-            style={{ cursor: "pointer" }}
-          >
+          <a href="/" target="_blank" style={{ cursor: "pointer" }}>
             <img
               src={require("../../public/images/5.png")}
               className="carousel-image"
@@ -283,11 +267,7 @@ const PartnerCarousel = () => {
           </a>
         </div>
         <div>
-          <a
-            href="/"
-            target="_blank"
-            style={{ cursor: "pointer" }}
-          >
+          <a href="/" target="_blank" style={{ cursor: "pointer" }}>
             <img
               src={require("../../public/images/6.png")}
               className="carousel-image"
@@ -319,6 +299,11 @@ const CardList = () => {
   return (
     <div class="m-4 card-list-container">
       <InformationCard
+        title="AEROLITE NA3100"
+        source="/images/IMG_1971.jpg"
+        link="/"
+      />
+      <InformationCard
         title="AEROLITE NA3900"
         source="/images/IMG_1986.jpg"
         link="/"
@@ -329,23 +314,13 @@ const CardList = () => {
         link="/"
       />
       <InformationCard
-        title="AEROLITE NA3100"
-        source="/images/IMG_1971.jpg"
-        link="/"
-      />
-      <InformationCard
         title="AEROLITE NA4420"
         source="/images/IMG_1982.jpg"
         link="/"
       />
       <InformationCard
-        title="AEROLITE PSM T"
-        source="/images/psm.png"
-        link="/"
-      />
-      <InformationCard
-        title="AEROLITE GS7004"
-        source="/images/_DSC1703.jpg"
+        title="AEROLITE GS1004"
+        source="/images/IMG_1999.jpg"
         link="/"
       />
       <InformationCard
@@ -354,8 +329,13 @@ const CardList = () => {
         link="/"
       />
       <InformationCard
-        title="AEROLITE GS1004"
-        source="/images/IMG_1999.jpg"
+        title="AEROLITE GS7004"
+        source="/images/_DSC1703.jpg"
+        link="/"
+      />
+      <InformationCard
+        title="AEROLITE PSM T"
+        source="/images/psm.png"
         link="/"
       />
     </div>
@@ -367,7 +347,7 @@ const InformationCard = ({ title, content, source, link }) => {
     <Card style={{ width: "100%" }}>
       <Card.Img variant="top" src={source} />
       <Card.Body>
-        <Card.Title class='mb-3'>{title}</Card.Title>
+        <Card.Title class="mb-3">{title}</Card.Title>
         <Card.Text>{content}</Card.Text>
         <Button variant="primary" href={link}>
           Read More
