@@ -10,7 +10,7 @@ import Logo from "../../public/images/tbjlogo.png";
 function OffcanvasExample() {
   return (
     <>
-      <Navbar key="md" expand="md" className="header-container  p-4">
+      <Navbar key="md" expand="md" className="header-container p-4">
         <Container fluid>
           <Navbar.Brand href="/">
             <img 
