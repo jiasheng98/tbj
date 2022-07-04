@@ -10,7 +10,7 @@ function Footer() {
       <div class="row">
         <div class="col-lg-3 col-xs-12 about-company">
           <img src={Logo}  class='mb-5 logo'/>
-          <p class='footer-text text-white-50'>50, Jalan Sri Plentong 8, <br/> Taman Perindustrian Sri Plentong, 81750 <br/>Masai, Johor Bahru, Malaysia</p>
+          <p class='footer-text text-white-50'>50, Jalan Sri Plentong 8, <br/> Taman Perindustrian Sri Plentong, 81750,<br/>Masai, Johor Bahru, Malaysia</p>
           <p class="footer-text text-white-50 mb-0"><FaPhoneAlt color="var(--secondary)"/>&nbsp;+607-3863 777</p>
           <p class="footer-text text-white-50 mb-0"><FaFax color="var(--secondary)"/>&nbsp;+607-3868 777</p>
           <p class='footer-text text-white-50'><IoMail color="var(--secondary)"/> &nbsp;enquiry@tbj.com.my</p>
