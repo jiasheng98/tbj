@@ -28,12 +28,55 @@ function Footer() {
         <div class="col-lg-5 col-xs-12 links">
           <h4 class="mt-lg-0 mt-sm-3 mb-3 footer-header">Working Hours</h4>
           <hr class="footer-divider" />
-            <ul class="m-0 p-0">
-              <li class='mb-1'><a class='footer-link' href="/">Home</a></li>
-              <li class='mb-1'><a class='footer-link' href="/">About Us</a></li>
-              <li class='mb-1'><a class='footer-link' href="/">Product</a></li>
-              <li class='mb-1'><a class='footer-link' href="/">Contact Us</a></li>
-            </ul>
+          <table class="opening-hours table table-condensed borderless">
+
+	<tbody>
+		<tr>
+			<th>Monday</th>
+			<td>
+				08:30 - 18:30
+			</td>
+		</tr>
+		<tr>
+			<th>Tuesday</th>
+			<td>
+      08:30 - 18:30
+			</td>
+		</tr>
+		<tr>
+			<th>Wednesday</th>
+			<td>
+      08:30 - 18:30
+			</td>
+		</tr>
+		<tr>
+			<th>Thursday</th>
+			<td>
+      08:30 - 18:30
+			</td>
+		</tr>
+		<tr>
+			<th>Friday</th>
+			<td>
+      08:30 - 18:30
+			</td>
+		</tr>
+		<tr>
+			<th><span className="text-white-50">Saturday</span></th>
+			<td>
+				Closed
+			</td>
+		</tr>
+		<tr>
+			<th><span className="text-white-50">Sunday</span></th>
+			<td>
+				Closed
+			</td>
+		</tr>
+
+	</tbody>
+</table>
+
         </div>
       </div>
       <div class="row mt-5">

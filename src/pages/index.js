@@ -59,7 +59,7 @@ const LandingCarousel = () => {
           </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <img
           className="d-block w-100"
           src="/images/IMG_1655 - Copy.jpg"
@@ -81,7 +81,7 @@ const LandingCarousel = () => {
             </div>
           </div>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 };
@@ -159,7 +159,7 @@ const ImagewithText = () => {
 const ContentRight = () => {
   return (
     <div class="row featurette mb-5">
-      <div class="col px-3 order-md-2">
+      <div class="col px-3">
         <h2 class="mb-4">We Supply Sealing Products</h2>
         <p class="lead">
           Over the years of our company’s establishment , TBJ-UTEX has served
@@ -171,7 +171,7 @@ const ContentRight = () => {
           cater only our best to valued clients.
         </p>
       </div>
-      <div class="col order-md-1">
+      <div class="col">
         <img
           class="featurette-image img-fluid mx-auto"
           alt="TBJ"
@@ -184,7 +184,7 @@ const ContentRight = () => {
 
 const ContentLeft = () => {
   return (
-    <div class="row featurette">
+    <div class="row featurette-1">
       <div class="col px-3">
         <h2 class="mb-4">Our Vision</h2>
         <p class="lead">
@@ -226,7 +226,7 @@ const PartnerCarousel = () => {
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 3,
+      items: 2,
       infinite: true,
     },
   };

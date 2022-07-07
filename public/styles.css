@@ -49,7 +49,13 @@ a {
 }
 
 h1 {
-  font-size: 3rem !important;
+  font-size: 2rem !important;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem !important;
+  }
 }
 
 h2 {
@@ -122,7 +128,7 @@ li {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 6rem !important;
+  bottom: 2rem !important;
   z-index: 10;
 }
 
@@ -181,8 +187,24 @@ li {
 /* Featurettes
   ------------------------- */
 
+.featurette {
+  flex-direction: column-reverse;
+}
+
+.featurette>div {
+  margin: 1rem 0;
+}
+
+.featurette-1 {
+  flex-direction: column-reverse;
+}
+
+.featurette-1>div {
+  margin: 1rem 0;
+}
+
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -286,8 +308,8 @@ li {
 }
 
 .text-container>div>p {
-  font-size: 1rem !important;
-  line-height: 2.5rem !important;
+  /* font-size: 1rem !important; */
+  /* line-height: 2.5rem !important; */
   margin-bottom: 0;
 }
 
@@ -340,4 +362,68 @@ li {
 
 .footer-divider {
   margin: 1rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+.tbj-logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.header-container {
+  padding: 1rem !important;
+}
+
+.links, .about-company {
+  margin-bottom: 1rem;
+}
+
+.opening-hours {
+  max-width: 400px;
+  color: var(--white) !important;
+}
+
+.opening-hours>tbody>tr>td {
+  font-family: Gotham;
+}
+
+.opening-hours>tbody>tr>th {
+  color: var(--secondary);
+}
+
+.opening-hours>tbody>tr>th>span {
+  color: var(--secondary);
+}
+
+.opening-hours>tbody>tr {
+ border-color: rgba(255, 255, 255, 0.25)!important;
+}
+
+@media (min-width: 768px) {
+  .carousel-caption {
+    bottom: 6rem !important;
+  }
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+}
+
+@media (min-width: 1024px) {
+  .featurette {
+    flex-direction: row-reverse;
+  }
+  
+  .featurette>div {
+    margin: 0;
+  }
+
+  .featurette-1 {
+    flex-direction: row;
+  }
+  
+  .featurette-1>div {
+    margin: 0;
+  }
 }
