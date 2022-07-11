@@ -34,31 +34,31 @@ function Footer() {
 		<tr>
 			<th>Monday</th>
 			<td>
-				08:30 - 18:30
+				09:00 - 18:00
 			</td>
 		</tr>
 		<tr>
 			<th>Tuesday</th>
 			<td>
-      08:30 - 18:30
+      09:00 - 18:00
 			</td>
 		</tr>
 		<tr>
 			<th>Wednesday</th>
 			<td>
-      08:30 - 18:30
+      09:00 - 18:00
 			</td>
 		</tr>
 		<tr>
 			<th>Thursday</th>
 			<td>
-      08:30 - 18:30
+      09:00 - 18:00
 			</td>
 		</tr>
 		<tr>
 			<th>Friday</th>
 			<td>
-      08:30 - 18:30
+      09:00 - 18:00
 			</td>
 		</tr>
 		<tr>
