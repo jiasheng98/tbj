@@ -260,6 +260,7 @@ li {
   display: block;
   position: relative;
   overflow: hidden;
+  padding: .5rem 0 !important;
 }
 
 .header-link:hover {
@@ -329,9 +330,6 @@ li {
 @media (min-width: 768px) {
   .card-list-container {
     grid-template-columns: 1fr 1fr;
-  }
-  .header-link {
-    padding: 0 !important;
   }
 }
 
