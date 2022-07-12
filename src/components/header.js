@@ -31,11 +31,11 @@ function OffcanvasExample() {
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-center flex-grow-1 pe-3">
+              <Nav className="justify-content-center flex-grow-1 pe-3 align-items-md-center">
                 <Nav.Link href="/" className="header-link mx-4">
                   Home
                 </Nav.Link>
-                <Nav.Link href="/" className="header-link mx-4">
+                <Nav.Link href="/about" className="header-link mx-4">
                   About Us
                 </Nav.Link>
                 <Nav.Link href="/" className="header-link mx-4">

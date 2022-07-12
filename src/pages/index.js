@@ -9,7 +9,11 @@ import Card from "react-bootstrap/Card";
 
 const Home = (props) => {
   return (
-    <Layout>
+    <Layout
+    title="TBJ-UTEX INDUSTRIES"
+    keywords="TBJ-UTEX INDUSTRIES (M) SDN BHD was established in 1994 , starting off as a trading house that stocked and distributed sealing products and packing materials that served various market"
+    description="TBJ-UTEX INDUSTRIES (M) SDN BHD was established in 1994 , starting off as a trading house that stocked and distributed sealing products and packing materials that served various market"
+    >
       <LandingCarousel />
       <div class="container marketing">
         <ImagewithText />
@@ -158,7 +162,7 @@ const ImagewithText = () => {
 
 const ContentRight = () => {
   return (
-    <div class="row featurette mb-5">
+    <div class="row featurette mb-md-5">
       <div class="col px-3">
         <h2 class="mb-4">We Supply Sealing Products</h2>
         <p class="lead">
