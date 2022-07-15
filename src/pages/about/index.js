@@ -160,7 +160,7 @@ const ContentRight = () => {
         <img
           class="featurette-image img-fluid mx-auto"
           alt="TBJ"
-          src="/images/IMG_1655 - Copy.JPG"
+          src="/images/IMG_1655 - Copy.jpg"
         />
       </div>
     </div>
