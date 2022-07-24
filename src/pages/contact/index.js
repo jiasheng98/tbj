@@ -2,9 +2,11 @@ import Layout from "../../components/layout";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import "react-multi-carousel/lib/styles.css";
-import { MdPrecisionManufacturing } from "react-icons/md";
-import { RiTimer2Fill, RiTeamFill } from "react-icons/ri";
+import { FaFax } from "react-icons/fa";
+import { RiMap2Fill, RiHome4Fill, RiPhoneFill, RiPhoneLine, RiMailFill } from "react-icons/ri";
 import GoogleMapReact from 'google-map-react';
+import Logo from "../../../public/images/tbjlogo.png";
+import ContactForm from "../../components/contact-form";
 
 const Contact = (props) => {
   return (
@@ -17,7 +19,6 @@ const Contact = (props) => {
       <AddressMap />
       <div class="container marketing">
         <ContentRight />
-        <ContentLeft />
       </div>
     </Layout>
   );
@@ -76,6 +77,7 @@ const AddressMap=()=>{
         zoom: 20
       };
 
+      const AnyReactComponent = () => <div><img style={{height: '50px', width: '50px', objectFit: 'contain'}} src={Logo}/></div>;
       
     return (
        <>
@@ -84,7 +86,13 @@ const AddressMap=()=>{
         bootstrapURLKeys={{ key: "" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
-      ></GoogleMapReact>
+
+      >
+          <AnyReactComponent
+          lat={1.5210441198456037}
+          lng={103.83109602883796}
+        />
+      </GoogleMapReact>
        </div>
        </>
     );
@@ -92,9 +100,9 @@ const AddressMap=()=>{
 
 const ContentRight = () => {
   return (
-    <div class="row featurette mb-md-5">
+    <div class="row featurette mb-md-5 py-5">
       <div class="col px-3">
-        <h2 class="mb-4">Being a renowned gasket supplier in Malaysia</h2>
+        {/* <h2 class="mb-4">Being a renowned gasket supplier in Malaysia</h2>
         <p class="lead">
           TBJ-UTEX INDUSTRIES (M) SDN. BHD. has been serving our valued clients
           with our wide range of quality gaskets supplies as well as sealing and
@@ -107,48 +115,74 @@ const ContentRight = () => {
           <a class="btn btn-md" href="/" role="button">
             Discover Our Products
           </a>
-        </p>
+        </p> */}
+        <ContactForm />
       </div>
       <div class="col">
-        <img
-          class="featurette-image img-fluid mx-auto"
-          alt="TBJ"
-          src="/images/IMG_1655 - Copy.jpg"
-        />
+      <div class="contacts-container">
+          <h4 class="mt-lg-0 mt-sm-3 mb-3 ">Let's Get Connected!</h4>
+          <hr class="footer-divider" />
+          <table class="contacts table table-condensed borderless">
+
+	<tbody>
+		<tr>
+			<th><RiHome4Fill/></th>
+			<td>
+            TBJ-UTEX INDUSTRIES (M) SDN.BHD.
+			</td>
+		</tr>
+		<tr>
+			<th><RiMap2Fill/></th>
+			<td>
+            50 , Jalan Sri Plentong 8 , Taman Perindustrian Sri Plentong , 81750 Masai , Johor Bahru , Malaysia
+			</td>
+		</tr>
+		<tr>
+			<th><RiPhoneFill/></th>
+			<td>
+            +607-3863 777
+			</td>
+		</tr>
+		<tr>
+			<th><RiPhoneLine/></th>
+			<td>
+            +607-3861 666
+			</td>
+		</tr>
+		<tr>
+			<th><FaFax/></th>
+			<td>
+            +607-3868 777
+			</td>
+		</tr>
+		<tr>
+			<th><FaFax/></th>
+			<td>
+            +607-3862 666
+			</td>
+		</tr>
+		<tr>
+			<th><RiMailFill/></th>
+			<td>
+            enquiry@tbj.com.my
+			</td>
+		</tr>
+
+        <tr>
+			<th><RiMailFill/></th>
+			<td>
+            sales@tbj.com.my
+			</td>
+		</tr>
+
+	</tbody>
+</table>
+
+        </div>
       </div>
     </div>
   );
 };
 
-const ContentLeft = () => {
-  return (
-    <div class="row featurette-1">
-      <div class="col px-3">
-        <h2 class="mb-4">TBJ-UTEX INDUSTRIES (M) SDN.BHD.</h2>
-        <p class="lead">
-          also has our own expertise in developing and manufacturing our own
-          house brand of gasket products such as Spiral Wound Gasket, Ring Joint
-          Gasket, Kamprofile Gasket, Metal Jacketed Gasket, Gland Packing, &
-          other sealing products. Our brands of products are named Aerolite and
-          AeroSil. These house brand products are superior in quality and
-          sophisticated features which made us a renowned gasket company in
-          Malaysia.
-        </p>
-        <p class="lead mt-4">
-          <a class="btn btn-md" href="/" role="button">
-            Contact Us
-          </a>
-        </p>
-      </div>
-      <div class="col">
-        <img
-          class="featurette-image img-fluid mx-auto"
-          src="/images/IMG_1627 - Copy.jpg"
-          alt="TBJ"
-        />
-      </div>
-    </div>
-  );
-};
 
 export default Contact;
