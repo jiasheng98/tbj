@@ -41,7 +41,7 @@ function OffcanvasExample() {
                 <Nav.Link href="/" className="header-link mx-4">
                   Product
                 </Nav.Link>
-                <Nav.Link href="/" className="header-link mx-4">
+                <Nav.Link href="/contact" className="header-link mx-4">
                   Contact Us
                 </Nav.Link>
                 {/* <NavDropdown

@@ -484,6 +484,7 @@ li {
   margin: auto;
   color: var(--white);
   z-index: 1;
+  width: 100%;
 }
 
 #header-title:before {

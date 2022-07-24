@@ -22,7 +22,7 @@ function Footer() {
               <li class='mb-1'><a class='footer-link' href="/">Home</a></li>
               <li class='mb-1'><a class='footer-link' href="/about">About Us</a></li>
               <li class='mb-1'><a class='footer-link' href="/">Product</a></li>
-              <li class='mb-1'><a class='footer-link' href="/">Contact Us</a></li>
+              <li class='mb-1'><a class='footer-link' href="/contact">Contact Us</a></li>
             </ul>
         </div>
         <div class="col-lg-5 col-xs-12 links">
