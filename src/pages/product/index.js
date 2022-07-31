@@ -57,7 +57,7 @@ const CardList = () => {
         <InformationCard
           title="AEROLITE NA3900"
           source="/images/IMG_1986.jpg"
-          link="/"
+          link="product/aerolite/na3900"
         />
         <InformationCard
           title="AEROLITE NA3909"
