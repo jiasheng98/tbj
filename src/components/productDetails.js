@@ -49,7 +49,7 @@ const DetailSection = ({ item, images }) => {
           /> */}
         <ImageGallery images={images} />
         <p class="lead mt-4">
-          <a class="btn btn-md d-flex justify-content-center" href={item.pdf} role="button" download>
+          <a class="btn btn-md d-flex justify-content-center" href={item.pdf} role="button">
             Download PDF
           </a>
         </p>
