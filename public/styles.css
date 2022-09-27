@@ -782,8 +782,14 @@ li {
 margin-bottom: 4rem;
 }
 
+.product-tab {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+}
+
 .product-tab>li>button {
-  height: 80px;
+  /* height: 80px; */
+  height: 100%;
   color: var(--black);
   text-align: left;
   border: 1px solid #4cd5ff50 !important;
@@ -802,6 +808,10 @@ margin-bottom: 4rem;
   }
   .product-tab>li>button {
     text-align: center;
+  }
+  .product-tab {
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr);
   }
   
 }

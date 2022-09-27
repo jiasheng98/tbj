@@ -7,6 +7,22 @@ import Tabs from 'react-bootstrap/Tabs';
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
+const Gasket = [
+  {
+    title: "AEROLITE NA3900",
+    source: "/images/IMG_1986.jpg",
+    link: "product/aerolite/na3900",
+  }
+]
+
+const Rubber = [
+  {
+    title: "AEROLITE NA3900",
+    source: "/images/IMG_1986.jpg",
+    link: "product/aerolite/na3900",
+  }
+]
+
 const Product = (props) => {
   return (
     <Layout
@@ -16,7 +32,10 @@ const Product = (props) => {
     >
       <LandingSection />
       <div class="container marketing">
-        <ProductTab/>
+        <ProductTab
+        Gasket={Gasket}
+        Rubber={Rubber}
+        />
 
       </div>
     </Layout>
@@ -46,99 +65,72 @@ const LandingSection = () => {
   );
 };
 
-const CardList = () => {
+const InformationCard = ({ title, content, source, link, item }) => {
+  return (
+    <Card style={{ width: "100%" }}>
+      <Card.Img variant="top" src={item.source} />
+      <Card.Body>
+        <Card.Title class="mb-3">{item.title}</Card.Title>
+        <Card.Text>{item.content}</Card.Text>
+        <Button variant="primary" href={item.link}>
+          Read More
+        </Button>
+      </Card.Body>
+    </Card>
+  );
+};
+
+const CardList = ({item}) => {
     return (
       <div class="m-4 card-list-container">
-        <InformationCard
-          title="AEROLITE NA3100"
-          source="/images/IMG_1971.jpg"
-          link="/"
-        />
-        <InformationCard
-          title="AEROLITE NA3900"
-          source="/images/IMG_1986.jpg"
-          link="product/aerolite/na3900"
-        />
-        <InformationCard
-          title="AEROLITE NA3909"
-          source="/images/IMG_2004.jpg"
-          link="/"
-        />
-        <InformationCard
-          title="AEROLITE NA4420"
-          source="/images/IMG_1982.jpg"
-          link="/"
-        />
-        <InformationCard
-          title="AEROLITE GS1004"
-          source="/images/IMG_1999.jpg"
-          link="/"
-        />
-        <InformationCard
-          title="AEROLITE GS3004"
-          source="/images/IMG_1992_.jpg"
-          link="/"
-        />
-        <InformationCard
-          title="AEROLITE GS7004"
-          source="/images/_DSC1703.jpg"
-          link="/"
-        />
-        <InformationCard
-          title="AEROLITE PSM T"
-          source="/images/psm.png"
-          link="/"
-        />
+            {item.map((item, index) => {
+              return (
+              <InformationCard
+            item={item}
+            />
+              );
+            })}
       </div>
     );
   };
 
-  const InformationCard = ({ title, content, source, link }) => {
-    return (
-      <Card style={{ width: "100%" }}>
-        <Card.Img variant="top" src={source} />
-        <Card.Body>
-          <Card.Title class="mb-3">{title}</Card.Title>
-          <Card.Text>{content}</Card.Text>
-          <Button variant="primary" href={link}>
-            Read More
-          </Button>
-        </Card.Body>
-      </Card>
-    );
-  };
-
-const ProductTab = () => {
+const ProductTab = ( {Gasket, Rubber}) => {
     return (
         <Tabs
-      defaultActiveKey="all"
+      defaultActiveKey="gasket"
       id="justify-tab-example"
-      className="my-5 mx-5 product-tab"
+      className="my-5 mx-3 product-tab"
       justify
     >
-      <Tab eventKey="all" title="All Projects" style={{ whiteSpace: 'nowrap' }}>
-        <CardList/>
+      <Tab eventKey="gasket" title="Semi Metallic & Metallic Gasket" style={{ whiteSpace: 'nowrap' }}>
+        <CardList item={Gasket} />
       </Tab>
-      <Tab eventKey="aerolite" title="Aerolite" style={{ whiteSpace: 'nowrap' }}>
-      <CardList/>
+      <Tab eventKey="rubber" title="Rubber Sheet" style={{ whiteSpace: 'nowrap' }}>
+      <CardList item={Rubber} />
       </Tab>
-      <Tab eventKey="aerosil" title="Aerosil" style={{ whiteSpace: 'nowrap' }}>
-      <CardList/>
+      <Tab eventKey="ptfe" title="PTFE Products" style={{ whiteSpace: 'nowrap' }}>
+      {/* <CardList/> */}
       </Tab>
-      <Tab eventKey="metal" title="Metal Jacketed" style={{ whiteSpace: 'nowrap' }}>
-      <CardList/>
+      <Tab eventKey="packing" title="Packing Sleeve & Gland Ring" style={{ whiteSpace: 'nowrap' }}>
+      {/* <CardList/> */}
       </Tab>
-      <Tab eventKey="rubbersteel" title="Rubber Steel" style={{ whiteSpace: 'nowrap' }}>
-      <CardList/>
+      <Tab eventKey="oring" title="O-Ring & Oil Seal" style={{ whiteSpace: 'nowrap' }}>
+      {/* <CardList/> */}
       </Tab>
-      <Tab eventKey="rubbersheet" title="Rubber Sheet" style={{ whiteSpace: 'nowrap' }}>
-      <CardList/>
+      <Tab eventKey="gauge" title="Level Gauge & Gauge Glass" style={{ whiteSpace: 'nowrap' }}>
+      {/* <CardList/> */}
       </Tab>
-      <Tab eventKey="ptfe" title="PTFE" style={{ whiteSpace: 'nowrap' }}>
-      <CardList/>
+      <Tab eventKey="joint" title="Jointing Material" style={{ whiteSpace: 'nowrap' }}>
+      {/* <CardList/> */}
       </Tab>
-      <Tab eventKey="klinger" title="Klinger" style={{ whiteSpace: 'nowrap' }}>
-      <CardList/>
+      <Tab eventKey="insulation" title="Insulation Gasket Kit Set" style={{ whiteSpace: 'nowrap' }}>
+      {/* <CardList/> */}
+      </Tab>
+      <Tab eventKey="graphite" title="Graphite Series" style={{ whiteSpace: 'nowrap' }}>
+      {/* <CardList/> */}
+      </Tab>
+      <Tab eventKey="glass" title="Glass Fiber & Ceramic Tape" style={{ whiteSpace: 'nowrap' }}>
+      {/* <CardList/> */}
       </Tab>
     </Tabs>
     )
