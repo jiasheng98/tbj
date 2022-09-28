@@ -23,6 +23,70 @@ const Rubber = [
   }
 ]
 
+const PTFE = [
+  {
+    title: "AEROLITE NA3900",
+    source: "/images/IMG_1986.jpg",
+    link: "product/aerolite/na3900",
+  }
+]
+
+const Packing = [
+  {
+    title: "AEROLITE NA3900",
+    source: "/images/IMG_1986.jpg",
+    link: "product/aerolite/na3900",
+  }
+]
+
+const Oring = [
+  {
+    title: "AEROLITE NA3900",
+    source: "/images/IMG_1986.jpg",
+    link: "product/aerolite/na3900",
+  }
+]
+
+const Gauge = [
+  {
+    title: "AEROLITE NA3900",
+    source: "/images/IMG_1986.jpg",
+    link: "product/aerolite/na3900",
+  }
+]
+
+const Joint = [
+  {
+    title: "AEROLITE NA3900",
+    source: "/images/IMG_1986.jpg",
+    link: "product/aerolite/na3900",
+  }
+]
+
+const Insulation = [
+  {
+    title: "AEROLITE NA3900",
+    source: "/images/IMG_1986.jpg",
+    link: "product/aerolite/na3900",
+  }
+]
+
+const Graphite = [
+  {
+    title: "AEROLITE NA3900",
+    source: "/images/IMG_1986.jpg",
+    link: "product/aerolite/na3900",
+  }
+]
+
+const Glass = [
+  {
+    title: "AEROLITE NA3900",
+    source: "/images/IMG_1986.jpg",
+    link: "product/aerolite/na3900",
+  }
+]
+
 const Product = (props) => {
   return (
     <Layout
@@ -35,6 +99,14 @@ const Product = (props) => {
         <ProductTab
         Gasket={Gasket}
         Rubber={Rubber}
+        PTFE={PTFE}
+        Packing={Packing}
+        Oring={Oring}
+        Gauge={Gauge}
+        Joint={Joint}
+        Insulation={Insulation}
+        Graphite={Graphite}
+        Glass={Glass}
         />
 
       </div>
@@ -94,7 +166,7 @@ const CardList = ({item}) => {
     );
   };
 
-const ProductTab = ( {Gasket, Rubber}) => {
+const ProductTab = ( {Gasket, Rubber, PTFE, Packing, Oring, Gauge, Joint, Insulation, Graphite, Glass}) => {
     return (
         <Tabs
       defaultActiveKey="gasket"
@@ -109,28 +181,28 @@ const ProductTab = ( {Gasket, Rubber}) => {
       <CardList item={Rubber} />
       </Tab>
       <Tab eventKey="ptfe" title="PTFE Products" style={{ whiteSpace: 'nowrap' }}>
-      {/* <CardList/> */}
+      <CardList item={PTFE}/>
       </Tab>
       <Tab eventKey="packing" title="Packing Sleeve & Gland Ring" style={{ whiteSpace: 'nowrap' }}>
-      {/* <CardList/> */}
+      <CardList item={Packing}/>
       </Tab>
       <Tab eventKey="oring" title="O-Ring & Oil Seal" style={{ whiteSpace: 'nowrap' }}>
-      {/* <CardList/> */}
+      <CardList item={Oring}/>
       </Tab>
       <Tab eventKey="gauge" title="Level Gauge & Gauge Glass" style={{ whiteSpace: 'nowrap' }}>
-      {/* <CardList/> */}
+      <CardList item={Gauge} />
       </Tab>
       <Tab eventKey="joint" title="Jointing Material" style={{ whiteSpace: 'nowrap' }}>
-      {/* <CardList/> */}
+      <CardList item={Joint}/>
       </Tab>
       <Tab eventKey="insulation" title="Insulation Gasket Kit Set" style={{ whiteSpace: 'nowrap' }}>
-      {/* <CardList/> */}
+      <CardList item={Insulation}/>
       </Tab>
       <Tab eventKey="graphite" title="Graphite Series" style={{ whiteSpace: 'nowrap' }}>
-      {/* <CardList/> */}
+      <CardList item={Graphite} />
       </Tab>
       <Tab eventKey="glass" title="Glass Fiber & Ceramic Tape" style={{ whiteSpace: 'nowrap' }}>
-      {/* <CardList/> */}
+      <CardList item={Glass}/>
       </Tab>
     </Tabs>
     )

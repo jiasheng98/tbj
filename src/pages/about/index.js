@@ -7,10 +7,10 @@ import { RiTimer2Fill, RiTeamFill } from "react-icons/ri";
 
 const About = (props) => {
   return (
-    <Layout 
-    title="About Us"
-    keywords="Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
-    description="Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
+    <Layout
+      title="About Us"
+      keywords="Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
+      description="Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     >
       <LandingSection />
       <Timeline />
@@ -30,9 +30,9 @@ const LandingSection = () => {
           About Us
         </h1>
         <p class="lead">
-          TBJ-UTEX INDUSTRIES (M) SDN BHD was established in 1994 , starting off
-          as a trading house that stocked and distributed sealing products and
-          packing materials that served various market like:
+          TBJ Group was established in 1994, starting off as a trading house
+          that stocked and distributed industrial sealing products and packing
+          materials that served various market like:
         </p>
         <hr class="my-4" />
         <div class="pointer">

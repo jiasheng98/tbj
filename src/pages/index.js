@@ -10,16 +10,16 @@ import Card from "react-bootstrap/Card";
 const Home = (props) => {
   return (
     <Layout
-    title="TBJ-UTEX INDUSTRIES"
-    keywords="TBJ-UTEX INDUSTRIES (M) SDN BHD was established in 1994 , starting off as a trading house that stocked and distributed sealing products and packing materials that served various market"
-    description="TBJ-UTEX INDUSTRIES (M) SDN BHD was established in 1994 , starting off as a trading house that stocked and distributed sealing products and packing materials that served various market"
+      title="TBJ-UTEX INDUSTRIES"
+      keywords="TBJ-UTEX INDUSTRIES (M) SDN BHD was established in 1994 , starting off as a trading house that stocked and distributed sealing products and packing materials that served various market"
+      description="TBJ-UTEX INDUSTRIES (M) SDN BHD was established in 1994 , starting off as a trading house that stocked and distributed sealing products and packing materials that served various market"
     >
       <LandingCarousel />
       <div class="container marketing">
         <ImagewithText />
         <hr class="featurette-divider" />
         <ContentRight />
-        <ContentLeft />
+        {/* <ContentLeft /> */}
       </div>
       <TextContainer />
       <div class="container marketing">
@@ -49,13 +49,13 @@ const LandingCarousel = () => {
         <Carousel.Caption>
           <div class="container">
             <div class="carousel-caption">
-              <h1 className="mb-3">TBJ Keeps You Running</h1>
+              <h1 className="mb-3">Over 30 Years of Experiences</h1>
               <p className="mb-4">
-                Safety sealing and attachment solutions built for you. From
-                high-volume and automated to customized and one-of-a-kind.
+                Serving Oil & Gas, Petrochemical Industries with high quality
+                Industrial Sealing Products.
               </p>
               <p>
-                <a class="btn btn-md" href="#" role="button">
+                <a class="btn btn-md" href="/contact" role="button">
                   Contact Our Experts
                 </a>
               </p>
@@ -93,7 +93,7 @@ const LandingCarousel = () => {
 const ImagewithText = () => {
   return (
     <>
-      <h1 class="text-center mb-5 text-highlight">Our Services</h1>
+      <h1 class="text-center mb-5 text-highlight">Our Mission & Vision</h1>
       <div class="row">
         <div class="col-lg-4">
           <img
@@ -123,7 +123,7 @@ const ImagewithText = () => {
             width="140"
             height="140"
           />
-          <h2 class="mb-3">Engineering Solutions</h2>
+          <h2 class="mb-3">Custom Cut Gasket</h2>
           <p>
             Fully Trained, High-Skilled Technicians And Engineers To Provide One
             Stop Service For On-Site Repair, Installation, Troubleshooting And
@@ -164,9 +164,9 @@ const ContentRight = () => {
   return (
     <div class="row featurette mb-md-5">
       <div class="col px-3">
-        <h2 class="mb-4">We Supply Sealing Products</h2>
+        <h2 class="mb-4">We Supply Industrial Sealing Products</h2>
         <p class="lead">
-          Over the years of our company’s establishment , TBJ-UTEX has served
+          Over the years of our company’s establishment, TBJ Group has served
           numerous clients in supplying them our gasket products. Being a
           renowned gasket manufacturer and gasket supplier of Spiral Wound
           Gasket, Ring Joint Gasket, Kamprofile Gasket, Metal Jacketed Gasket,
@@ -288,11 +288,11 @@ const TextContainer = () => {
     <div class="my-5 text-container">
       <div class="container marketing">
         <p class="p-4">
-          Our company has emerged as one of the major gasket supplier in
-          Malaysia. We had been distributing various major brands such as
-          Lamons, Klinger, Garlock, Valqua, etc. We are now supplying a wide
-          range of sealing and fluid control products all over Malaysia. In
-          addition, we also develop our house brand like Aerolite and AeroSil.
+          TBJ Group has emerged as one of the major gasket supplier &
+          manufacturer in Malaysia. We had been distributing various major
+          brands such as Lamons, Klinger, Garlock, Valqua, etc. We even
+          developed our own house brand, Aerolite, which has been widely
+          accepted in the industries.
         </p>
       </div>
     </div>
