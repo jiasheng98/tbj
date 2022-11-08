@@ -9,9 +9,29 @@ import Button from "react-bootstrap/Button";
 
 const Gasket = [
   {
-    title: "AEROLITE NA3900",
-    source: "/images/IMG_1986.jpg",
-    link: "product/aerolite/na3900",
+    title: "Insulation Gasket Kit Set",
+    source: "/images/insu.png",
+    link: "product/gasket/insulation-gasket-kit-set",
+  },
+  {
+    title: "Kammprofile Metal Grooved Gasket",
+    source: "/images/kamm1.png",
+    link: "product/gasket/kammprofile-metal-grooved-gasket",
+  },
+  {
+    title: "Metal Jacketed Gasket",
+    source: "/images/metal.png",
+    link: "product/gasket/metal-jacketed-gasket",
+  },
+  {
+    title: "Ring Joint Gasket",
+    source: "/images/ring.png",
+    link: "product/gasket/ring-joint-gasket",
+  },
+  {
+    title: "Spiral Wound Gasket",
+    source: "/images/spiral.png",
+    link: "product/gasket/spiral-wound-gasket",
   }
 ]
 

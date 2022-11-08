@@ -24,15 +24,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about": [
+    "/product": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about.js"
+      "static/chunks/pages/product.js"
     ],
-    "/contact": [
+    "/product/gasket/spiral-wound-gasket": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/contact.js"
+      "static/chunks/pages/product/gasket/spiral-wound-gasket.js"
     ]
   },
   "ampFirstPages": []
