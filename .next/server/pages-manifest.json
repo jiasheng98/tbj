@@ -2,6 +2,9 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.js",
-  "/product/graphite/psm": "pages/product/graphite/psm.js"
+  "/product": "pages/product.js",
+  "/product/joint/na3100": "pages/product/joint/na3100.js",
+  "/product/joint/na3900": "pages/product/joint/na3900.js",
+  "/product/joint/na3909": "pages/product/joint/na3909.js",
+  "/product/joint/na4420": "pages/product/joint/na4420.js"
 }

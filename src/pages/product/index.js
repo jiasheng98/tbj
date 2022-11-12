@@ -77,9 +77,24 @@ const Gauge = [
 
 const Joint = [
   {
-    title: "AEROLITE NA3900",
-    source: "/images/IMG_1986.jpg",
-    link: "product/aerolite/na3900",
+    title: "NA3100",
+    source: "/images/na3100.png",
+    link: "product/joint/na3100",
+  },
+  {
+    title: "NA3900",
+    source: "/images/na3900.png",
+    link: "product/joint/na3900",
+  },
+  {
+    title: "NA3909",
+    source: "/images/na3909.png",
+    link: "product/joint/na3909",
+  },
+  {
+    title: "NA4420",
+    source: "/images/na4420.png",
+    link: "product/joint/na4420",
   }
 ]
 
