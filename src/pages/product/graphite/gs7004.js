@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import "react-multi-carousel/lib/styles.css";
 import ProjectDetails from '../../../components/productDetails';
-import Bg from '../../../../public/images/GS7004.png';
+import Bg from '../../../../public/images/gs7004.png';
 import Bg1 from '../../../../public/images/kamm.png';
 // import PDF from '../../../../public/pdf/gauge.pdf';
 
