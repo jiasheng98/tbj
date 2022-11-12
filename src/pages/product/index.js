@@ -93,9 +93,24 @@ const Insulation = [
 
 const Graphite = [
   {
-    title: "AEROLITE NA3900",
-    source: "/images/IMG_1986.jpg",
-    link: "product/aerolite/na3900",
+    title: "GS1004",
+    source: "/images/gs1004.png",
+    link: "product/graphite/gs1004",
+  },
+  {
+    title: "GS3004",
+    source: "/images/gs3004.png",
+    link: "product/graphite/gs3004",
+  },
+  {
+    title: "GS7004",
+    source: "/images/gs7004.png",
+    link: "product/graphite/gs7004",
+  },
+  {
+    title: "PSM",
+    source: "/images/psm.png",
+    link: "product/graphite/psm",
   }
 ]
 

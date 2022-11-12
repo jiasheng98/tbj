@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/product": "pages/product.js",
-  "/product/gasket/spiral-wound-gasket": "pages/product/gasket/spiral-wound-gasket.js"
+  "/": "pages/index.js",
+  "/product/graphite/psm": "pages/product/graphite/psm.js"
 }
