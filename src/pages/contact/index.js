@@ -156,12 +156,12 @@ const ContentRight = () => {
             +607-3868 777
 			</td>
 		</tr>
-		<tr>
+		{/* <tr>
 			<th><FaFax/></th>
 			<td>
             +607-3862 666
 			</td>
-		</tr>
+		</tr> */}
 		<tr>
 			<th><RiMailFill/></th>
 			<td>
