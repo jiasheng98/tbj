@@ -16,7 +16,7 @@ const About = (props) => {
       <Timeline />
       <div class="container marketing">
         <ContentRight />
-        <ContentLeft />
+        {/* <ContentLeft /> */}
       </div>
     </Layout>
   );
@@ -81,14 +81,9 @@ const Timeline = () => {
               color="var(--white)"
               class="timeline-icon"
             />
-            <h4>Over These 20 Years</h4>
+            <h4>For more than 30 Years</h4>
             <p>
-              Our company has emerged as one of the major gasket supplier in
-              Malaysia. We had been distributing various major brands such as
-              Lamons, Klinger, Garlock, Valqua, etc. We are now supplying a wide
-              range of sealing and fluid control products all over Malaysia. In
-              addition, we also develop our house brand like Aerolite® and
-              AeroSil.
+            TBJ Group has become one of the leading manufacturers and suppliers of industrial sealings and fluid control in Malaysia. We provide certified, highest quality gaskets that complies with international regulations. Our own house brand, Aerolite has been widely accepted & used in the industries.
             </p>
           </div>
         </div>
@@ -104,16 +99,9 @@ const Timeline = () => {
               color="var(--white)"
               class="timeline-icon"
             />
-            <h4>Besides Fabricate</h4>
+            <h4>Besides Fabricating</h4>
             <p>
-              and custom make most semi-metallic and metallic gaskets in our
-              workshop at Johor Bahru and Singapore, our in house latest cutting
-              machine is able to fulfil the demand of any common and odd sizes
-              soft Pre-cut gaskets ( CNAF, CAF, Pure Graphite, Tanged Insert,
-              foil insert, PTFE, Rubber and etc.) in very short lead-time. We
-              have even gone another extra mile to support our clients during
-              their plant turn-around maintenance by extending our production
-              hours.
+            and custom making most semi-metallic and metallic gaskets in our workshop at Johor Bahru, our in house latest cutting machine is able to fulfill the demand of any common and odd sizes soft Pre-cut gaskets (CNAF, CAF, Pure Graphite, Tanged Insert, Foil Insert, PTFE, Rubber and etc.) in very short lead-time. 
             </p>
           </div>
         </div>
@@ -127,8 +115,7 @@ const Timeline = () => {
             <RiTeamFill size={50} color="var(--white)" class="timeline-icon" />
             <h4>In TBJ</h4>
             <p>
-              Our team of dedicated staff will endeavor to understand your
-              requirements and committed to answer your enquiries promptly.
+            Our team of dedicated staff will endeavor to understand your requirements and commit to answer your enquiries promptly. Maintaining customer relationships with our clients is one of the top priorities. 
             </p>
           </div>
         </div>
@@ -141,14 +128,9 @@ const ContentRight = () => {
   return (
     <div class="row featurette mb-md-5">
       <div class="col px-3">
-        <h2 class="mb-4">Being a renowned gasket supplier in Malaysia</h2>
+        <h2 class="mb-4">Being a renowned sealing gaskets supplier in Malaysia</h2>
         <p class="lead">
-          TBJ-UTEX INDUSTRIES (M) SDN. BHD. has been serving our valued clients
-          with our wide range of quality gaskets supplies as well as sealing and
-          fluid control products. For more than 20 years established in the
-          industry , we had been distributing gasket products from various
-          reputed brands such as Lamons, Garlock, Klinger and Valqua throughout
-          the region.
+        TBJ Group has been serving our valued clients with our wide range of quality sealing gasket supplies as well as sealing and fluid control products. For more than 20 years established in the industry, we had been distributing gasket products from various reputed brands such as Lamons, Garlock, Klinger and Valqua throughout the region.
         </p>
         <p class="lead mt-4">
           <a class="btn btn-md" href="/" role="button">

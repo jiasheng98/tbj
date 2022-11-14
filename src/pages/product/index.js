@@ -175,12 +175,9 @@ const LandingSection = () => {
           Product
         </h1>
         <p class="lead">
-          When you think sealing products, hoses or fasteners, think Lamons.
-          With 600,000+ square feet of manufacturing and warehouse space around
-          the globe, we have complete control over the deliverables that we
-          source and produce for you, our valued customers. Regardless of
-          industry, Lamons has the sealing or fastening solution that’s the
-          right fit.
+        Aerolite’s products deliver solutions that solve unique sealing challenges, improve plant productivity, reduce costs, and help our customers comply with increasingly stringent environmental regulations.
+        <br/> <br/>
+        Browse below to view our time-tested products that serve a wide variety of markets, including Chemical Processing, Food and Beverage, Marine, Oil and Gas, Pharmaceutical, Power Generation, Primary Metals, and more.
         </p>
       </div>
     </div>
