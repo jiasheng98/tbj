@@ -87,7 +87,7 @@ const Timeline = () => {
               Malaysia. We had been distributing various major brands such as
               Lamons, Klinger, Garlock, Valqua, etc. We are now supplying a wide
               range of sealing and fluid control products all over Malaysia. In
-              addition, we also develop our house brand like Aerolite and
+              addition, we also develop our house brand like Aerolite® and
               AeroSil.
             </p>
           </div>
@@ -176,7 +176,7 @@ const ContentLeft = () => {
           also has our own expertise in developing and manufacturing our own
           house brand of gasket products such as Spiral Wound Gasket, Ring Joint
           Gasket, Kamprofile Gasket, Metal Jacketed Gasket, Gland Packing, &
-          other sealing products. Our brands of products are named Aerolite and
+          other sealing products. Our brands of products are named Aerolite® and
           AeroSil. These house brand products are superior in quality and
           sophisticated features which made us a renowned gasket company in
           Malaysia.

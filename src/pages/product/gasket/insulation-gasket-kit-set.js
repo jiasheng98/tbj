@@ -11,7 +11,7 @@ const Insulation = () => {
 const Details = {
     bgimage: Bg,
     name: 'Insulation Gasket Kit Set',
-    description: <span>Aerolite Flange Insulation Sets are designed and manufactured to suit flanged joints to ASME, BS, DIN and customer designs. Three common gasket types available are: Type F (Raised Faced), Type E (Full Face) and Type D (Ring Joint Gasket).</span>,
+    description: <span>Aerolite® Flange Insulation Sets are designed and manufactured to suit flanged joints to ASME, BS, DIN and customer designs. Three common gasket types available are: Type F (Raised Faced), Type E (Full Face) and Type D (Ring Joint Gasket).</span>,
     pdf: '/pdf/Technical Data-AEROlite Flange Insulation Set_TBJ-Utex.pdf'
 }
 

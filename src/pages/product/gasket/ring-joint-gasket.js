@@ -12,7 +12,7 @@ const Ring = () => {
 const Details = {
     bgimage: Bg,
     name: 'Ring Joint Gasket',
-    description: <span>Aerolite Ring Type Joint Gaskets (RTJ) are ready stock in a variety of materials and sizes in TBJ Warehouse. All the RTJ gaskets are manufactured in accordance with API 6A, API 7D and ASME B16.20 specifications.</span>,
+    description: <span>Aerolite® Ring Type Joint Gaskets (RTJ) are ready stock in a variety of materials and sizes in TBJ Warehouse. All the RTJ gaskets are manufactured in accordance with API 6A, API 7D and ASME B16.20 specifications.</span>,
     pdf: '/pdf/Technical Data-AEROlite Ring Joint Gaskets_TBJ-Utex.pdf'
 }
 

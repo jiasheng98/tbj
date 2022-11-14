@@ -12,7 +12,7 @@ const GS1004 = () => {
 const Details = {
     bgimage: Bg,
     name: 'GS1004',
-    description: <span>Aerolite GS1004 is made with natural pure graphite, it offers reliable services in high temperature applications with excellent performance. <br/>
+    description: <span>Aerolite® GS1004 is made with natural pure graphite, it offers reliable services in high temperature applications with excellent performance. <br/>
     Available for Pre Cut Gaskets in all types of standard and non-standard size upon request.</span>,
     pdf: '/pdf/Technical Data-AEROlite GS1004_TBJ-Utex.pdf'
 }

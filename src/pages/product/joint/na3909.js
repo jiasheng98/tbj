@@ -12,7 +12,7 @@ const NA3909 = () => {
 const Details = {
     bgimage: Bg,
     name: 'NA3909',
-    description: <span>Aerolite NA3909 CNAF Jointing Sheet is a premium metallic grade suitable for medium stress conditions. <br/>
+    description: <span>Aerolite® NA3909 CNAF Jointing Sheet is a premium metallic grade suitable for medium stress conditions. <br/>
     Available for Pre Cut Gaskets in all types of standard and non-standard size upon request. </span>,
     pdf: '/pdf/Technical Data-AEROlite CNAF NA3909_TBJ-Utex.pdf'
 }

@@ -67,13 +67,13 @@ const LandingCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/images/IMG_1655 - Copy.jpg"
+          src="/images/IMG_1659.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
           <div class="container">
             <div class="carousel-caption">
-              <h1 className="mb-3">Aerolite</h1>
+              <h1 className="mb-3">Aerolite®</h1>
               <p className="mb-4">
               Fire-safe certified, offering product range that provides sealing solution for durability and longevity.
               </p>
@@ -166,7 +166,7 @@ const ContentRight = () => {
           Gasket, Ring Joint Gasket, Kamprofile Gasket, Metal Jacketed Gasket,
           Gland Packing, & other sealing products in the industry, we are
           continuously upgrading our products and services with the intention to
-          cater only our best to valued clients. <br/> <br/>We also developed our own house brand, Aerolite in 2012. Aerolite gaskets are fire-safe certified, which make them more durable and cost-effective. It has been widely used and accepted in the industries locally and regionally. 
+          cater only our best to valued clients. <br/> <br/>We also developed our own house brand, Aerolite® in 2012. Aerolite® gaskets are fire-safe certified, which make them more durable and cost-effective. It has been widely used and accepted in the industries locally and regionally. 
         </p>
       </div>
       <div class="col">
@@ -358,7 +358,7 @@ const TextContainer = () => {
           TBJ Group has emerged as one of the major gasket supplier &
           manufacturer in Malaysia. We had been distributing various major
           brands such as Lamons, Klinger, Garlock, Valqua, etc. We even
-          developed our own house brand, Aerolite, which has been widely
+          developed our own house brand, Aerolite®, which has been widely
           accepted in the industries.
         </p>
       </div>

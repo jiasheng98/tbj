@@ -12,7 +12,7 @@ const GS3004 = () => {
 const Details = {
     bgimage: Bg,
     name: 'GS3004',
-    description: <span>Aerolite GS3004 is a graphite laminated sheet with SS316L Tanged Insert Reinforcement. It offers reliable services in high temperature applications with excellent performance. 
+    description: <span>Aerolite® GS3004 is a graphite laminated sheet with SS316L Tanged Insert Reinforcement. It offers reliable services in high temperature applications with excellent performance. 
     Furthermore, it is Fire Safe Certified. <br/>
     Available for Pre Cut Gaskets in all types of standard and non-standard size upon request. </span>,
     pdf: '/pdf/Technical Data-AEROlite GS3004_TBJ-Utex.pdf'

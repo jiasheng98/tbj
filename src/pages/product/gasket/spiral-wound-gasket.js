@@ -11,7 +11,7 @@ const Spiral = () => {
 const Details = {
     bgimage: Bg,
     name: 'Spiral Wound Gasket',
-    description: <span>Aerolite Spiral Wound Gaskets are available in a wide variety of styles & sizes. Furthermore, it is Fire Safe and Intergranular Corrosion Test Certified.</span>,
+    description: <span>Aerolite® Spiral Wound Gaskets are available in a wide variety of styles & sizes. Furthermore, it is Fire Safe and Intergranular Corrosion Test Certified.</span>,
     pdf: '/pdf/Technical Data-AEROlite Spiral Wound Gaskets_TBJ-Utex.pdf'
 }
 

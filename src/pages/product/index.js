@@ -37,7 +37,7 @@ const Gasket = [
 
 const Rubber = [
   {
-    title: "AEROLITE NA3900",
+    title: "AEROLITE® NA3900",
     source: "/images/IMG_1986.jpg",
     link: "product/aerolite/na3900",
   }
@@ -45,7 +45,7 @@ const Rubber = [
 
 const PTFE = [
   {
-    title: "AEROLITE NA3900",
+    title: "AEROLITE® NA3900",
     source: "/images/IMG_1986.jpg",
     link: "product/aerolite/na3900",
   }
@@ -53,7 +53,7 @@ const PTFE = [
 
 const Packing = [
   {
-    title: "AEROLITE NA3900",
+    title: "AEROLITE® NA3900",
     source: "/images/IMG_1986.jpg",
     link: "product/aerolite/na3900",
   }
@@ -61,7 +61,7 @@ const Packing = [
 
 const Oring = [
   {
-    title: "AEROLITE NA3900",
+    title: "AEROLITE® NA3900",
     source: "/images/IMG_1986.jpg",
     link: "product/aerolite/na3900",
   }
@@ -69,7 +69,7 @@ const Oring = [
 
 const Gauge = [
   {
-    title: "AEROLITE NA3900",
+    title: "AEROLITE® NA3900",
     source: "/images/IMG_1986.jpg",
     link: "product/aerolite/na3900",
   }
@@ -100,7 +100,7 @@ const Joint = [
 
 const Insulation = [
   {
-    title: "AEROLITE NA3900",
+    title: "AEROLITE® NA3900",
     source: "/images/IMG_1986.jpg",
     link: "product/aerolite/na3900",
   }
@@ -131,7 +131,7 @@ const Graphite = [
 
 const Glass = [
   {
-    title: "AEROLITE NA3900",
+    title: "AEROLITE® NA3900",
     source: "/images/IMG_1986.jpg",
     link: "product/aerolite/na3900",
   }

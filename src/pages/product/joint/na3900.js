@@ -12,7 +12,7 @@ const NA3900 = () => {
 const Details = {
     bgimage: Bg,
     name: 'NA3900',
-    description: <span>Aerolite NA3900 CNAF Jointing Sheet is a general purpose grade for medium stress conditions. <br/>
+    description: <span>Aerolite® NA3900 CNAF Jointing Sheet is a general purpose grade for medium stress conditions. <br/>
     Available for Pre Cut Gaskets in all types of standard and non-standard size upon request. </span>,
     pdf: '/pdf/Technical Data-AEROlite CNAF NA3900_TBJ-Utex.pdf'
 }

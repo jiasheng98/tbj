@@ -12,7 +12,7 @@ const NA4420 = () => {
 const Details = {
     bgimage: Bg,
     name: 'NA4420',
-    description: <span>Aerolite NA4420 CNAF Jointing Sheet is a high-pressure material with outstanding stress relaxation and resistance to hot water and steam as to oils and hydrocarbons. <br/>
+    description: <span>Aerolite® NA4420 CNAF Jointing Sheet is a high-pressure material with outstanding stress relaxation and resistance to hot water and steam as to oils and hydrocarbons. <br/>
     Available for Pre Cut Gaskets in all types of standard and non-standard size upon request. </span>,
     pdf: '/pdf/Technical Data-AEROlite CNAF NA4420_TBJ-Utex.pdf'
 }

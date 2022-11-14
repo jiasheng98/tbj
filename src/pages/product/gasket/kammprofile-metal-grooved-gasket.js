@@ -12,7 +12,7 @@ const Kamm = () => {
 const Details = {
     bgimage: Bg,
     name: 'Kammprofile Metal Grooved Gasket',
-    description: <span>Aerolite Kammprofile Metal Grooved Gaskets</span>,
+    description: <span>Aerolite® Kammprofile Metal Grooved Gaskets</span>,
     pdf: '/pdf/Technical Data-AEROlite Kammprofile Gaskets_TBJ-Utex.pdf'
 }
 

@@ -10,7 +10,7 @@ const NA3100 = () => {
 
 const Details = {
     bgimage: Bg,
-    name: 'AEROLITE NA3900',
+    name: 'AEROLITE® NA3900',
     description: <span>Suitable for oils, fuels, lubricants, alcohols, gases, hydrocarbons, steam, water, cooling liquids, most diluted acids and alkalies for medium stress conditions. <br/> <br/> The suitability of a gasket material for an application is dependent upon a multiplicity of factors as shown in the above digram. Max.temperature and pressure values can not define the suitability for application. It’s always advisable to consider these factors when selecting a material for a given application</span>,
     pdf: '/pdf/gauge.pdf'
 }

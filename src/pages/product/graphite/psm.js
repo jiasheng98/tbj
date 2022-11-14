@@ -12,7 +12,7 @@ const PSM = () => {
 const Details = {
     bgimage: Bg,
     name: 'PSM',
-    description: <span>Aerolite PSM Universal is a graphite laminated sheet with SS316L Tanged Insert Reinforcement. Furthermore, it is Fire Safe Certified. <br/>
+    description: <span>Aerolite® PSM Universal is a graphite laminated sheet with SS316L Tanged Insert Reinforcement. Furthermore, it is Fire Safe Certified. <br/>
     Available for Pre Cut Gaskets in all types of standard and non-standard size upon request. </span>,
     pdf: '/pdf/Technical Data-AEROlite PSM Universal_TBJ-Utex.pdf'
 }

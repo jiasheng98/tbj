@@ -11,7 +11,7 @@ const Metal = () => {
 const Details = {
     bgimage: Bg,
     name: 'Metal Jacketed Gasket',
-    description: <span>Aerolite Metal Jacketed Gaskets are normally manufactured with a non-asbestos, high temperature filler. All types of metal used are available to fabricate according to your needs.</span>,
+    description: <span>Aerolite® Metal Jacketed Gaskets are normally manufactured with a non-asbestos, high temperature filler. All types of metal used are available to fabricate according to your needs.</span>,
     pdf: '/pdf/Technical Data-AEROlite Metal Jacketed Gaskets_TBJ-Utex.pdf'
 }
 

@@ -12,7 +12,7 @@ const GS7004 = () => {
 const Details = {
     bgimage: Bg,
     name: 'GS7004',
-    description: <span>Aerolite GS7004 is made with graphite laminated sheet with SS316 Foil Insert Reinforcement. It offers reliable services in high temperature applications with excellent performance. 
+    description: <span>Aerolite® GS7004 is made with graphite laminated sheet with SS316 Foil Insert Reinforcement. It offers reliable services in high temperature applications with excellent performance. 
     Furthermore, it is Fire Safe Certified. <br/>
     Available for Pre Cut Gaskets in all types of standard and non-standard size upon request. </span>,
     pdf: '/pdf/Technical Data-AEROlite GS7004_TBJ-Utex.pdf'
