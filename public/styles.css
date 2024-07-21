@@ -860,3 +860,13 @@ margin-bottom: 4rem;
   left: 0;
   z-index: -1;
 }
+
+.card-img-top {
+  aspect-ratio: 16 / 11;
+  object-fit: cover;
+}
+
+.image-gallery-image {
+  aspect-ratio: 16 / 11;
+  object-fit: cover !important;
+}

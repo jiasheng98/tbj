@@ -37,9 +37,34 @@ const Gasket = [
 
 const Rubber = [
   {
-    title: "AEROLITE® NA3900",
-    source: "/images/IMG_1986.jpg",
-    link: "product/aerolite/na3900",
+    title: "Black Neoprene Rubber",
+    source: "/images/Black Neoprene Rubber.png",
+    link: "product/rubber/black-neoprene-rubber",
+  },
+  {
+    title: "Insertion Neoprene Rubber",
+    source: "/images/Rubber with 1Ply Insertion.jpg",
+    link: "product/rubber/insertion-neoprene-rubber",
+  },
+  {
+    title: "EPDM Rubber",
+    source: "/images/EPDM Rubber Sheet.webp",
+    link: "product/rubber/epdm-rubber",
+  },
+  {
+    title: "Silicone Rubber",
+    source: "/images/Silicone Rubber Sheet.jpg",
+    link: "product/rubber/silicone-rubber",
+  },
+  {
+    title: "Viton Rubber",
+    source: "/images/VITON RUBBER SHEET.jpg",
+    link: "product/rubber/viton-rubber",
+  },
+  {
+    title: "White Neoprene Rubber",
+    source: "/images/WHITE NEOPRENE RUBBER.jpg",
+    link: "product/rubber/white-neoprene-rubber",
   }
 ]
 
