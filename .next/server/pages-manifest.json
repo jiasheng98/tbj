@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.js",
-  "/product/gasket/insulation-gasket-kit-set": "pages/product/gasket/insulation-gasket-kit-set.js"
+  "/about": "pages/about.js",
+  "/": "pages/index.js"
 }

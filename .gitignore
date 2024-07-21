@@ -1,3 +1,6 @@
 .next
 /node_modules
 config.js
+.next/server
+.next/static
+.next/

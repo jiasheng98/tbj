@@ -29,10 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/product/gasket/insulation-gasket-kit-set": [
+    "/about": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/product/gasket/insulation-gasket-kit-set.js"
+      "static/chunks/pages/about.js"
     ]
   },
   "ampFirstPages": []
