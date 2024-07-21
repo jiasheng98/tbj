@@ -181,7 +181,6 @@ const LandingSection = () => {
         </p>
       </div>
     </div>
-    
   );
 };
 
