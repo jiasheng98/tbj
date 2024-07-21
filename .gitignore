@@ -4,3 +4,4 @@ config.js
 .next/server
 .next/static
 .next/
+/.next
