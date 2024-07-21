@@ -6,3 +6,4 @@ config.js
 .next/
 /.next
 /.next/static/chunks
+.next/static/chunks/webpack.js
