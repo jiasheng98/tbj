@@ -74,7 +74,7 @@ const LandingCarousel = () => {
         <Carousel.Caption>
           <div class="container">
             <div class="carousel-caption-1">
-              <h1 className="mb-3">Aerolite®</h1>
+              <h1 className="mb-3">Aerolite<sup>&reg;</sup></h1>
               <p className="mb-4">
                 Fire-safe certified, offering product range that provides
                 sealing solution for durability and longevity.
