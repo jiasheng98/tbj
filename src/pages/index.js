@@ -19,13 +19,14 @@ const Home = (props) => {
         <ImagewithText />
         <hr class="featurette-divider" />
         <ContentRight />
-        {/* <ContentLeft /> */}
+        <ContentLeft />
+        <hr class="featurette-divider" />
       </div>
       {/* <TextContainer /> */}
       <div class="container marketing">
         {/* <CardList /> */}
         {/* <hr class="featurette-divider" /> */}
-        <PartnerCarousel />
+        {/* <PartnerCarousel /> */}
         <ClientCarousel />
       </div>
     </Layout>
@@ -75,11 +76,12 @@ const LandingCarousel = () => {
             <div class="carousel-caption">
               <h1 className="mb-3">Aerolite®</h1>
               <p className="mb-4">
-              Fire-safe certified, offering product range that provides sealing solution for durability and longevity.
+                Fire-safe certified, offering product range that provides
+                sealing solution for durability and longevity.
               </p>
               <p>
                 <a class="btn btn-md" href="/product" role="button">
-                Discover our products
+                  Discover our products
                 </a>
               </p>
             </div>
@@ -105,7 +107,8 @@ const ImagewithText = () => {
           />
           <h2 class="mb-3">Mission</h2>
           <p>
-          To deliver exceptional, individualized service and to be our customers’ supplier of choice.
+            To deliver exceptional, individualized service and to be our
+            customers’ supplier of choice.
           </p>
           {/* <p>
             <a class="btn btn-secondary" href="#" role="button">
@@ -123,7 +126,10 @@ const ImagewithText = () => {
           />
           <h2 class="mb-3">Vision</h2>
           <p>
-          To continue the heritage of our Company and be a premier Malaysian manufacturer of top quality sealing products. We strive to be a sealing gasket manufacturer to serve the local & global industries and provide total customer satisfaction. 
+            To continue the heritage of our Company and be a premier Malaysian
+            manufacturer of top quality sealing products. We strive to be a
+            sealing gasket manufacturer to serve the local & global industries
+            and provide total customer satisfaction.
           </p>
           {/* <p>
             <a class="btn btn-secondary" href="#" role="button">
@@ -141,7 +147,8 @@ const ImagewithText = () => {
           />
           <h2 class="mb-3">Values</h2>
           <p>
-          We ensure to meet and listen to our customers’ requirements and provide the best and quality sealing products and services.  
+            We ensure to meet and listen to our customers’ requirements and
+            provide the best and quality sealing products and services.
           </p>
           {/* <p>
             <a class="btn btn-secondary" href="#" role="button">
@@ -166,7 +173,11 @@ const ContentRight = () => {
           Gasket, Ring Joint Gasket, Kamprofile Gasket, Metal Jacketed Gasket,
           Gland Packing, & other sealing products in the industry, we are
           continuously upgrading our products and services with the intention to
-          cater only our best to valued clients. <br/> <br/>We also developed our own house brand, Aerolite® in 2012. Aerolite® gaskets are fire-safe certified, which make them more durable and cost-effective. It has been widely used and accepted in the industries locally and regionally. 
+          cater only our best to valued clients. <br /> <br />
+          We also developed our own house brand, Aerolite® in 2012. Aerolite®
+          gaskets are fire-safe certified, which make them more durable and
+          cost-effective. It has been widely used and accepted in the industries
+          locally and regionally.
         </p>
       </div>
       <div class="col">
@@ -182,21 +193,23 @@ const ContentRight = () => {
 
 const ContentLeft = () => {
   return (
-    <div class="row featurette-1">
+    <div class="row featurette-1 mb-md-5">
       <div class="col px-3">
-        <h2 class="mb-4">Our Vision</h2>
+        <h2 class="mb-4">High-Quality Gasket Sheet Materials</h2>
         <p class="lead">
-          We ensured the gaskets and other related products provided to our
-          clients are of highest quality from reputed brands as well as our in
-          house branded products. Our aim at TBJ-UTEX is to assist our clients
-          to achieve business excellence by supplying the best product that
-          caters their needs.
+          Aerolite’s Gasket Sheet Material is well-known for its high-quality,
+          ensuring a sealing solution for even the most demanding application.
+          Aerolite Non-Asbestos gaskets are offered in a wide range of materials
+          and configurations, including CNAF Series and Fire-Safe Certified
+          Graphite Series. Unsure which gasket material is right for your
+          application? Just Contact us to find the perfect gasket material for
+          your project
         </p>
       </div>
       <div class="col">
         <img
           class="featurette-image img-fluid mx-auto"
-          src="/images/IMG_1639.jpg"
+          src="/images/IMG_3201.jpg"
           alt="TBJ"
         />
       </div>

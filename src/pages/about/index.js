@@ -16,7 +16,7 @@ const About = (props) => {
       <Timeline />
       <div class="container marketing">
         <ContentRight />
-        {/* <ContentLeft /> */}
+        <ContentLeft />
       </div>
     </Layout>
   );
@@ -133,7 +133,7 @@ const ContentRight = () => {
         TBJ Group has been serving our valued clients with our wide range of quality sealing gasket supplies as well as sealing and fluid control products. For more than 20 years established in the industry, we had been distributing gasket products from various reputed brands such as Lamons, Garlock, Klinger and Valqua throughout the region.
         </p>
         <p class="lead mt-4">
-          <a class="btn btn-md" href="/" role="button">
+          <a class="btn btn-md" href="/product" role="button">
             Discover Our Products
           </a>
         </p>
@@ -151,9 +151,9 @@ const ContentRight = () => {
 
 const ContentLeft = () => {
   return (
-    <div class="row featurette-1">
+    <div class="row featurette-1 mb-md-5">
       <div class="col px-3">
-        <h2 class="mb-4">TBJ-UTEX INDUSTRIES (M) SDN.BHD.</h2>
+        <h2 class="mb-4">TBJ Group</h2>
         <p class="lead">
           also has our own expertise in developing and manufacturing our own
           house brand of gasket products such as Spiral Wound Gasket, Ring Joint
@@ -164,7 +164,7 @@ const ContentLeft = () => {
           Malaysia.
         </p>
         <p class="lead mt-4">
-          <a class="btn btn-md" href="/" role="button">
+          <a class="btn btn-md" href="/contact" role="button">
             Contact Us
           </a>
         </p>

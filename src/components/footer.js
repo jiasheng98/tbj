@@ -81,7 +81,7 @@ function Footer() {
       </div>
       <div class="row mt-5">
         <div class="col copyright">
-          <p class=""><small class="text-white-50">© 2022. All Rights Reserved. Designed by Seyefactory</small></p>
+          <p class=""><small class="text-white-50">© 2024. All Rights Reserved.</small></p>
         </div>
       </div>
     </div>
