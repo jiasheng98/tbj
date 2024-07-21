@@ -209,7 +209,7 @@ const ContentLeft = () => {
       <div class="col">
         <img
           class="featurette-image img-fluid mx-auto"
-          src="/images/IMG_3201.jpg"
+          src="/images/IMG_3201.JPG"
           alt="TBJ"
         />
       </div>
