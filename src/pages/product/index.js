@@ -70,9 +70,34 @@ const Rubber = [
 
 const PTFE = [
   {
-    title: "AEROLITE® NA3900",
-    source: "/images/IMG_1986.jpg",
-    link: "product/aerolite/na3900",
+    title: "Expanded PTFE",
+    source: "/images/ptfeexpanded.png",
+    link: "product/ptfe/expanded-ptfe",
+  },
+  {
+    title: "Expanded PTFE Joint Sealant",
+    source: "/images/IMG_1936.jpg",
+    link: "product/ptfe/ptfe-joint-sealant",
+  },
+  {
+    title: "Glass Filled PTFE",
+    source: "/images/Hot-Sale-White-and-Pure-PTFE-Sheet-Big-Discount-Free-Sample-Support-Insulation-Expanded-Sheet-1mm-PTFE.webp",
+    link: "product/ptfe/glass-filled-ptfe",
+  },
+  {
+    title: "PTFE Bonded EPDM Gasket",
+    source: "/images/IMG_1898.jpg",
+    link: "product/ptfe/ptfe-bonded-epdm",
+  },
+  {
+    title: "PTFE Enveloped Gasket",
+    source: "/images/_DSC0160.png",
+    link: "product/ptfe/ptfe-envelope-gasket",
+  },
+  {
+    title: "Pure PTFE Sheet",
+    source: "/images/PTFE_Sheet_1024x1024.webp",
+    link: "product/ptfe/virgin-ptfe-teflon",
   }
 ]
 
