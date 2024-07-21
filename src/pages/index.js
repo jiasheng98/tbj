@@ -50,7 +50,7 @@ const LandingCarousel = () => {
         />
         <Carousel.Caption>
           <div class="container">
-            <div class="carousel-caption">
+            <div class="carousel-caption-1">
               <h1 className="mb-3">Over 30 Years of Experiences</h1>
               <p className="mb-4">
                 Serving Oil & Gas, Petrochemical Industries with high quality
@@ -73,7 +73,7 @@ const LandingCarousel = () => {
         />
         <Carousel.Caption>
           <div class="container">
-            <div class="carousel-caption">
+            <div class="carousel-caption-1">
               <h1 className="mb-3">Aerolite®</h1>
               <p className="mb-4">
                 Fire-safe certified, offering product range that provides
