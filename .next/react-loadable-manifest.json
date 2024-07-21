@@ -1,4 +1,8 @@
 {
+  "../../node_modules/@formspree/react/dist/formspree-react.esm.js -> @stripe/react-stripe-js": {
+    "id": "./node_modules/@stripe/react-stripe-js/dist/react-stripe.umd.js",
+    "files": []
+  },
   "../../node_modules/next/dist/client/next-dev.js -> ./dev/noop": {
     "id": "./node_modules/next/dist/client/dev/noop.js",
     "files": [

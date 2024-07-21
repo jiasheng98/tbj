@@ -189,7 +189,7 @@ const InformationCard = ({ title, content, source, link, item }) => {
     <Card style={{ width: "100%" }}>
       <Card.Img variant="top" src={item.source} />
       <Card.Body>
-        <Card.Title class="mb-3">{item.title}</Card.Title>
+        <Card.Title class="mb-3" style={{whiteSpace: 'normal'}}>{item.title}</Card.Title>
         <Card.Text>{item.content}</Card.Text>
         <Button variant="primary" href={item.link}>
           Read More
