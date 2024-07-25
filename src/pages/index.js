@@ -45,7 +45,7 @@ const LandingCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/images/IMG_1655 - Copy.jpg"
+          src="/images/IMG_3201.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -74,7 +74,9 @@ const LandingCarousel = () => {
         <Carousel.Caption>
           <div class="container">
             <div class="carousel-caption-1">
-              <h1 className="mb-3">Aerolite<sup>&reg;</sup></h1>
+              <h1 className="mb-3">
+                Aerolite<sup>&reg;</sup>
+              </h1>
               <p className="mb-4">
                 Fire-safe certified, offering product range that provides
                 sealing solution for durability and longevity.
@@ -195,21 +197,18 @@ const ContentLeft = () => {
   return (
     <div class="row featurette-1 mb-md-5">
       <div class="col px-3">
-        <h2 class="mb-4">High-Quality Gasket Sheet Materials</h2>
+        <h2 class="mb-4">Aerolite</h2>
         <p class="lead">
-          Aerolite’s Gasket Sheet Material is well-known for its high-quality,
-          ensuring a sealing solution for even the most demanding application.
-          Aerolite Non-Asbestos gaskets are offered in a wide range of materials
-          and configurations, including CNAF Series and Fire-Safe Certified
-          Graphite Series. Unsure which gasket material is right for your
-          application? Just Contact us to find the perfect gasket material for
-          your project
+          We also developed our own house brand, Aerolite in 2012. Aerolite
+          gaskets are fire-safe certified, which make them more durable and
+          cost-effective. It has been widely used and accepted in the industries
+          locally and regionally.
         </p>
       </div>
       <div class="col">
         <img
           class="featurette-image img-fluid mx-auto"
-          src="/images/IMG_3201.jpg"
+          src="/images/gasketimg.jpg"
           alt="TBJ"
         />
       </div>

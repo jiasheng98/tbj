@@ -9,9 +9,14 @@ import Button from "react-bootstrap/Button";
 
 const Gasket = [
   {
-    title: "Insulation Gasket Kit Set",
-    source: "/images/insu.png",
-    link: "product/gasket/insulation-gasket-kit-set",
+    title: "Spiral Wound Gasket",
+    source: "/images/spiral.png",
+    link: "product/gasket/spiral-wound-gasket",
+  },
+  {
+    title: "Ring Joint Gasket",
+    source: "/images/ring.png",
+    link: "product/gasket/ring-joint-gasket",
   },
   {
     title: "Kammprofile Metal Grooved Gasket",
@@ -24,14 +29,9 @@ const Gasket = [
     link: "product/gasket/metal-jacketed-gasket",
   },
   {
-    title: "Ring Joint Gasket",
-    source: "/images/ring.png",
-    link: "product/gasket/ring-joint-gasket",
-  },
-  {
-    title: "Spiral Wound Gasket",
-    source: "/images/spiral.png",
-    link: "product/gasket/spiral-wound-gasket",
+    title: "Insulation Gasket Kit Set",
+    source: "/images/insu.png",
+    link: "product/gasket/insulation-gasket-kit-set",
   }
 ]
 
@@ -102,27 +102,15 @@ const PTFE = [
 ]
 
 const Packing = [
-  {
-    title: "AEROLITE® NA3900",
-    source: "/images/IMG_1986.jpg",
-    link: "product/aerolite/na3900",
-  }
+
 ]
 
 const Oring = [
-  {
-    title: "AEROLITE® NA3900",
-    source: "/images/IMG_1986.jpg",
-    link: "product/aerolite/na3900",
-  }
+
 ]
 
 const Gauge = [
-  {
-    title: "AEROLITE® NA3900",
-    source: "/images/IMG_1986.jpg",
-    link: "product/aerolite/na3900",
-  }
+
 ]
 
 const Joint = [
@@ -150,10 +138,10 @@ const Joint = [
 
 const Insulation = [
   {
-    title: "AEROLITE® NA3900",
-    source: "/images/IMG_1986.jpg",
-    link: "product/aerolite/na3900",
-  }
+    title: "Insulation Gasket Kit Set",
+    source: "/images/insu.png",
+    link: "product/insulation/insulation-gasket-kit-set",
+  },
 ]
 
 const Graphite = [
@@ -180,11 +168,7 @@ const Graphite = [
 ]
 
 const Glass = [
-  {
-    title: "AEROLITE® NA3900",
-    source: "/images/IMG_1986.jpg",
-    link: "product/aerolite/na3900",
-  }
+
 ]
 
 const Product = (props) => {
@@ -274,23 +258,17 @@ const ProductTab = ( {Gasket, Rubber, PTFE, Packing, Oring, Gauge, Joint, Insula
       <Tab eventKey="gasket" title="Semi Metallic & Metallic Gasket" style={{ whiteSpace: 'nowrap' }}>
         <CardList item={Gasket} />
       </Tab>
-      <Tab eventKey="rubber" title="Rubber Sheet" style={{ whiteSpace: 'nowrap' }}>
-      <CardList item={Rubber} />
+      <Tab eventKey="joint" title="Jointing Material" style={{ whiteSpace: 'nowrap' }}>
+      <CardList item={Joint}/>
       </Tab>
       <Tab eventKey="ptfe" title="PTFE Products" style={{ whiteSpace: 'nowrap' }}>
       <CardList item={PTFE}/>
       </Tab>
-      <Tab eventKey="packing" title="Packing Sleeve & Gland Ring" style={{ whiteSpace: 'nowrap' }}>
-      <CardList item={Packing}/>
-      </Tab>
-      <Tab eventKey="oring" title="O-Ring & Oil Seal" style={{ whiteSpace: 'nowrap' }}>
-      <CardList item={Oring}/>
-      </Tab>
       <Tab eventKey="gauge" title="Level Gauge & Gauge Glass" style={{ whiteSpace: 'nowrap' }}>
       <CardList item={Gauge} />
       </Tab>
-      <Tab eventKey="joint" title="Jointing Material" style={{ whiteSpace: 'nowrap' }}>
-      <CardList item={Joint}/>
+      <Tab eventKey="packing" title="Packing Sleeve & Gland Ring" style={{ whiteSpace: 'nowrap' }}>
+      <CardList item={Packing}/>
       </Tab>
       <Tab eventKey="insulation" title="Insulation Gasket Kit Set" style={{ whiteSpace: 'nowrap' }}>
       <CardList item={Insulation}/>
@@ -298,8 +276,14 @@ const ProductTab = ( {Gasket, Rubber, PTFE, Packing, Oring, Gauge, Joint, Insula
       <Tab eventKey="graphite" title="Graphite Series" style={{ whiteSpace: 'nowrap' }}>
       <CardList item={Graphite} />
       </Tab>
+      <Tab eventKey="rubber" title="Rubber Sheet" style={{ whiteSpace: 'nowrap' }}>
+      <CardList item={Rubber} />
+      </Tab>
       <Tab eventKey="glass" title="Glass Fiber & Ceramic Tape" style={{ whiteSpace: 'nowrap' }}>
       <CardList item={Glass}/>
+      </Tab>
+      <Tab eventKey="oring" title="O-Ring & Oil Seal" style={{ whiteSpace: 'nowrap' }}>
+      <CardList item={Oring}/>
       </Tab>
     </Tabs>
     )
