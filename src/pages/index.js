@@ -45,7 +45,7 @@ const LandingCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/images/IMG_3201.jpg"
+          src="/images/IMG_3193.JPG"
           alt="First slide"
         />
         <Carousel.Caption>
