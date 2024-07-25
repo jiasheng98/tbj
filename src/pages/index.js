@@ -320,7 +320,7 @@ const ClientCarousel = () => {
         <div>
           <a href="/" target="_blank" style={{ cursor: "pointer" }}>
             <img
-              src={require("../../public/images/1.png")}
+              src={require("../../public/images/lotte.png")}
               className="carousel-image"
             />
           </a>
@@ -328,7 +328,7 @@ const ClientCarousel = () => {
         <div>
           <a href="/" target="_blank" style={{ cursor: "pointer" }}>
             <img
-              src={require("../../public/images/3.png")}
+              src={require("../../public/images/dialog.png")}
               className="carousel-image"
             />
           </a>
@@ -336,7 +336,7 @@ const ClientCarousel = () => {
         <div>
           <a href="/" target="_blank" style={{ cursor: "pointer" }}>
             <img
-              src={require("../../public/images/4.png")}
+              src={require("../../public/images/malakoff.png")}
               className="carousel-image"
             />
           </a>
@@ -344,7 +344,7 @@ const ClientCarousel = () => {
         <div>
           <a href="/" target="_blank" style={{ cursor: "pointer" }}>
             <img
-              src={require("../../public/images/5.png")}
+              src={require("../../public/images/petronas.png")}
               className="carousel-image"
             />
           </a>
@@ -352,7 +352,7 @@ const ClientCarousel = () => {
         <div>
           <a href="/" target="_blank" style={{ cursor: "pointer" }}>
             <img
-              src={require("../../public/images/6.png")}
+              src={require("../../public/images/mmhe.png")}
               className="carousel-image"
             />
           </a>
