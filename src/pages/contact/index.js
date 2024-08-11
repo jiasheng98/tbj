@@ -135,7 +135,7 @@ const ContentRight = () => {
 		<tr>
 			<th><RiMap2Fill/></th>
 			<td>
-            50 , Jalan Sri Plentong 8 , Taman Perindustrian Sri Plentong , 81750 Masai , Johor Bahru , Malaysia
+            50, Jalan Sri Plentong 8, Taman Perindustrian Sri Plentong, 81750 Masai, Johor Bahru, Malaysia
 			</td>
 		</tr>
 		<tr>
