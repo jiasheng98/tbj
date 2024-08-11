@@ -535,15 +535,18 @@ li {
 
 .pointer {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   margin-bottom: 10px;
+  /* text-align: left; */
 }
 
 .dot {
   height: 10px;
   width: 10px;
+  min-width: 10px;
   background-color: var(--primary);
   margin-right: 10px;
+  margin-top: 10px;
 }
 
 .timeline {
@@ -870,4 +873,22 @@ margin-bottom: 4rem;
 .image-gallery-image {
   aspect-ratio: 16 / 11;
   object-fit: cover !important;
+}
+
+.bold {
+  font-family: GothamBold;
+}
+
+.link {
+  color: var(--secondary);
+}
+
+.whatsappbtn {
+  background-color: #25d366 !important;
+  color: var(--black) !important;
+}
+
+.whatsappbtn:hover {
+  background-color: #128c7e !important;
+  color: white !important;
 }

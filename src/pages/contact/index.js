@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import "react-multi-carousel/lib/styles.css";
 import { FaFax } from "react-icons/fa";
-import { RiMap2Fill, RiHome4Fill, RiPhoneFill, RiPhoneLine, RiMailFill } from "react-icons/ri";
+import { RiMap2Fill, RiHome4Fill, RiPhoneFill, RiPhoneLine, RiMailFill, RiWhatsappFill } from "react-icons/ri";
 import GoogleMapReact from 'google-map-react';
 import Logo from "../../../public/images/tbjlogo.png";
 import ContactForm from "../../components/contact-form";
@@ -108,7 +108,7 @@ const ContentRight = () => {
           TBJ-UTEX INDUSTRIES (M) SDN. BHD. has been serving our valued clients
           with our wide range of quality gaskets supplies as well as sealing and
           fluid control products. For more than 20 years established in the
-          industry , we had been distributing gasket products from various
+          industry , we have been distributing gasket products from various
           reputed brands such as Lamons, Garlock, Klinger and Valqua throughout
           the region.
         </p>
@@ -141,19 +141,19 @@ const ContentRight = () => {
 		<tr>
 			<th><RiPhoneFill/></th>
 			<td>
-            +607-3863 777
+            <a class='link' href="https://wa.me/6073863777">+607-3863 777</a>
 			</td>
 		</tr>
 		<tr>
 			<th><RiPhoneLine/></th>
 			<td>
-            +607-3861 666
+      <a class='link' href="https://wa.me/6073863777">+607-3861 666</a>
 			</td>
 		</tr>
 		<tr>
 			<th><FaFax/></th>
 			<td>
-            +607-3868 777
+      +607-3868 777
 			</td>
 		</tr>
 		{/* <tr>
@@ -178,6 +178,11 @@ const ContentRight = () => {
 
 	</tbody>
 </table>
+<p>
+                <a class="whatsappbtn btn btn-md mt-2" href="https://wa.me/6073863777" role="button">
+                <RiWhatsappFill/> Whatsapp Us
+                </a>
+              </p>
 
         </div>
       </div>

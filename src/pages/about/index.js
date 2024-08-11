@@ -83,7 +83,7 @@ const Timeline = () => {
             />
             <h4>For more than 30 Years</h4>
             <p>
-            TBJ Group has become one of the leading manufacturers and suppliers of industrial sealings and fluid control in Malaysia. We provide certified, highest quality gaskets that complies with international regulations. Our own house brand, Aerolite has been widely accepted & used in the industries.
+            TBJ Group has become one of the leading manufacturers and suppliers of industrial sealings and fluid control in Malaysia. We provide certified, highest quality gaskets that complies with international regulations. Our own house brand, Aerolite<sup>&reg;</sup> has been widely accepted & used in the industries.
             </p>
           </div>
         </div>
@@ -130,7 +130,7 @@ const ContentRight = () => {
       <div class="col px-3">
         <h2 class="mb-4">Being a renowned sealing gaskets supplier in Malaysia</h2>
         <p class="lead">
-        TBJ Group has been serving our valued clients with our wide range of quality sealing gasket supplies as well as sealing and fluid control products. For more than 20 years established in the industry, we had been distributing gasket products from various reputed brands such as Lamons, Garlock, Klinger and Valqua throughout the region.
+        TBJ Group has been serving our valued clients with our wide range of quality sealing gasket supplies as well as sealing and fluid control products. For more than 20 years established in the industry, we have been distributing gasket products from various reputed brands such as Lamons, Garlock, Klinger and Valqua throughout the region.
         </p>
         <p class="lead mt-4">
           <a class="btn btn-md" href="/product" role="button">
@@ -158,8 +158,7 @@ const ContentLeft = () => {
           also has our own expertise in developing and manufacturing our own
           house brand of gasket products such as Spiral Wound Gasket, Ring Joint
           Gasket, Kamprofile Gasket, Metal Jacketed Gasket, Gland Packing, &
-          other sealing products. Our brands of products are named Aerolite® and
-          AeroSil. These house brand products are superior in quality and
+          other sealing products. Our brands of products are named Aerolite<sup>&reg;</sup>. These house brand products are superior in quality and
           sophisticated features which made us a renowned gasket company in
           Malaysia.
         </p>

@@ -209,7 +209,7 @@ const LandingSection = () => {
           Product
         </h1>
         <p class="lead">
-        Aerolite’s products deliver solutions that solve unique sealing challenges, improve plant productivity, reduce costs, and help our customers comply with increasingly stringent environmental regulations.
+        Aerolite<sup>&reg;</sup>’s products deliver solutions that solve unique sealing challenges, improve plant productivity, reduce costs, and help our customers comply with increasingly stringent environmental regulations.
         <br/> <br/>
         Browse below to view our time-tested products that serve a wide variety of markets, including Chemical Processing, Food and Beverage, Marine, Oil and Gas, Pharmaceutical, Power Generation, Primary Metals, and more.
         </p>
