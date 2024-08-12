@@ -6,8 +6,28 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Logo from "../../public/images/tbjlogo.png";
+import { useRouter } from "next/router";
+import React, { useState } from "react";
 
 function OffcanvasExample() {
+  const [searchQuery, setSearchQuery] = useState("");
+  const router = useRouter();
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (searchQuery) {
+      // Redirect to the search results page with the query as a parameter
+      router.push(`/search?query=${searchQuery}`);
+    }
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch(e); // Trigger search when Enter is pressed
+    }
+  };
+  
+
   return (
     <>
       <Navbar key="lg" expand="lg" className="header-container p-md-4">
@@ -60,12 +80,15 @@ function OffcanvasExample() {
               </Nav>
               <Form className="d-flex">
                 <Form.Control
-                  type="search"
-                  placeholder="Search"
-                  className="me-2"
-                  aria-label="Search"
+                type="search"
+                placeholder="Search"
+                className="me-2"
+                aria-label="Search"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                onKeyPress={handleKeyPress} // Listen for Enter key press
                 />
-                <Button variant="outline-success">Search</Button>
+                <Button onClick={handleSearch} variant="outline-success">Search</Button>
               </Form>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
