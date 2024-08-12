@@ -2,12 +2,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import "react-multi-carousel/lib/styles.css";
 import ImageGallery from "../components/imageGallery";
+import { MdChevronLeft } from "react-icons/md";
 
 const ProductDetails = ({ item, images }) => {
   return (
     <>
       <LandingSection item={item} />
       <div class="container marketing">
+      <a href="/product" class='mt-4 d-flex align-items-center'><MdChevronLeft size={30}/>Back</a>
         <DetailSection item={item} images={images} />
       </div>
     </>

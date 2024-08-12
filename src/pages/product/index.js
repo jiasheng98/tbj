@@ -102,15 +102,27 @@ const PTFE = [
 ]
 
 const Packing = [
-
+  {
+    title: "Packing Sleeve and Gland Ring",
+    source: "/images/PackingSleeve.png",
+    link: "product/packing/packing-sleeve",
+  },
 ]
 
 const Oring = [
-
+  {
+    title: "O-Ring and Oil Seal",
+    source: "/images/Oring.png",
+    link: "product/oring/o-ring",
+  },
 ]
 
 const Gauge = [
-
+  {
+    title: "Level Gauge and Gauge Glass",
+    source: "/images/LevelGauge.png",
+    link: "product/gauge/level-gauge",
+  },
 ]
 
 const Joint = [
@@ -168,7 +180,16 @@ const Graphite = [
 ]
 
 const Glass = [
-
+  {
+    title: "Ceramic Tape",
+    source: "/images/CeramicTape.png",
+    link: "product/tape/ceramic-tape",
+  },
+  {
+    title: "Glass Fiber",
+    source: "/images/GlassFiber.png",
+    link: "product/tape/glass-fiber",
+  }
 ]
 
 const Product = (props) => {
