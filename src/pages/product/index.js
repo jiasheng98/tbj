@@ -2,10 +2,11 @@ import Layout from "../../components/layout";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import "react-multi-carousel/lib/styles.css";
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
+import Tab from "react-bootstrap/Tab";
+import Tabs from "react-bootstrap/Tabs";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 
 const Gasket = [
   {
@@ -32,8 +33,8 @@ const Gasket = [
     title: "Insulation Gasket Kit Set",
     source: "/images/insu.png",
     link: "product/gasket/insulation-gasket-kit-set",
-  }
-]
+  },
+];
 
 const Rubber = [
   {
@@ -65,8 +66,8 @@ const Rubber = [
     title: "White Neoprene Rubber",
     source: "/images/WHITE NEOPRENE RUBBER.jpg",
     link: "product/rubber/white-neoprene-rubber",
-  }
-]
+  },
+];
 
 const PTFE = [
   {
@@ -81,7 +82,8 @@ const PTFE = [
   },
   {
     title: "Glass Filled PTFE",
-    source: "/images/Hot-Sale-White-and-Pure-PTFE-Sheet-Big-Discount-Free-Sample-Support-Insulation-Expanded-Sheet-1mm-PTFE.webp",
+    source:
+      "/images/Hot-Sale-White-and-Pure-PTFE-Sheet-Big-Discount-Free-Sample-Support-Insulation-Expanded-Sheet-1mm-PTFE.webp",
     link: "product/ptfe/glass-filled-ptfe",
   },
   {
@@ -98,8 +100,8 @@ const PTFE = [
     title: "Pure PTFE Sheet",
     source: "/images/PTFE_Sheet_1024x1024.webp",
     link: "product/ptfe/virgin-ptfe-teflon",
-  }
-]
+  },
+];
 
 const Packing = [
   {
@@ -107,7 +109,7 @@ const Packing = [
     source: "/images/PackingSleeve.png",
     link: "product/packing/packing-sleeve",
   },
-]
+];
 
 const Oring = [
   {
@@ -115,7 +117,7 @@ const Oring = [
     source: "/images/Oring.png",
     link: "product/oring/o-ring",
   },
-]
+];
 
 const Gauge = [
   {
@@ -123,7 +125,7 @@ const Gauge = [
     source: "/images/LevelGauge.png",
     link: "product/gauge/level-gauge",
   },
-]
+];
 
 const Joint = [
   {
@@ -145,8 +147,8 @@ const Joint = [
     title: "NA4420",
     source: "/images/na4420.png",
     link: "product/joint/na4420",
-  }
-]
+  },
+];
 
 const Insulation = [
   {
@@ -154,7 +156,7 @@ const Insulation = [
     source: "/images/insu.png",
     link: "product/insulation/insulation-gasket-kit-set",
   },
-]
+];
 
 const Graphite = [
   {
@@ -176,8 +178,8 @@ const Graphite = [
     title: "PSM",
     source: "/images/psm.png",
     link: "product/graphite/psm",
-  }
-]
+  },
+];
 
 const Glass = [
   {
@@ -189,8 +191,8 @@ const Glass = [
     title: "Glass Fiber",
     source: "/images/GlassFiber.png",
     link: "product/tape/glass-fiber",
-  }
-]
+  },
+];
 
 const Product = (props) => {
   return (
@@ -201,19 +203,26 @@ const Product = (props) => {
     >
       <LandingSection />
       <div class="container marketing">
+        <Form className="d-flex my-5 mx-3 ">
+          <Form.Control
+              type="text"
+              placeholder="Search"
+              className="me-2"
+          />
+          <Button variant="outline-success">Search</Button>
+        </Form>
         <ProductTab
-        Gasket={Gasket}
-        Rubber={Rubber}
-        PTFE={PTFE}
-        Packing={Packing}
-        Oring={Oring}
-        Gauge={Gauge}
-        Joint={Joint}
-        Insulation={Insulation}
-        Graphite={Graphite}
-        Glass={Glass}
+          Gasket={Gasket}
+          Rubber={Rubber}
+          PTFE={PTFE}
+          Packing={Packing}
+          Oring={Oring}
+          Gauge={Gauge}
+          Joint={Joint}
+          Insulation={Insulation}
+          Graphite={Graphite}
+          Glass={Glass}
         />
-
       </div>
     </Layout>
   );
@@ -222,17 +231,32 @@ const Product = (props) => {
 const LandingSection = () => {
   return (
     <div class="product-container">
-          <video className="product-video-overlay" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source  src='https://cdn.shopify.com/videos/c/o/v/26480dd5f2a54b2dab9ebad637671b76.mp4' type="video/mp4"></source>
-  </video>
+      <video
+        className="product-video-overlay"
+        playsinline="playsinline"
+        autoplay="autoplay"
+        muted="muted"
+        loop="loop"
+      >
+        <source
+          src="https://cdn.shopify.com/videos/c/o/v/26480dd5f2a54b2dab9ebad637671b76.mp4"
+          type="video/mp4"
+        ></source>
+      </video>
       <div class="jumbotron">
         <h1 class="display-4" id="header-title">
           Product
         </h1>
         <p class="lead">
-        Aerolite<sup>&reg;</sup>’s products deliver solutions that solve unique sealing challenges, improve plant productivity, reduce costs, and help our customers comply with increasingly stringent environmental regulations.
-        <br/> <br/>
-        Browse below to view our time-tested products that serve a wide variety of markets, including Chemical Processing, Food and Beverage, Marine, Oil and Gas, Pharmaceutical, Power Generation, Primary Metals, and more.
+          Aerolite<sup>&reg;</sup>’s products deliver solutions that solve
+          unique sealing challenges, improve plant productivity, reduce costs,
+          and help our customers comply with increasingly stringent
+          environmental regulations.
+          <br /> <br />
+          Browse below to view our time-tested products that serve a wide
+          variety of markets, including Chemical Processing, Food and Beverage,
+          Marine, Oil and Gas, Pharmaceutical, Power Generation, Primary Metals,
+          and more.
         </p>
       </div>
     </div>
@@ -244,7 +268,9 @@ const InformationCard = ({ title, content, source, link, item }) => {
     <Card style={{ width: "100%" }}>
       <Card.Img variant="top" src={item.source} />
       <Card.Body>
-        <Card.Title class="mb-3" style={{whiteSpace: 'normal'}}>{item.title}</Card.Title>
+        <Card.Title class="mb-3" style={{ whiteSpace: "normal" }}>
+          {item.title}
+        </Card.Title>
         <Card.Text>{item.content}</Card.Text>
         <Button variant="primary" href={item.link}>
           Read More
@@ -254,60 +280,109 @@ const InformationCard = ({ title, content, source, link, item }) => {
   );
 };
 
-const CardList = ({item}) => {
-    return (
-      <div class="m-4 card-list-container">
-            {item.map((item, index) => {
-              return (
-              <InformationCard
-            item={item}
-            />
-              );
-            })}
-      </div>
-    );
-  };
+const CardList = ({ item }) => {
+  return (
+    <div class="m-4 card-list-container">
+      {item.map((item, index) => {
+        return <InformationCard item={item} />;
+      })}
+    </div>
+  );
+};
 
-const ProductTab = ( {Gasket, Rubber, PTFE, Packing, Oring, Gauge, Joint, Insulation, Graphite, Glass}) => {
-    return (
-        <Tabs
-      defaultActiveKey="gasket"
-      id="justify-tab-example"
-      className="my-5 mx-3 product-tab"
-      justify
-    >
-      <Tab eventKey="gasket" title="Semi Metallic & Metallic Gasket" style={{ whiteSpace: 'nowrap' }}>
-        <CardList item={Gasket} />
-      </Tab>
-      <Tab eventKey="joint" title="Jointing Material" style={{ whiteSpace: 'nowrap' }}>
-      <CardList item={Joint}/>
-      </Tab>
-      <Tab eventKey="ptfe" title="PTFE Products" style={{ whiteSpace: 'nowrap' }}>
-      <CardList item={PTFE}/>
-      </Tab>
-      <Tab eventKey="gauge" title="Level Gauge & Gauge Glass" style={{ whiteSpace: 'nowrap' }}>
-      <CardList item={Gauge} />
-      </Tab>
-      <Tab eventKey="packing" title="Packing Sleeve & Gland Ring" style={{ whiteSpace: 'nowrap' }}>
-      <CardList item={Packing}/>
-      </Tab>
-      <Tab eventKey="insulation" title="Insulation Gasket Kit Set" style={{ whiteSpace: 'nowrap' }}>
-      <CardList item={Insulation}/>
-      </Tab>
-      <Tab eventKey="graphite" title="Graphite Series" style={{ whiteSpace: 'nowrap' }}>
-      <CardList item={Graphite} />
-      </Tab>
-      <Tab eventKey="rubber" title="Rubber Sheet" style={{ whiteSpace: 'nowrap' }}>
-      <CardList item={Rubber} />
-      </Tab>
-      <Tab eventKey="glass" title="Glass Fiber & Ceramic Tape" style={{ whiteSpace: 'nowrap' }}>
-      <CardList item={Glass}/>
-      </Tab>
-      <Tab eventKey="oring" title="O-Ring & Oil Seal" style={{ whiteSpace: 'nowrap' }}>
-      <CardList item={Oring}/>
-      </Tab>
-    </Tabs>
-    )
-}
+const ProductTab = ({
+  Gasket,
+  Rubber,
+  PTFE,
+  Packing,
+  Oring,
+  Gauge,
+  Joint,
+  Insulation,
+  Graphite,
+  Glass,
+}) => {
+  return (
+    <>
+      <Tabs
+        defaultActiveKey="gasket"
+        id="justify-tab-example"
+        className="my-5 mx-3 product-tab"
+        justify
+      >
+        <Tab
+          eventKey="gasket"
+          title="Semi Metallic & Metallic Gasket"
+          style={{ whiteSpace: "nowrap" }}
+        >
+          <CardList item={Gasket} />
+        </Tab>
+        <Tab
+          eventKey="joint"
+          title="Jointing Material"
+          style={{ whiteSpace: "nowrap" }}
+        >
+          <CardList item={Joint} />
+        </Tab>
+        <Tab
+          eventKey="ptfe"
+          title="PTFE Products"
+          style={{ whiteSpace: "nowrap" }}
+        >
+          <CardList item={PTFE} />
+        </Tab>
+        <Tab
+          eventKey="gauge"
+          title="Level Gauge & Gauge Glass"
+          style={{ whiteSpace: "nowrap" }}
+        >
+          <CardList item={Gauge} />
+        </Tab>
+        <Tab
+          eventKey="packing"
+          title="Packing Sleeve & Gland Ring"
+          style={{ whiteSpace: "nowrap" }}
+        >
+          <CardList item={Packing} />
+        </Tab>
+        <Tab
+          eventKey="insulation"
+          title="Insulation Gasket Kit Set"
+          style={{ whiteSpace: "nowrap" }}
+        >
+          <CardList item={Insulation} />
+        </Tab>
+        <Tab
+          eventKey="graphite"
+          title="Graphite Series"
+          style={{ whiteSpace: "nowrap" }}
+        >
+          <CardList item={Graphite} />
+        </Tab>
+        <Tab
+          eventKey="rubber"
+          title="Rubber Sheet"
+          style={{ whiteSpace: "nowrap" }}
+        >
+          <CardList item={Rubber} />
+        </Tab>
+        <Tab
+          eventKey="glass"
+          title="Glass Fiber & Ceramic Tape"
+          style={{ whiteSpace: "nowrap" }}
+        >
+          <CardList item={Glass} />
+        </Tab>
+        <Tab
+          eventKey="oring"
+          title="O-Ring & Oil Seal"
+          style={{ whiteSpace: "nowrap" }}
+        >
+          <CardList item={Oring} />
+        </Tab>
+      </Tabs>
+    </>
+  );
+};
 
 export default Product;

@@ -806,6 +806,7 @@ margin-bottom: 4rem;
   text-align: left;
   border: 1px solid #4cd5ff50 !important;
   border-radius: 0 !important;
+  min-height: 80px;
 }
 
 .product-tab>li>button.active {
@@ -891,4 +892,15 @@ margin-bottom: 4rem;
 .whatsappbtn:hover {
   background-color: #128c7e !important;
   color: white !important;
+}
+
+.btn-outline-success {
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.btn-outline-success:hover {
+  color: #fff !important;
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
 }
