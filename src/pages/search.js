@@ -28,9 +28,10 @@ const SearchResults = () => {
     if (query) {
       // Perform the search across all pages (this example is very basic and might require improvement)
       const allPages = [
-        { path: "/about", title: "About Us", content: "Information about us..." },
-        { path: "/product", title: "Product", content: "Details of our products..." },
-        { path: "/contact", title: "Contact Us", content: "How to contact us..." },
+        { path: "/about", title: "About Us", content: "TBJ Group was established in 1994, starting off as a trading house that stocked and distributed industrial sealing products and packing materials that served various market like:..." },
+        { path: "/product", title: "Product", content: "Aerolite®’s products deliver solutions that solve unique sealing challenges, improve plant productivity, reduce costs, and help our customers comply with increasingly stringent environmental regulations..." },
+        { path: "/contact", title: "Contact Us", content: "Let's Get Connected!" },
+        { path: "/", title: "Home", content: "Over the years of our company’s establishment, TBJ Group has served numerous clients in supplying them our gasket products..." },
         // Add more pages here with their content
       ];
 
@@ -54,10 +55,9 @@ const SearchResults = () => {
       {/* <h1>Search Results</h1> */}
       {results.length > 0 ? (
         results.map((result) => (
-          <div key={result.path} class='mb-4'>
+          <div key={result.path} class='mb-4 py-4' style={{borderBottom: '1px solid #b2b2b2'}}>
             <h2><a href={result.path}>{result.title}</a></h2>
             <p>{result.content}</p>
-            <hr class="featurette-divider my-8" />
           </div>
         ))
       ) : (
