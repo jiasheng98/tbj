@@ -254,8 +254,8 @@ const Product = (props) => {
           <Button onClick={handleSearchClick} variant="outline-success">Search</Button>
         </Form>
         {searchActivated ? (
-          <div className="search-results">
-            <h3>Search Results</h3>
+          <div>
+            <h3 class="my-5 mx-3">Search Results</h3>
             <CardList item={filteredProducts} />
           </div>
         ) : (
