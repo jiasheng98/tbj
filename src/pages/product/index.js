@@ -195,6 +195,45 @@ const Glass = [
 ];
 
 const Product = (props) => {
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchActivated, setSearchActivated] = useState(false);
+
+  const handleSearchClick = () => {
+    setSearchActivated(true);
+  };
+
+  const handleSearchInputChange = (e) => {
+    setSearchQuery(e.target.value.toLowerCase());
+    if (e.target.value === "") {
+      setSearchActivated(false); // Reset the search when the input is cleared
+    }
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault(); // Prevent the form from submitting or reloading the page
+      handleSearchClick();
+    }
+  };
+
+  const allProducts = [
+    ...Gasket,
+    ...Rubber,
+    ...PTFE,        // Assume PTFE contains similar objects
+    ...Packing,     // Assume Packing contains similar objects
+    ...Oring,       // Assume Oring contains similar objects
+    ...Gauge,       // Assume Gauge contains similar objects
+    ...Joint,       // Assume Joint contains similar objects
+    ...Insulation,  // Assume Insulation contains similar objects
+    ...Graphite,    // Assume Graphite contains similar objects
+    ...Glass        // Assume Glass contains similar objects
+  ];
+
+    // Filter products based on search query
+    const filteredProducts = allProducts.filter(({ title }) =>
+      title.toLowerCase().includes(searchQuery)
+    );
+
   return (
     <Layout
       title="Product"
@@ -205,24 +244,34 @@ const Product = (props) => {
       <div class="container marketing">
         <Form className="d-flex my-5 mx-3 ">
           <Form.Control
-              type="text"
-              placeholder="Search"
-              className="me-2"
+            type="text"
+            placeholder="Search"
+            className="me-2"
+            value={searchQuery}
+            onChange={handleSearchInputChange}
+            onKeyPress={handleKeyPress} // Handle the Enter key press
           />
-          <Button variant="outline-success">Search</Button>
+          <Button onClick={handleSearchClick} variant="outline-success">Search</Button>
         </Form>
-        <ProductTab
-          Gasket={Gasket}
-          Rubber={Rubber}
-          PTFE={PTFE}
-          Packing={Packing}
-          Oring={Oring}
-          Gauge={Gauge}
-          Joint={Joint}
-          Insulation={Insulation}
-          Graphite={Graphite}
-          Glass={Glass}
-        />
+        {searchActivated ? (
+          <div className="search-results">
+            <h3>Search Results</h3>
+            <CardList item={filteredProducts} />
+          </div>
+        ) : (
+          <ProductTab
+            Gasket={Gasket}
+            Rubber={Rubber}
+            PTFE={PTFE}
+            Packing={Packing}
+            Oring={Oring}
+            Gauge={Gauge}
+            Joint={Joint}
+            Insulation={Insulation}
+            Graphite={Graphite}
+            Glass={Glass}
+          />
+        )}
       </div>
     </Layout>
   );
@@ -280,12 +329,15 @@ const InformationCard = ({ title, content, source, link, item }) => {
   );
 };
 
-const CardList = ({ item }) => {
+const CardList = ({ item, searchQuery, searchActivated }) => {
+  const filteredItems = item.filter(({ title }) =>
+    searchActivated ? title.toLowerCase().includes(searchQuery) : true
+  );
   return (
     <div class="m-4 card-list-container">
-      {item.map((item, index) => {
-        return <InformationCard item={item} />;
-      })}
+    {filteredItems.map((item, index) => (
+        <InformationCard key={index} item={item} />
+      ))}
     </div>
   );
 };
@@ -301,6 +353,8 @@ const ProductTab = ({
   Insulation,
   Graphite,
   Glass,
+  searchQuery,
+  searchActivated
 }) => {
   return (
     <>
@@ -315,70 +369,70 @@ const ProductTab = ({
           title="Semi Metallic & Metallic Gasket"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Gasket} />
+          <CardList item={Gasket} searchQuery={searchQuery} searchActivated={searchActivated}/>
         </Tab>
         <Tab
           eventKey="joint"
           title="Jointing Material"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Joint} />
+          <CardList item={Joint} searchQuery={searchQuery} searchActivated={searchActivated}/>
         </Tab>
         <Tab
           eventKey="ptfe"
           title="PTFE Products"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={PTFE} />
+          <CardList item={PTFE} searchQuery={searchQuery} searchActivated={searchActivated}/>
         </Tab>
         <Tab
           eventKey="gauge"
           title="Level Gauge & Gauge Glass"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Gauge} />
+          <CardList item={Gauge} searchQuery={searchQuery} searchActivated={searchActivated}/>
         </Tab>
         <Tab
           eventKey="packing"
           title="Packing Sleeve & Gland Ring"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Packing} />
+          <CardList item={Packing} searchQuery={searchQuery} searchActivated={searchActivated}/>
         </Tab>
         <Tab
           eventKey="insulation"
           title="Insulation Gasket Kit Set"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Insulation} />
+          <CardList item={Insulation} searchQuery={searchQuery} searchActivated={searchActivated}/>
         </Tab>
         <Tab
           eventKey="graphite"
           title="Graphite Series"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Graphite} />
+          <CardList item={Graphite} searchQuery={searchQuery} searchActivated={searchActivated}/>
         </Tab>
         <Tab
           eventKey="rubber"
           title="Rubber Sheet"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Rubber} />
+          <CardList item={Rubber} searchQuery={searchQuery} searchActivated={searchActivated}/>
         </Tab>
         <Tab
           eventKey="glass"
           title="Glass Fiber & Ceramic Tape"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Glass} />
+          <CardList item={Glass} searchQuery={searchQuery} searchActivated={searchActivated}/>
         </Tab>
         <Tab
           eventKey="oring"
           title="O-Ring & Oil Seal"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Oring} />
+          <CardList item={Oring} searchQuery={searchQuery} searchActivated={searchActivated}/>
         </Tab>
       </Tabs>
     </>
