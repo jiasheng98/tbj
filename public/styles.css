@@ -904,3 +904,13 @@ margin-bottom: 4rem;
   background-color: var(--primary) !important;
   border-color: var(--primary) !important;
 }
+
+.image-carousel-item::after {
+  background: none !important;
+}
+
+#leftcontent>.carousel-control-prev>.carousel-control-prev-icon,
+#leftcontent>.carousel-control-next>.carousel-control-next-icon {
+  filter: brightness(0);
+}
+

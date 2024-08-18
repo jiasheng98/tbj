@@ -141,13 +141,13 @@ const ContentRight = () => {
 		<tr>
 			<th><RiPhoneFill/></th>
 			<td>
-            <a class='link' href="https://wa.me/6073863777">+607-3863 777</a>
+            +607-3863 777
 			</td>
 		</tr>
 		<tr>
 			<th><RiPhoneLine/></th>
 			<td>
-      <a class='link' href="https://wa.me/6073863777">+607-3861 666</a>
+      +607-3861 666
 			</td>
 		</tr>
 		<tr>
@@ -179,7 +179,7 @@ const ContentRight = () => {
 	</tbody>
 </table>
 <p>
-                <a class="whatsappbtn btn btn-md mt-2" href="https://wa.me/6073863777" role="button">
+                <a class="whatsappbtn btn btn-md mt-2" href="https://wa.me/60167727166" role="button">
                 <RiWhatsappFill/> Whatsapp Us
                 </a>
               </p>

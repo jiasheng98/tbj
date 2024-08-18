@@ -215,6 +215,11 @@ const ContentRight = () => {
 };
 
 const ContentLeft = () => {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
   return (
     <div class="row featurette-1 mb-md-5">
       <div class="col px-3">
@@ -227,11 +232,45 @@ const ContentLeft = () => {
         </p>
       </div>
       <div class="col">
+      <Carousel id="leftcontent" activeIndex={index} onSelect={handleSelect} style={{height: 'unset !important;', minHeight: 'unset !important;', marginBottom:'0 !important;'}}>
+      <Carousel.Item className="image-carousel-item">
         <img
+          className="d-block w-100"
+          style={{position: 'relative !important;'}}
+          src="/images/na3100.png"
+           alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item className="image-carousel-item">
+        <img
+          className="d-block w-100"
+          style={{position: 'relative !important;'}}
+          src="/images/na3900.png"
+           alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item className="image-carousel-item">
+        <img
+          className="d-block w-100"
+          style={{position: 'relative !important;'}}
+          src="/images/na3909.png"
+           alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item className="image-carousel-item">
+        <img
+          className="d-block w-100"
+          style={{position: 'relative !important;'}}
+          src="/images/na4420.png"
+           alt="First slide"
+        />
+      </Carousel.Item>
+    </Carousel>
+        {/* <img
           class="featurette-image img-fluid mx-auto"
           src="/images/gasketimg.jpg"
           alt="TBJ"
-        />
+        /> */}
       </div>
     </div>
   );
