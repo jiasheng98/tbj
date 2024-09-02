@@ -68,7 +68,7 @@ const LandingCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/images/IMG_1659.jpg"
+          src="/images/carouselbgaerolite.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -237,7 +237,7 @@ const ContentLeft = () => {
         <img
           className="d-block w-100"
           style={{position: 'relative !important;'}}
-          src="/images/na3100.png"
+          src="/images/aerolitecarousel.jpg"
            alt="First slide"
         />
       </Carousel.Item>
@@ -245,11 +245,11 @@ const ContentLeft = () => {
         <img
           className="d-block w-100"
           style={{position: 'relative !important;'}}
-          src="/images/na3900.png"
+          src="/images/gasketimg.jpg"
            alt="First slide"
         />
       </Carousel.Item>
-      <Carousel.Item className="image-carousel-item">
+      {/* <Carousel.Item className="image-carousel-item">
         <img
           className="d-block w-100"
           style={{position: 'relative !important;'}}
@@ -264,7 +264,7 @@ const ContentLeft = () => {
           src="/images/na4420.png"
            alt="First slide"
         />
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
         {/* <img
           class="featurette-image img-fluid mx-auto"
