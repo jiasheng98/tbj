@@ -115,7 +115,7 @@ const ImagewithText = () => {
         <div class="col-lg-6" style={{textAlign: 'center' }}>
           <img
             class="service-img mb-4 rounded-circle"
-            src="/images/IMG_1682.jpg"
+            src="/images/aerolitecarousel.jpg"
             alt="Generic placeholder image"
             width="140"
             height="140"
