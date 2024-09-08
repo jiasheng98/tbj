@@ -12,7 +12,7 @@ const GlassFilledPTFE = () => {
 const Details = {
     bgimage: Bg,
     name: 'Glass Filled PTFE',
-    description: <span>Aerolite Glass Filled PTFE Sheet provided enhanced resistance to creep and wear in comparison to Virgin PTFE.<br/><br/>25% Glass filled PTFE has improved dimensional stability with a lower coefficient of linear thermal expansion and higher deformation under load.<br/><br/>Glass filled PTFE also provides outstanding resistance to chemicals, with the exception of hydrofluoric acid and some alkali metals, and is an excellent electrical insulator.<br/><br/>Available in Sheets, Pre Cut Gaskets in all types of standard and non-standard size upon request.<br/><br/>Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
+    description: <span>Aerolite® Glass Filled PTFE Sheet provided enhanced resistance to creep and wear in comparison to Virgin PTFE.<br/><br/>25% Glass filled PTFE has improved dimensional stability with a lower coefficient of linear thermal expansion and higher deformation under load.<br/><br/>Glass filled PTFE also provides outstanding resistance to chemicals, with the exception of hydrofluoric acid and some alkali metals, and is an excellent electrical insulator.<br/><br/>Available in Sheets, Pre Cut Gaskets in all types of standard and non-standard size upon request.<br/><br/>Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
     pdf: '/pdf/Technical Data-AEROlite PTFE Glass Filled_TBJ-Utex.pdf'
 }
 

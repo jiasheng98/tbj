@@ -12,7 +12,7 @@ const LevelGauge = () => {
 const Details = {
     bgimage: Bg,
     name: 'Level Gauge and Gauge Glass',
-    description: <span>Key points:<br/><br/><ul><li style={{listStyleType: 'initial'}}>Aerolite gauge glasses are suitable for installation in liquid level gauges of almost any make.</li><li style={{listStyleType: 'initial'}}>Aerolite gauge glasses have high mechanical strength and are exceptionally resistant to alkalis, acids and boiler water (within the service limitation).</li><li style={{listStyleType: 'initial'}}>Aerolite reflex and transparent glasses are manufactured according to the most varied international standards</li></ul><br/><br/><br/>Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
+    description: <span>Key points:<br/><br/><ul><li style={{listStyleType: 'initial'}}>Aerolite® gauge glasses are suitable for installation in liquid level gauges of almost any make.</li><li style={{listStyleType: 'initial'}}>Aerolite® gauge glasses have high mechanical strength and are exceptionally resistant to alkalis, acids and boiler water (within the service limitation).</li><li style={{listStyleType: 'initial'}}>Aerolite® reflex and transparent glasses are manufactured according to the most varied international standards</li></ul><br/><br/><br/>Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
     pdf: '/pdf/Technical Data-AEROlite Borosilicate Gauge Glasses_TBJ-Utex.pdf'
 }
 

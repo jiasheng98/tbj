@@ -12,7 +12,7 @@ const ExpandedPTFEJointSealant = () => {
 const Details = {
     bgimage: Bg,
     name: 'Expanded PTFE Joint Sealant',
-    description: <span>Aerolite PTFE Joint Sealant is a universal joint sealant manufactured from 100% expanded PTFE and combined with a self-adhesive backing for easy application.</span>,
+    description: <span>Aerolite® PTFE Joint Sealant is a universal joint sealant manufactured from 100% expanded PTFE and combined with a self-adhesive backing for easy application.</span>,
     pdf: '/pdf/Technical Data-AEROlite PTFE Joint Sealant_TBJ-Utex.pdf'
 }
 

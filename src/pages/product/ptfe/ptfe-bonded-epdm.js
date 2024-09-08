@@ -12,7 +12,7 @@ const PTFEBondedEPDMGasket = () => {
 const Details = {
     bgimage: Bg,
     name: 'PTFE Bonded EPDM Gasket',
-    description: <span>Aerolite PTFE Bonded EPDM Gaskets are manufactured with the highest standard quality of EPDM rubber & PTFE for chemical and corrosion resistance.This gasket has concentric convex sealing rings to aid optimum sealing at lower bolt loads. The self centering gasket offers superior sealing for hazard media at low bolt torque.<br/><br/>The totally bonded elastomer and Teflon construction is ideally suited for fiberglass, glass lined and steel flanges. These gaskets will virtually eliminate cracked flanges, reducing installation cost, while maintaining a high performance seal.<br/><br/>Available in standard full face flange standard ANSI150 & JIS10K.<br/><br/>Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
+    description: <span>Aerolite® PTFE Bonded EPDM Gaskets are manufactured with the highest standard quality of EPDM rubber & PTFE for chemical and corrosion resistance.This gasket has concentric convex sealing rings to aid optimum sealing at lower bolt loads. The self centering gasket offers superior sealing for hazard media at low bolt torque.<br/><br/>The totally bonded elastomer and Teflon construction is ideally suited for fiberglass, glass lined and steel flanges. These gaskets will virtually eliminate cracked flanges, reducing installation cost, while maintaining a high performance seal.<br/><br/>Available in standard full face flange standard ANSI150 & JIS10K.<br/><br/>Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
     pdf: '/pdf/Technical Data-AEROlite PTFE Bonded EPDM Gasket_TBJ-Utex.pdf'
 }
 
