@@ -82,6 +82,9 @@ const LandingCarousel = () => {
           <div class="dot"></div><p class='mb-0'>Durable and High Quality, Comparable to Major Brands</p>
         </div>
         <div class="pointer justify-content-center">
+          <div class="dot"></div><p class='mb-0'>Fire-Safe Certified</p>
+        </div>
+        <div class="pointer justify-content-center">
           <div class="dot"></div><p class='mb-0'>Price competitive</p>
         </div>
         <div class="pointer justify-content-center">
@@ -223,10 +226,9 @@ const ContentLeft = () => {
   return (
     <div class="row featurette-1 mb-md-5">
       <div class="col px-3">
-        <h2 class="mb-4">Aerolite</h2>
+        <h2 class="mb-4">Aerolite<sup>&reg;</sup></h2>
         <p class="lead">
-          We also developed our own house brand, Aerolite in 2012. Aerolite
-          gaskets are fire-safe certified, which make them more durable and
+          We also developed our own house brand, Aerolite<sup>&reg;</sup> in 2012. Aerolite<sup>&reg;</sup> gaskets are fire-safe certified, which make them more durable and
           cost-effective. It has been widely used and accepted in the industries
           locally and regionally.
         </p>
