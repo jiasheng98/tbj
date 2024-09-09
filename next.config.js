@@ -4,5 +4,6 @@ const withFonts = require('next-fonts');
 module.exports = withImages(
   withFonts({
     poweredByHeader: false,
+    output: 'export',
   }),
 );
