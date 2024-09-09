@@ -12,27 +12,27 @@ const Gasket = [
   {
     title: "Spiral Wound Gasket",
     source: "/images/spiral.png",
-    link: "product/gasket/spiral-wound-gasket",
+    link: "gasket/spiral-wound-gasket",
   },
   {
     title: "Ring Joint Gasket",
     source: "/images/ring.png",
-    link: "product/gasket/ring-joint-gasket",
+    link: "gasket/ring-joint-gasket",
   },
   {
     title: "Kammprofile Metal Grooved Gasket",
     source: "/images/kamm1.png",
-    link: "product/gasket/kammprofile-metal-grooved-gasket",
+    link: "gasket/kammprofile-metal-grooved-gasket",
   },
   {
     title: "Metal Jacketed Gasket",
     source: "/images/metal.png",
-    link: "product/gasket/metal-jacketed-gasket",
+    link: "gasket/metal-jacketed-gasket",
   },
   {
     title: "Insulation Gasket Kit Set",
     source: "/images/insu.png",
-    link: "product/gasket/insulation-gasket-kit-set",
+    link: "gasket/insulation-gasket-kit-set",
   },
 ];
 
@@ -40,32 +40,32 @@ const Rubber = [
   {
     title: "Black Neoprene Rubber",
     source: "/images/Black Neoprene Rubber.png",
-    link: "product/rubber/black-neoprene-rubber",
+    link: "rubber/black-neoprene-rubber",
   },
   {
     title: "Insertion Neoprene Rubber",
     source: "/images/Rubber with 1Ply Insertion.jpg",
-    link: "product/rubber/insertion-neoprene-rubber",
+    link: "rubber/insertion-neoprene-rubber",
   },
   {
     title: "EPDM Rubber",
     source: "/images/EPDM Rubber Sheet.webp",
-    link: "product/rubber/epdm-rubber",
+    link: "rubber/epdm-rubber",
   },
   {
     title: "Silicone Rubber",
     source: "/images/Silicone Rubber Sheet.jpg",
-    link: "product/rubber/silicone-rubber",
+    link: "rubber/silicone-rubber",
   },
   {
     title: "Viton Rubber",
     source: "/images/VITON RUBBER SHEET.jpg",
-    link: "product/rubber/viton-rubber",
+    link: "rubber/viton-rubber",
   },
   {
     title: "White Neoprene Rubber",
     source: "/images/WHITE NEOPRENE RUBBER.jpg",
-    link: "product/rubber/white-neoprene-rubber",
+    link: "rubber/white-neoprene-rubber",
   },
 ];
 
@@ -73,33 +73,33 @@ const PTFE = [
   {
     title: "Expanded PTFE",
     source: "/images/ptfeexpanded.png",
-    link: "product/ptfe/expanded-ptfe",
+    link: "ptfe/expanded-ptfe",
   },
   {
     title: "Expanded PTFE Joint Sealant",
     source: "/images/IMG_1936.jpg",
-    link: "product/ptfe/ptfe-joint-sealant",
+    link: "ptfe/ptfe-joint-sealant",
   },
   {
     title: "Glass Filled PTFE",
     source:
       "/images/Hot-Sale-White-and-Pure-PTFE-Sheet-Big-Discount-Free-Sample-Support-Insulation-Expanded-Sheet-1mm-PTFE.webp",
-    link: "product/ptfe/glass-filled-ptfe",
+    link: "ptfe/glass-filled-ptfe",
   },
   {
     title: "PTFE Bonded EPDM Gasket",
     source: "/images/IMG_1898.jpg",
-    link: "product/ptfe/ptfe-bonded-epdm",
+    link: "ptfe/ptfe-bonded-epdm",
   },
   {
     title: "PTFE Enveloped Gasket",
     source: "/images/_DSC0160.png",
-    link: "product/ptfe/ptfe-envelope-gasket",
+    link: "ptfe/ptfe-envelope-gasket",
   },
   {
     title: "Pure PTFE Sheet",
     source: "/images/PTFE_Sheet_1024x1024.webp",
-    link: "product/ptfe/virgin-ptfe-teflon",
+    link: "ptfe/virgin-ptfe-teflon",
   },
 ];
 
@@ -107,7 +107,7 @@ const Packing = [
   {
     title: "Packing Sleeve and Gland Ring",
     source: "/images/PackingSleeve.png",
-    link: "product/packing/packing-sleeve",
+    link: "packing/packing-sleeve",
   },
 ];
 
@@ -115,7 +115,7 @@ const Oring = [
   {
     title: "O-Ring and Oil Seal",
     source: "/images/Oring.png",
-    link: "product/oring/o-ring",
+    link: "oring/o-ring",
   },
 ];
 
@@ -123,7 +123,7 @@ const Gauge = [
   {
     title: "Level Gauge and Gauge Glass",
     source: "/images/LevelGauge.png",
-    link: "product/gauge/level-gauge",
+    link: "gauge/level-gauge",
   },
 ];
 
@@ -131,22 +131,22 @@ const Joint = [
   {
     title: "NA3100",
     source: "/images/na3100.png",
-    link: "product/joint/na3100",
+    link: "joint/na3100",
   },
   {
     title: "NA3900",
     source: "/images/na3900.png",
-    link: "product/joint/na3900",
+    link: "joint/na3900",
   },
   {
     title: "NA3909",
     source: "/images/na3909.png",
-    link: "product/joint/na3909",
+    link: "joint/na3909",
   },
   {
     title: "NA4420",
     source: "/images/na4420.png",
-    link: "product/joint/na4420",
+    link: "joint/na4420",
   },
 ];
 
@@ -154,7 +154,7 @@ const Insulation = [
   {
     title: "Insulation Gasket Kit Set",
     source: "/images/insu.png",
-    link: "product/insulation/insulation-gasket-kit-set",
+    link: "insulation/insulation-gasket-kit-set",
   },
 ];
 
@@ -162,22 +162,22 @@ const Graphite = [
   {
     title: "GS1004",
     source: "/images/gs1004.png",
-    link: "product/graphite/gs1004",
+    link: "graphite/gs1004",
   },
   {
     title: "GS3004",
     source: "/images/gs3004.png",
-    link: "product/graphite/gs3004",
+    link: "graphite/gs3004",
   },
   {
     title: "GS7004",
     source: "/images/gs7004.png",
-    link: "product/graphite/gs7004",
+    link: "graphite/gs7004",
   },
   {
     title: "PSM",
     source: "/images/psm.png",
-    link: "product/graphite/psm",
+    link: "graphite/psm",
   },
 ];
 
@@ -185,12 +185,12 @@ const Glass = [
   {
     title: "Ceramic Tape",
     source: "/images/CeramicTape.png",
-    link: "product/tape/ceramic-tape",
+    link: "tape/ceramic-tape",
   },
   {
     title: "Glass Fiber",
     source: "/images/GlassFiber.png",
-    link: "product/tape/glass-fiber",
+    link: "tape/glass-fiber",
   },
 ];
 
