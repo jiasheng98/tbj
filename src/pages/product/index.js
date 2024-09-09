@@ -185,7 +185,7 @@ const Glass = [
   {
     title: "Ceramic Tape",
     source: "/images/CeramicTape.png",
-    link: "product/tape/ceramic-tape", 
+    link: "product/tape/ceramic-tape",
   },
   {
     title: "Glass Fiber",
