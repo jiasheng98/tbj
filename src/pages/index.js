@@ -239,7 +239,7 @@ const ContentLeft = () => {
         <img
           className="d-block w-100"
           style={{position: 'relative !important;'}}
-          src="/images/aerolitecarousel.jpg"
+          src="/images/gasketimg.jpg"
            alt="First slide"
         />
       </Carousel.Item>
@@ -247,7 +247,7 @@ const ContentLeft = () => {
         <img
           className="d-block w-100"
           style={{position: 'relative !important;'}}
-          src="/images/gasketimg.jpg"
+          src="/images/na3100.png"
            alt="First slide"
         />
       </Carousel.Item>
