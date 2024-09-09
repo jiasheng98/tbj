@@ -39,7 +39,7 @@ const DetailSection = ({ item, images }) => {
         <h2 class="mb-4">{item.name}</h2>
         <p class="lead">{item.description}</p>
         <img
-          src="http://tbj.com.my/wp-content/uploads/2017/06/ISO-1024x267.png"
+          src="/images/ISO-1024x267.png"
           className="w-100"
         />
       </div>
