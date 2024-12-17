@@ -11,8 +11,8 @@ const Home = (props) => {
   return (
     <Layout
       title="TBJ-UTEX INDUSTRIES, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
-      keywords="TBJ-UTEX INDUSTRIES (M) SDN BHD was established in 1994 , starting off as a trading house that stocked and distributed sealing products and packing materials that served various market"
-      description="TBJ-UTEX INDUSTRIES (M) SDN BHD was established in 1994 , starting off as a trading house that stocked and distributed sealing products and packing materials that served various market"
+      keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. TBJ-UTEX INDUSTRIES (M) SDN BHD was established in 1994 , starting off as a trading house that stocked and distributed sealing products and packing materials that served various market"
+      description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. TBJ-UTEX INDUSTRIES (M) SDN BHD was established in 1994 , starting off as a trading house that stocked and distributed sealing products and packing materials that served various market"
     >
       <LandingCarousel />
       <div class="container marketing">

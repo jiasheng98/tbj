@@ -12,8 +12,8 @@ const Contact = (props) => {
   return (
     <Layout 
     title="Contact Us, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
-    keywords="Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
-    description="Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
+    keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
+    description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     >
       <LandingSection />
       <AddressMap />
