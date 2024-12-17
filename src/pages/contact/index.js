@@ -11,7 +11,7 @@ import ContactForm from "../../components/contact-form";
 const Contact = (props) => {
   return (
     <Layout 
-    title="Contact Us"
+    title="Contact Us, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
     keywords="Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     description="Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     >

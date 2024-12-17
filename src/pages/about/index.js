@@ -8,7 +8,7 @@ import { RiTimer2Fill, RiTeamFill } from "react-icons/ri";
 const About = (props) => {
   return (
     <Layout
-      title="About Us"
+      title="About Us, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
       keywords="Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
       description="Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     >

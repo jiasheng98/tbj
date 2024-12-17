@@ -33,7 +33,7 @@ const images = [
 
   return (
     <Layout 
-    title="Kammprofile Metal Grooved Gasket"
+    title="Kammprofile Metal Grooved Gasket, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
     keywords="Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     description="Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     >
