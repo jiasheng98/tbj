@@ -5,9 +5,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "export NODE_OPTIONS=--openssl-legacy-provider; next dev",
-    "build": "next build",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; next build",
     "next": "next",
-    "export": "next export",
+    "export": "export NODE_OPTIONS=--openssl-legacy-provider; next export",
     "start": "next start"
   },
   "dependencies": {
