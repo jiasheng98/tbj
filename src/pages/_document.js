@@ -41,12 +41,12 @@ export default class MyDocument extends Document {
           <meta
             key="og:title"
             property="og:title"
-            content="TBJ-UTEX INDUSTRIES"
+            content="TBJ-UTEX INDUSTRIES, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
           />
           <meta
             key="og:description"
             property="og:description"
-            content="We Supply Spiral Wound Gasket, Ring Joint Gasket, Kamprofile Gasket, Metal Jacketed Gasket, Gland Packing, & other sealing products."
+            content="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
           />
           <meta
             key="og:image"
