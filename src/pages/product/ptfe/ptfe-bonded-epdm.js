@@ -9,34 +9,34 @@ import Bg1 from '../../../../public/images/kamm.png';
 
 const PTFEBondedEPDMGasket = () => {
 
-const Details = {
+  const Details = {
     bgimage: Bg,
     name: 'PTFE Bonded EPDM Gasket',
-    description: <span>Aerolite® PTFE Bonded EPDM Gaskets are manufactured with the highest standard quality of EPDM rubber & PTFE for chemical and corrosion resistance.This gasket has concentric convex sealing rings to aid optimum sealing at lower bolt loads. The self centering gasket offers superior sealing for hazard media at low bolt torque.<br/><br/>The totally bonded elastomer and Teflon construction is ideally suited for fiberglass, glass lined and steel flanges. These gaskets will virtually eliminate cracked flanges, reducing installation cost, while maintaining a high performance seal.<br/><br/>Available in standard full face flange standard ANSI150 & JIS10K.<br/><br/>Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
+    description: <span>Aerolite® PTFE Bonded EPDM Gaskets are manufactured with the highest standard quality of EPDM rubber & PTFE for chemical and corrosion resistance.This gasket has concentric convex sealing rings to aid optimum sealing at lower bolt loads. The self centering gasket offers superior sealing for hazard media at low bolt torque.<br /><br />The totally bonded elastomer and Teflon construction is ideally suited for fiberglass, glass lined and steel flanges. These gaskets will virtually eliminate cracked flanges, reducing installation cost, while maintaining a high performance seal.<br /><br />Available in standard full face flange standard ANSI150 & JIS10K.<br /><br />Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
     pdf: '/pdf/Technical Data-AEROlite PTFE Bonded EPDM Gasket_TBJ-Utex.pdf'
-}
-
-const images = [
-  {
-    original: Bg,
-    thumbnail: Bg,
   }
-//   {
-//     original: 'https://picsum.photos/id/1019/1000/600/',
-//     thumbnail: 'https://picsum.photos/id/1019/250/150/',
-//   },
-];
+
+  const images = [
+    {
+      original: Bg,
+      thumbnail: Bg,
+    }
+    //   {
+    //     original: 'https://picsum.photos/id/1019/1000/600/',
+    //     thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    //   },
+  ];
 
   return (
-    <Layout 
-    title="PTFE Bonded EPDM Gasket, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
-    keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
-    description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
+    <Layout
+      title="PTFE Bonded EPDM Gasket, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
+      keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies, spiral wound gasket, rtj gasket, non asbestos gasket, kammprofile gasket, rtj flange, insulation gasket, rubber gasket, cnaf gasket, Teflon sheet., gasket jb, gasket supplier johor bahru, gasket supplier Malaysia, industrial gasket manufacturer Malaysia, sealing products Malaysia, custom gasket Malaysia, order spiral wound gaskets online, oil & gas gaskets, spiral wound gaskets, best gasket material for steam line, where to buy industrial gaskets in Malaysia, custom cut gaskets for flanges, PTFE gaskets, graphite gaskets, rubber gasket sheet, EPDM gaskets, NBR gaskets, Viton gaskets, glass fiber gaskets, metal reinforced gaskets, insulated gasket, insulation kit gasket"
+      description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     >
-    <ProjectDetails
-    item={Details}
-    images={images}
-    />
+      <ProjectDetails
+        item={Details}
+        images={images}
+      />
     </Layout>
   );
 };

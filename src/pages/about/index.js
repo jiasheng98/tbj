@@ -9,7 +9,7 @@ const About = (props) => {
   return (
     <Layout
       title="About Us, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
-      keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
+      keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies, spiral wound gasket, rtj gasket, non asbestos gasket, kammprofile gasket, rtj flange, insulation gasket, rubber gasket, cnaf gasket, Teflon sheet., gasket jb, gasket supplier johor bahru, gasket supplier Malaysia, industrial gasket manufacturer Malaysia, sealing products Malaysia, custom gasket Malaysia, order spiral wound gaskets online, oil & gas gaskets, spiral wound gaskets, best gasket material for steam line, where to buy industrial gaskets in Malaysia, custom cut gaskets for flanges, PTFE gaskets, graphite gaskets, rubber gasket sheet, EPDM gaskets, NBR gaskets, Viton gaskets, glass fiber gaskets, metal reinforced gaskets, insulated gasket, insulation kit gasket"
       description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     >
       <LandingSection />
@@ -83,7 +83,7 @@ const Timeline = () => {
             />
             <h4>For more than 30 Years</h4>
             <p>
-            TBJ Group has become one of the leading manufacturers and suppliers of industrial sealings and fluid control in Malaysia. We provide certified, highest quality gaskets that complies with international regulations. Our own house brand, Aerolite<sup>&reg;</sup> has been widely accepted & used in the industries.
+              TBJ Group has become one of the leading manufacturers and suppliers of industrial sealings and fluid control in Malaysia. We provide certified, highest quality gaskets that complies with international regulations. Our own house brand, Aerolite<sup>&reg;</sup> has been widely accepted & used in the industries.
             </p>
           </div>
         </div>
@@ -101,7 +101,7 @@ const Timeline = () => {
             />
             <h4>Besides Fabricating</h4>
             <p>
-            and custom making most semi-metallic and metallic gaskets in our workshop at Johor Bahru, our in house latest cutting machine is able to fulfill the demand of any common and odd sizes soft Pre-cut gaskets (CNAF, CAF, Pure Graphite, Tanged Insert, Foil Insert, PTFE, Rubber and etc.) in very short lead-time. 
+              and custom making most semi-metallic and metallic gaskets in our workshop at Johor Bahru, our in house latest cutting machine is able to fulfill the demand of any common and odd sizes soft Pre-cut gaskets (CNAF, CAF, Pure Graphite, Tanged Insert, Foil Insert, PTFE, Rubber and etc.) in very short lead-time.
             </p>
           </div>
         </div>
@@ -115,7 +115,7 @@ const Timeline = () => {
             <RiTeamFill size={50} color="var(--white)" class="timeline-icon" />
             <h4>In TBJ</h4>
             <p>
-            Our team of dedicated staff will endeavor to understand your requirements and commit to answer your enquiries promptly. Maintaining customer relationships with our clients is one of the top priorities. 
+              Our team of dedicated staff will endeavor to understand your requirements and commit to answer your enquiries promptly. Maintaining customer relationships with our clients is one of the top priorities.
             </p>
           </div>
         </div>
@@ -130,7 +130,7 @@ const ContentRight = () => {
       <div class="col px-3">
         <h2 class="mb-4">Being a renowned sealing gaskets supplier in Malaysia</h2>
         <p class="lead">
-        TBJ Group has been serving our valued clients with our wide range of quality sealing gasket supplies as well as sealing and fluid control products. For more than 20 years established in the industry, we have been distributing gasket products from various reputed brands such as Lamons, Garlock, Klinger and Valqua throughout the region.
+          TBJ Group has been serving our valued clients with our wide range of quality sealing gasket supplies as well as sealing and fluid control products. For more than 20 years established in the industry, we have been distributing gasket products from various reputed brands such as Lamons, Garlock, Klinger and Valqua throughout the region.
         </p>
         <p class="lead mt-4">
           <a class="btn btn-md" href="/product" role="button">

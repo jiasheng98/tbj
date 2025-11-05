@@ -11,7 +11,7 @@ const Home = (props) => {
   return (
     <Layout
       title="TBJ-UTEX INDUSTRIES, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
-      keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. TBJ-UTEX INDUSTRIES (M) SDN BHD was established in 1994 , starting off as a trading house that stocked and distributed sealing products and packing materials that served various market"
+      keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies, spiral wound gasket, rtj gasket, non asbestos gasket, kammprofile gasket, rtj flange, insulation gasket, rubber gasket, cnaf gasket, Teflon sheet., gasket jb, gasket supplier johor bahru, gasket supplier Malaysia, industrial gasket manufacturer Malaysia, sealing products Malaysia, custom gasket Malaysia, order spiral wound gaskets online, oil & gas gaskets, spiral wound gaskets, best gasket material for steam line, where to buy industrial gaskets in Malaysia, custom cut gaskets for flanges, PTFE gaskets, graphite gaskets, rubber gasket sheet, EPDM gaskets, NBR gaskets, Viton gaskets, glass fiber gaskets, metal reinforced gaskets, insulated gasket, insulation kit gasket"
       description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. TBJ-UTEX INDUSTRIES (M) SDN BHD was established in 1994 , starting off as a trading house that stocked and distributed sealing products and packing materials that served various market"
     >
       <LandingCarousel />
@@ -78,24 +78,24 @@ const LandingCarousel = () => {
                 Why Aerolite<sup>&reg;</sup>
               </h1>
               <p className="mb-4">
-<div class="pointer justify-content-center">
-          <div class="dot"></div><p class='mb-0'>Durable and High Quality, Comparable to Major Brands</p>
-        </div>
-        <div class="pointer justify-content-center">
-          <div class="dot"></div><p class='mb-0'>Fire-Safe Certified</p>
-        </div>
-        <div class="pointer justify-content-center">
-          <div class="dot"></div><p class='mb-0'>Price competitive</p>
-        </div>
-        <div class="pointer justify-content-center">
-          <div class="dot"></div><p class='mb-0'>Readily Available Stock with Dedicated Warehouse</p>
-        </div>
-        <div class="pointer justify-content-center">
-          <div class="dot"></div><p class='mb-0'>In-House Manufacturing and Cutting Capabilities for Urgent Orders</p>
-        </div>
-        <div class="pointer justify-content-center">
-          <div class="dot"></div><p class='mb-0'>Received Excellent Feedback from Customers</p>
-        </div>
+                <div class="pointer justify-content-center">
+                  <div class="dot"></div><p class='mb-0'>Durable and High Quality, Comparable to Major Brands</p>
+                </div>
+                <div class="pointer justify-content-center">
+                  <div class="dot"></div><p class='mb-0'>Fire-Safe Certified</p>
+                </div>
+                <div class="pointer justify-content-center">
+                  <div class="dot"></div><p class='mb-0'>Price competitive</p>
+                </div>
+                <div class="pointer justify-content-center">
+                  <div class="dot"></div><p class='mb-0'>Readily Available Stock with Dedicated Warehouse</p>
+                </div>
+                <div class="pointer justify-content-center">
+                  <div class="dot"></div><p class='mb-0'>In-House Manufacturing and Cutting Capabilities for Urgent Orders</p>
+                </div>
+                <div class="pointer justify-content-center">
+                  <div class="dot"></div><p class='mb-0'>Received Excellent Feedback from Customers</p>
+                </div>
               </p>
               <p>
                 <a class="btn btn-md" href="/product" role="button">
@@ -115,7 +115,7 @@ const ImagewithText = () => {
     <>
       <h1 class="text-center mb-5 text-highlight">Our Mission & Vision</h1>
       <div class="row  mb-5">
-        <div class="col-lg-6" style={{textAlign: 'center' }}>
+        <div class="col-lg-6" style={{ textAlign: 'center' }}>
           <img
             class="service-img mb-4 rounded-circle"
             src="/images/aerolitecarousel.jpg"
@@ -134,7 +134,7 @@ const ImagewithText = () => {
             </a>
           </p> */}
         </div>
-        <div class="col-lg-6" style={{textAlign: 'center' }}>
+        <div class="col-lg-6" style={{ textAlign: 'center' }}>
           <img
             class="service-img mb-4 rounded-circle"
             src="/images/IMG_1627 - Copy.jpg"
@@ -157,7 +157,7 @@ const ImagewithText = () => {
         </div>
       </div>
       <div class="row">
-      <div class="col-lg-12" style={{textAlign: 'center' }}>
+        <div class="col-lg-12" style={{ textAlign: 'center' }}>
           <img
             class="service-img mb-4 rounded-circle"
             src="/images/IMG_1659.jpg"
@@ -167,18 +167,18 @@ const ImagewithText = () => {
           />
           <h2 class="mb-3">Values</h2>
           <p>
-<div class="pointer" style={{justifyContent: 'center' }}>
-          <div class="dot"></div><p class='mb-0 text-left'><span class='bold'>Quality:</span> We maintain the highest standards in all our products and services.</p>
-        </div>
-        <div class="pointer" style={{justifyContent: 'center' }}>
-          <div class="dot"></div><p class='mb-0 text-left'><span class='bold'>Integrity:</span> We operate with honesty and transparency.</p>
-        </div><div class="pointer" style={{justifyContent: 'center' }}>
-          <div class="dot"></div><p class='mb-0 text-left'><span class='bold'>Innovation:</span> We continuously seek new and better ways to serve our customers.</p>
-        </div><div class="pointer" style={{justifyContent: 'center' }}>
-          <div class="dot"></div><p class='mb-0 text-left'><span class='bold'>Speed:</span> We prioritize swift actions and quick delivery to exceed customer expectations.</p>
-        </div><div class="pointer" style={{justifyContent: 'center' }}>
-          <div class="dot"></div><p class='mb-0 text-left'><span class='bold'>Flexibility:</span> We adapt to the unique needs of each customer, offering tailored solutions and responsive service.</p>
-        </div>
+            <div class="pointer" style={{ justifyContent: 'center' }}>
+              <div class="dot"></div><p class='mb-0 text-left'><span class='bold'>Quality:</span> We maintain the highest standards in all our products and services.</p>
+            </div>
+            <div class="pointer" style={{ justifyContent: 'center' }}>
+              <div class="dot"></div><p class='mb-0 text-left'><span class='bold'>Integrity:</span> We operate with honesty and transparency.</p>
+            </div><div class="pointer" style={{ justifyContent: 'center' }}>
+              <div class="dot"></div><p class='mb-0 text-left'><span class='bold'>Innovation:</span> We continuously seek new and better ways to serve our customers.</p>
+            </div><div class="pointer" style={{ justifyContent: 'center' }}>
+              <div class="dot"></div><p class='mb-0 text-left'><span class='bold'>Speed:</span> We prioritize swift actions and quick delivery to exceed customer expectations.</p>
+            </div><div class="pointer" style={{ justifyContent: 'center' }}>
+              <div class="dot"></div><p class='mb-0 text-left'><span class='bold'>Flexibility:</span> We adapt to the unique needs of each customer, offering tailored solutions and responsive service.</p>
+            </div>
           </p>
           {/* <p>
             <a class="btn btn-secondary" href="#" role="button">
@@ -186,7 +186,7 @@ const ImagewithText = () => {
             </a>
           </p> */}
         </div>
-        </div>
+      </div>
     </>
   );
 };
@@ -234,24 +234,24 @@ const ContentLeft = () => {
         </p>
       </div>
       <div class="col">
-      <Carousel id="leftcontent" activeIndex={index} onSelect={handleSelect} style={{height: 'unset !important;', minHeight: 'unset !important;', marginBottom:'0 !important;'}}>
-      <Carousel.Item className="image-carousel-item">
-        <img
-          className="d-block w-100"
-          style={{position: 'relative !important;'}}
-          src="/images/gasketimg.jpg"
-           alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item className="image-carousel-item">
-        <img
-          className="d-block w-100"
-          style={{position: 'relative !important;'}}
-          src="/images/na3100.png"
-           alt="First slide"
-        />
-      </Carousel.Item>
-      {/* <Carousel.Item className="image-carousel-item">
+        <Carousel id="leftcontent" activeIndex={index} onSelect={handleSelect} style={{ height: 'unset !important;', minHeight: 'unset !important;', marginBottom: '0 !important;' }}>
+          <Carousel.Item className="image-carousel-item">
+            <img
+              className="d-block w-100"
+              style={{ position: 'relative !important;' }}
+              src="/images/gasketimg.jpg"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item className="image-carousel-item">
+            <img
+              className="d-block w-100"
+              style={{ position: 'relative !important;' }}
+              src="/images/na3100.png"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          {/* <Carousel.Item className="image-carousel-item">
         <img
           className="d-block w-100"
           style={{position: 'relative !important;'}}
@@ -267,7 +267,7 @@ const ContentLeft = () => {
            alt="First slide"
         />
       </Carousel.Item> */}
-    </Carousel>
+        </Carousel>
         {/* <img
           class="featurette-image img-fluid mx-auto"
           src="/images/gasketimg.jpg"

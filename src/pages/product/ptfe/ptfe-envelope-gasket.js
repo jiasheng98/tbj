@@ -9,34 +9,34 @@ import Bg1 from '../../../../public/images/kamm.png';
 
 const PTFEEnvelopedGasket = () => {
 
-const Details = {
+  const Details = {
     bgimage: Bg,
     name: 'PTFE Enveloped Gasket',
-    description: <span>PTFE envelope gaskets are assembled and closed in an envelope of 100% pure PTFE. They are mainly applied as a flange gasket in applications where a high chemical and high pressure resistance is required.<br/><br/>PTFE envelope gaskets combine the low friction and chemical stability of PTFE with the mechanical strength of the gasket material. This provides the user with a gasket that can be used confidently with aggressive media which would attack many other materials. We can supply PTFE envelope gaskets to suit all flange types and sizes.<br/><br/>Available for Pre Cut Gaskets in all types of standard and non-standard size upon request.<br/><br/>Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
+    description: <span>PTFE envelope gaskets are assembled and closed in an envelope of 100% pure PTFE. They are mainly applied as a flange gasket in applications where a high chemical and high pressure resistance is required.<br /><br />PTFE envelope gaskets combine the low friction and chemical stability of PTFE with the mechanical strength of the gasket material. This provides the user with a gasket that can be used confidently with aggressive media which would attack many other materials. We can supply PTFE envelope gaskets to suit all flange types and sizes.<br /><br />Available for Pre Cut Gaskets in all types of standard and non-standard size upon request.<br /><br />Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
     pdf: '/pdf/Technical Data-AEROlite PTFE Teflon_TBJ-Utex.pdf'
-}
-
-const images = [
-  {
-    original: Bg,
-    thumbnail: Bg,
   }
-//   {
-//     original: 'https://picsum.photos/id/1019/1000/600/',
-//     thumbnail: 'https://picsum.photos/id/1019/250/150/',
-//   },
-];
+
+  const images = [
+    {
+      original: Bg,
+      thumbnail: Bg,
+    }
+    //   {
+    //     original: 'https://picsum.photos/id/1019/1000/600/',
+    //     thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    //   },
+  ];
 
   return (
-    <Layout 
-    title="PTFE Enveloped Gasket, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
-    keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
-    description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
+    <Layout
+      title="PTFE Enveloped Gasket, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
+      keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies, spiral wound gasket, rtj gasket, non asbestos gasket, kammprofile gasket, rtj flange, insulation gasket, rubber gasket, cnaf gasket, Teflon sheet., gasket jb, gasket supplier johor bahru, gasket supplier Malaysia, industrial gasket manufacturer Malaysia, sealing products Malaysia, custom gasket Malaysia, order spiral wound gaskets online, oil & gas gaskets, spiral wound gaskets, best gasket material for steam line, where to buy industrial gaskets in Malaysia, custom cut gaskets for flanges, PTFE gaskets, graphite gaskets, rubber gasket sheet, EPDM gaskets, NBR gaskets, Viton gaskets, glass fiber gaskets, metal reinforced gaskets, insulated gasket, insulation kit gasket"
+      description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     >
-    <ProjectDetails
-    item={Details}
-    images={images}
-    />
+      <ProjectDetails
+        item={Details}
+        images={images}
+      />
     </Layout>
   );
 };

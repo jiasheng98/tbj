@@ -10,10 +10,10 @@ import ContactForm from "../../components/contact-form";
 
 const Contact = (props) => {
   return (
-    <Layout 
-    title="Contact Us, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
-    keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
-    description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
+    <Layout
+      title="Contact Us, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
+      keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies, spiral wound gasket, rtj gasket, non asbestos gasket, kammprofile gasket, rtj flange, insulation gasket, rubber gasket, cnaf gasket, Teflon sheet., gasket jb, gasket supplier johor bahru, gasket supplier Malaysia, industrial gasket manufacturer Malaysia, sealing products Malaysia, custom gasket Malaysia, order spiral wound gaskets online, oil & gas gaskets, spiral wound gaskets, best gasket material for steam line, where to buy industrial gaskets in Malaysia, custom cut gaskets for flanges, PTFE gaskets, graphite gaskets, rubber gasket sheet, EPDM gaskets, NBR gaskets, Viton gaskets, glass fiber gaskets, metal reinforced gaskets, insulated gasket, insulation kit gasket"
+      description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     >
       <LandingSection />
       <AddressMap />
@@ -68,21 +68,21 @@ const LandingSection = () => {
   );
 };
 
-const AddressMap=()=>{
-    const defaultProps = {
-        center: {
-          lat: 1.5209962,
-          lng: 103.8309888
-        },
-        zoom: 20
-      };
+const AddressMap = () => {
+  const defaultProps = {
+    center: {
+      lat: 1.5209962,
+      lng: 103.8309888
+    },
+    zoom: 20
+  };
 
-      const AnyReactComponent = () => <div><img style={{height: '50px', width: '50px', objectFit: 'contain'}} src={Logo}/></div>;
-      
-    return (
-       <>
-       <div style={{ height: '500px', width: '100%' }}>
-       {/* <GoogleMapReact
+  const AnyReactComponent = () => <div><img style={{ height: '50px', width: '50px', objectFit: 'contain' }} src={Logo} /></div>;
+
+  return (
+    <>
+      <div style={{ height: '500px', width: '100%' }}>
+        {/* <GoogleMapReact
         bootstrapURLKeys={{ key: "" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
@@ -93,11 +93,11 @@ const AddressMap=()=>{
           lng={103.83109602883796}
         />
       </GoogleMapReact> */}
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4124974939605!2d103.83109510000001!3d1.5210347000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da6b9cdab5f86d%3A0xfd10428905e685ae!2sTBJ-Utex%20Industries%20(M)%20Sdn.%20Bhd.!5e0!3m2!1sen!2smy!4v1659362027141!5m2!1sen!2smy"  style={{border: '0', width: '100%', height: '100%'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-       </div>
-       </>
-    );
- };
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4124974939605!2d103.83109510000001!3d1.5210347000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da6b9cdab5f86d%3A0xfd10428905e685ae!2sTBJ-Utex%20Industries%20(M)%20Sdn.%20Bhd.!5e0!3m2!1sen!2smy!4v1659362027141!5m2!1sen!2smy" style={{ border: '0', width: '100%', height: '100%' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </>
+  );
+};
 
 const ContentRight = () => {
   return (
@@ -120,69 +120,69 @@ const ContentRight = () => {
         <ContactForm />
       </div>
       <div class="col">
-      <div class="contacts-container">
+        <div class="contacts-container">
           <h4 class="mt-lg-0 mt-sm-3 mb-3 ">Let's Get Connected!</h4>
           <hr class="footer-divider" />
           <table class="contacts table table-condensed borderless">
 
-	<tbody>
-		<tr>
-			<th><RiHome4Fill/></th>
-			<td>
-            TBJ-UTEX INDUSTRIES (M) SDN.BHD.
-			</td>
-		</tr>
-		<tr>
-			<th><RiMap2Fill/></th>
-			<td>
-            50, Jalan Sri Plentong 8, Taman Perindustrian Sri Plentong, 81750 Masai, Johor Bahru, Malaysia
-			</td>
-		</tr>
-		<tr>
-			<th><RiPhoneFill/></th>
-			<td>
-            +607-3863 777
-			</td>
-		</tr>
-		<tr>
-			<th><RiPhoneLine/></th>
-			<td>
-      +607-3861 666
-			</td>
-		</tr>
-		<tr>
-			<th><FaFax/></th>
-			<td>
-      +607-3868 777
-			</td>
-		</tr>
-		{/* <tr>
+            <tbody>
+              <tr>
+                <th><RiHome4Fill /></th>
+                <td>
+                  TBJ-UTEX INDUSTRIES (M) SDN.BHD.
+                </td>
+              </tr>
+              <tr>
+                <th><RiMap2Fill /></th>
+                <td>
+                  50, Jalan Sri Plentong 8, Taman Perindustrian Sri Plentong, 81750 Masai, Johor Bahru, Malaysia
+                </td>
+              </tr>
+              <tr>
+                <th><RiPhoneFill /></th>
+                <td>
+                  +607-3863 777
+                </td>
+              </tr>
+              <tr>
+                <th><RiPhoneLine /></th>
+                <td>
+                  +607-3861 666
+                </td>
+              </tr>
+              <tr>
+                <th><FaFax /></th>
+                <td>
+                  +607-3868 777
+                </td>
+              </tr>
+              {/* <tr>
 			<th><FaFax/></th>
 			<td>
             +607-3862 666
 			</td>
 		</tr> */}
-		<tr>
-			<th><RiMailFill/></th>
-			<td>
-            enquiry@tbj.com.my
-			</td>
-		</tr>
+              <tr>
+                <th><RiMailFill /></th>
+                <td>
+                  enquiry@tbj.com.my
+                </td>
+              </tr>
 
-        <tr>
-			<th><RiMailFill/></th>
-			<td>
-            sales@tbj.com.my
-			</td>
-		</tr>
+              <tr>
+                <th><RiMailFill /></th>
+                <td>
+                  sales@tbj.com.my
+                </td>
+              </tr>
 
-	</tbody>
-</table>
-<p>
-                <a class="whatsappbtn btn btn-md mt-2" href="https://wa.me/60167727166" role="button">
-                <RiWhatsappFill/> Whatsapp Us
-                </a>
-              </p>
+            </tbody>
+          </table>
+          <p>
+            <a class="whatsappbtn btn btn-md mt-2" href="https://wa.me/60167727166" role="button">
+              <RiWhatsappFill /> Whatsapp Us
+            </a>
+          </p>
 
         </div>
       </div>

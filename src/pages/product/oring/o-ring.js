@@ -9,34 +9,34 @@ import Bg1 from '../../../../public/images/kamm.png';
 
 const ORingandOilSeal = () => {
 
-const Details = {
+  const Details = {
     bgimage: Bg,
     name: 'O-Ring and Oil Seal',
-    description: <span>O-ring:<br/><br/><ul><li style={{listStyleType: 'initial'}}>Provides a seal at the interface between two or more parts.</li><li style={{listStyleType: 'initial'}}>Commonly used in static applications (where there is no relative motion between the parts) and dynamic applications (where there is relative motion, such as in a hydraulic cylinder).</li></ul><br/>Oil Seal:<br/><br/><ul><li style={{listStyleType: 'initial'}}>Used to retain or separate lubricants in rotary shaft equipment.</li><li style={{listStyleType: 'initial'}}>Prevents dirt, dust, water, and other contaminants from entering machinery.</li></ul><br/><br/><br/>Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
+    description: <span>O-ring:<br /><br /><ul><li style={{ listStyleType: 'initial' }}>Provides a seal at the interface between two or more parts.</li><li style={{ listStyleType: 'initial' }}>Commonly used in static applications (where there is no relative motion between the parts) and dynamic applications (where there is relative motion, such as in a hydraulic cylinder).</li></ul><br />Oil Seal:<br /><br /><ul><li style={{ listStyleType: 'initial' }}>Used to retain or separate lubricants in rotary shaft equipment.</li><li style={{ listStyleType: 'initial' }}>Prevents dirt, dust, water, and other contaminants from entering machinery.</li></ul><br /><br /><br />Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
     pdf: ''
-}
-
-const images = [
-  {
-    original: Bg,
-    thumbnail: Bg,
   }
-//   {
-//     original: 'https://picsum.photos/id/1019/1000/600/',
-//     thumbnail: 'https://picsum.photos/id/1019/250/150/',
-//   },
-];
+
+  const images = [
+    {
+      original: Bg,
+      thumbnail: Bg,
+    }
+    //   {
+    //     original: 'https://picsum.photos/id/1019/1000/600/',
+    //     thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    //   },
+  ];
 
   return (
-    <Layout 
-    title="O-Ring and Oil Seal, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
-    keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
-    description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
+    <Layout
+      title="O-Ring and Oil Seal, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
+      keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies, spiral wound gasket, rtj gasket, non asbestos gasket, kammprofile gasket, rtj flange, insulation gasket, rubber gasket, cnaf gasket, Teflon sheet., gasket jb, gasket supplier johor bahru, gasket supplier Malaysia, industrial gasket manufacturer Malaysia, sealing products Malaysia, custom gasket Malaysia, order spiral wound gaskets online, oil & gas gaskets, spiral wound gaskets, best gasket material for steam line, where to buy industrial gaskets in Malaysia, custom cut gaskets for flanges, PTFE gaskets, graphite gaskets, rubber gasket sheet, EPDM gaskets, NBR gaskets, Viton gaskets, glass fiber gaskets, metal reinforced gaskets, insulated gasket, insulation kit gasket"
+      description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     >
-    <ProjectDetails
-    item={Details}
-    images={images}
-    />
+      <ProjectDetails
+        item={Details}
+        images={images}
+      />
     </Layout>
   );
 };

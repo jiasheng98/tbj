@@ -229,15 +229,15 @@ const Product = (props) => {
     ...Glass        // Assume Glass contains similar objects
   ];
 
-    // Filter products based on search query
-    const filteredProducts = allProducts.filter(({ title }) =>
-      title.toLowerCase().includes(searchQuery)
-    );
+  // Filter products based on search query
+  const filteredProducts = allProducts.filter(({ title }) =>
+    title.toLowerCase().includes(searchQuery)
+  );
 
   return (
     <Layout
       title="Product, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
-      keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
+      keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies, spiral wound gasket, rtj gasket, non asbestos gasket, kammprofile gasket, rtj flange, insulation gasket, rubber gasket, cnaf gasket, Teflon sheet., gasket jb, gasket supplier johor bahru, gasket supplier Malaysia, industrial gasket manufacturer Malaysia, sealing products Malaysia, custom gasket Malaysia, order spiral wound gaskets online, oil & gas gaskets, spiral wound gaskets, best gasket material for steam line, where to buy industrial gaskets in Malaysia, custom cut gaskets for flanges, PTFE gaskets, graphite gaskets, rubber gasket sheet, EPDM gaskets, NBR gaskets, Viton gaskets, glass fiber gaskets, metal reinforced gaskets, insulated gasket, insulation kit gasket"
       description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     >
       <LandingSection />
@@ -335,7 +335,7 @@ const CardList = ({ item, searchQuery, searchActivated }) => {
   );
   return (
     <div class="m-4 card-list-container">
-    {filteredItems.map((item, index) => (
+      {filteredItems.map((item, index) => (
         <InformationCard key={index} item={item} />
       ))}
     </div>
@@ -369,70 +369,70 @@ const ProductTab = ({
           title="Semi Metallic & Metallic Gasket"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Gasket} searchQuery={searchQuery} searchActivated={searchActivated}/>
+          <CardList item={Gasket} searchQuery={searchQuery} searchActivated={searchActivated} />
         </Tab>
         <Tab
           eventKey="joint"
           title="Jointing Material"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Joint} searchQuery={searchQuery} searchActivated={searchActivated}/>
+          <CardList item={Joint} searchQuery={searchQuery} searchActivated={searchActivated} />
         </Tab>
         <Tab
           eventKey="ptfe"
           title="PTFE Products"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={PTFE} searchQuery={searchQuery} searchActivated={searchActivated}/>
+          <CardList item={PTFE} searchQuery={searchQuery} searchActivated={searchActivated} />
         </Tab>
         <Tab
           eventKey="gauge"
           title="Level Gauge & Gauge Glass"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Gauge} searchQuery={searchQuery} searchActivated={searchActivated}/>
+          <CardList item={Gauge} searchQuery={searchQuery} searchActivated={searchActivated} />
         </Tab>
         <Tab
           eventKey="packing"
           title="Packing Sleeve & Gland Ring"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Packing} searchQuery={searchQuery} searchActivated={searchActivated}/>
+          <CardList item={Packing} searchQuery={searchQuery} searchActivated={searchActivated} />
         </Tab>
         <Tab
           eventKey="insulation"
           title="Insulation Gasket Kit Set"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Insulation} searchQuery={searchQuery} searchActivated={searchActivated}/>
+          <CardList item={Insulation} searchQuery={searchQuery} searchActivated={searchActivated} />
         </Tab>
         <Tab
           eventKey="graphite"
           title="Graphite Series"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Graphite} searchQuery={searchQuery} searchActivated={searchActivated}/>
+          <CardList item={Graphite} searchQuery={searchQuery} searchActivated={searchActivated} />
         </Tab>
         <Tab
           eventKey="rubber"
           title="Rubber Sheet"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Rubber} searchQuery={searchQuery} searchActivated={searchActivated}/>
+          <CardList item={Rubber} searchQuery={searchQuery} searchActivated={searchActivated} />
         </Tab>
         <Tab
           eventKey="glass"
           title="Glass Fiber & Ceramic Tape"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Glass} searchQuery={searchQuery} searchActivated={searchActivated}/>
+          <CardList item={Glass} searchQuery={searchQuery} searchActivated={searchActivated} />
         </Tab>
         <Tab
           eventKey="oring"
           title="O-Ring & Oil Seal"
           style={{ whiteSpace: "nowrap" }}
         >
-          <CardList item={Oring} searchQuery={searchQuery} searchActivated={searchActivated}/>
+          <CardList item={Oring} searchQuery={searchQuery} searchActivated={searchActivated} />
         </Tab>
       </Tabs>
     </>

@@ -9,34 +9,34 @@ import Bg1 from '../../../../public/images/kamm.png';
 
 const PackingSleeve = () => {
 
-const Details = {
+  const Details = {
     bgimage: Bg,
     name: 'Packing Sleeve and Gland Ring',
-    description:  <span>Packing sleeve:<br/><br/><ul><li style={{listStyleType: 'initial'}}>Provides a smooth surface for the packing material to press against, enhancing the sealing capability.</li><li style={{listStyleType: 'initial'}}>Ensures even compression of the packing material around the shaft.</li><li style={{listStyleType: 'initial'}}>Reduces wear on the shaft by providing a replaceable sealing surface.</li></ul><br/>A gland ring is a component used in conjunction with packing material to compress and hold the packing in place within a stuffing box or gland.<br/><br/>Function:<br/><br/><ul><li style={{listStyleType: 'initial'}}>Provides the necessary compression to the packing material to ensure a tight seal.</li><li style={{listStyleType: 'initial'}}>Helps distribute the compression evenly around the packing material.</li><li style={{listStyleType: 'initial'}}>Holds the packing in place, preventing it from moving or extruding under pressure.</li></ul><br/><br/>Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
+    description: <span>Packing sleeve:<br /><br /><ul><li style={{ listStyleType: 'initial' }}>Provides a smooth surface for the packing material to press against, enhancing the sealing capability.</li><li style={{ listStyleType: 'initial' }}>Ensures even compression of the packing material around the shaft.</li><li style={{ listStyleType: 'initial' }}>Reduces wear on the shaft by providing a replaceable sealing surface.</li></ul><br />A gland ring is a component used in conjunction with packing material to compress and hold the packing in place within a stuffing box or gland.<br /><br />Function:<br /><br /><ul><li style={{ listStyleType: 'initial' }}>Provides the necessary compression to the packing material to ensure a tight seal.</li><li style={{ listStyleType: 'initial' }}>Helps distribute the compression evenly around the packing material.</li><li style={{ listStyleType: 'initial' }}>Holds the packing in place, preventing it from moving or extruding under pressure.</li></ul><br /><br />Please <a href="/contact">contact us</a> for more information or inquiries.</span>,
     pdf: ''
-}
-
-const images = [
-  {
-    original: Bg,
-    thumbnail: Bg,
   }
-//   {
-//     original: 'https://picsum.photos/id/1019/1000/600/',
-//     thumbnail: 'https://picsum.photos/id/1019/250/150/',
-//   },
-];
+
+  const images = [
+    {
+      original: Bg,
+      thumbnail: Bg,
+    }
+    //   {
+    //     original: 'https://picsum.photos/id/1019/1000/600/',
+    //     thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    //   },
+  ];
 
   return (
-    <Layout 
-    title="Packing Sleeve and Gland Ring, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
-    keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
-    description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
+    <Layout
+      title="Packing Sleeve and Gland Ring, Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies"
+      keywords="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies, spiral wound gasket, rtj gasket, non asbestos gasket, kammprofile gasket, rtj flange, insulation gasket, rubber gasket, cnaf gasket, Teflon sheet., gasket jb, gasket supplier johor bahru, gasket supplier Malaysia, industrial gasket manufacturer Malaysia, sealing products Malaysia, custom gasket Malaysia, order spiral wound gaskets online, oil & gas gaskets, spiral wound gaskets, best gasket material for steam line, where to buy industrial gaskets in Malaysia, custom cut gaskets for flanges, PTFE gaskets, graphite gaskets, rubber gasket sheet, EPDM gaskets, NBR gaskets, Viton gaskets, glass fiber gaskets, metal reinforced gaskets, insulated gasket, insulation kit gasket"
+      description="Gasket Malaysia, Johor Bahru (JB) Supplier, Supply, Supplies. Safety sealing and attachment solutions built for you. From high-volume and automated to customized and one-of-a-kind."
     >
-    <ProjectDetails
-    item={Details}
-    images={images}
-    />
+      <ProjectDetails
+        item={Details}
+        images={images}
+      />
     </Layout>
   );
 };
